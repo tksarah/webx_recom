@@ -1,6 +1,6 @@
 # WebX 2026 Session Recommender
 
-WebX 2026 の公式Agendaをもとに、参加者の関心に合うセッションと会場内ルートを提示する Next.js アプリです。
+WebX 2026 の公式 Agenda をもとに、参加目的に合わせたおすすめセッションと会場内ルートを提示する Next.js アプリです。
 
 ## Local Development
 
@@ -10,12 +10,12 @@ npm.cmd run agenda:refresh
 npm.cmd run dev
 ```
 
-`GEMINI_API_KEY` を `.env.local` に設定すると Gemini API を使います。未設定または `DISABLE_GEMINI=1` の場合は、ローカルのヒューリスティック推薦で動きます。
+`GEMINI_API_KEY` を `.env.local` に設定すると Gemini API を使います。未設定、または `DISABLE_GEMINI=1` の場合はローカル評価で動きます。
 
 ## Production
 
-```powershell
-Copy-Item .env.example .env
+```bash
+cp .env.example .env
 docker compose up -d --build
 ```
 
@@ -23,26 +23,54 @@ docker compose up -d --build
 
 ## Commands
 
-- `npm.cmd run agenda:refresh`: 公式AgendaからセッションJSONを再生成します。
-- `npm.cmd run test`: Agenda解析、ルート最適化、PDF生成、匿名集計を検証します。
+- `npm.cmd run agenda:refresh`: 公式 Agenda から `data/agenda.json` を再生成します。
+- `npm.cmd run test`: 単体テストを実行します。
 - `npm.cmd run build`: 本番ビルドを検証します。
-- `npm.cmd run test:e2e`: GeminiをモックしたE2Eを実行します。
+- `npm.cmd run test:e2e`: E2E テストを実行します。
 
-## Manual Agenda Update on Ubuntu
+## Ubuntu本番環境でのAgenda手動更新
 
-The production host does not need Node.js or npm for manual Agenda updates. It only needs bash and Docker Compose.
+以下は本番サーバーのリポジトリ直下で実行します。
 
 ```bash
-bash scripts/update-agenda.sh
+cd ~/webx_recom
 ```
 
-Docker production reflects `data/agenda.json` from the built image. To refresh the Agenda and rebuild the app service:
+元サイトのAgendaを取得し、運用中のWebアプリへ反映します。
 
 ```bash
 bash scripts/update-agenda.sh --deploy
 ```
 
-The script prints the Agenda `lastUpdated` value and session count before and after refresh.
+更新日時を確認します。
+
+```bash
+curl -s https://YOUR_DOMAIN/api/agenda | grep -o '"lastUpdated":"[^"]*"'
+```
+
+appコンテナの状態を確認します。
+
+```bash
+docker compose ps
+```
+
+必要に応じてログを確認します。
+
+```bash
+docker compose logs app --tail=50
+```
+
+取得だけ行い、本番画面にはまだ反映しない場合のみ以下を使います。
+
+```bash
+bash scripts/update-agenda.sh
+```
+
+反映されない場合の強制再作成です。
+
+```bash
+docker compose up -d --build --force-recreate app
+```
 
 ## Privacy
 

@@ -1,0 +1,42 @@
+{
+  "name": "webx-2026-session-recommender",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "agenda:refresh": "tsx scripts/refresh-agenda.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "cheerio": "^1.1.2",
+    "lucide-react": "^0.468.0",
+    "next": "^15.3.4",
+    "pdfkit": "^0.15.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^24.0.14",
+    "@types/pdfkit": "^0.13.9",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "jsdom": "^26.1.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  },
+  "overrides": {
+    "esbuild": "^0.28.1",
+    "postcss": "^8.5.15"
+  }
+}

@@ -147,6 +147,7 @@ h4 {
 }
 
 .agenda-pill,
+.home-link,
 .theme-toggle,
 .icon-button,
 .primary-button,
@@ -197,6 +198,7 @@ h4 {
   color: var(--surface);
 }
 
+.home-link,
 .theme-toggle {
   min-height: 38px;
   display: inline-flex;
@@ -208,6 +210,7 @@ h4 {
   color: var(--muted);
   font-size: 12px;
   font-weight: 800;
+  text-decoration: none;
   white-space: nowrap;
 }
 
@@ -367,6 +370,7 @@ textarea:focus,
 .option:focus-visible,
 .primary-button:focus-visible,
 .icon-button:focus-visible,
+.home-link:focus-visible,
 .theme-toggle:focus-visible,
 .locale-switch button:focus-visible,
 .session-link:focus-visible,

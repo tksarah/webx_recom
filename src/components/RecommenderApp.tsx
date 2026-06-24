@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState, type ReactNode } from "react";
-import { CalendarDays, Check, Download, ExternalLink, Languages, Loader2, MapPinned, Moon, Route, Sparkles, Sun } from "lucide-react";
+import { CalendarDays, Check, Download, ExternalLink, Home, Languages, Loader2, MapPinned, Moon, Route, Sparkles, Sun } from "lucide-react";
 import {
   DENSITY_OPTIONS,
   EVENT_DAYS,
@@ -62,9 +62,10 @@ const UI_COPY = {
     generate: "おすすめルートを作成",
     recommendError: "おすすめルートの作成に失敗しました",
     pdfError: "PDFの生成に失敗しました",
+    home: "ホーム",
     localeSwitch: "表示言語",
     emptyTitle: "7月13日-14日",
-    emptyVenue: "東京国際フォーラム",
+    emptyVenue: "ザ・プリンス パークタワー東京",
     localScoring: "ローカル評価",
     routeCount: (count: number) => `${count}件のルート`,
     route: "参加ルート",
@@ -103,9 +104,10 @@ const UI_COPY = {
     generate: "Generate route",
     recommendError: "Failed to generate a recommended route",
     pdfError: "Failed to generate PDF",
+    home: "Home",
     localeSwitch: "Display language",
     emptyTitle: "July 13-14",
-    emptyVenue: "Tokyo International Forum",
+    emptyVenue: "The Prince Park Tower Tokyo",
     localScoring: "Local scoring",
     routeCount: (count: number) => `${count} route stop${count === 1 ? "" : "s"}`,
     route: "Route",
@@ -256,6 +258,10 @@ export function RecommenderApp() {
             <h1>{t.title}</h1>
           </div>
           <div className="topbar-actions">
+            <a className="home-link" href="/" aria-label={t.home} title={t.home}>
+              <Home size={16} aria-hidden />
+              <span>{t.home}</span>
+            </a>
             <button
               className="theme-toggle"
               onClick={() => setTheme(activeTheme === "dark" ? "light" : "dark")}

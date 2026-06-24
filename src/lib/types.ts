@@ -32,44 +32,48 @@ const languageIds = ["both", "ja", "en"] as const;
 const densityIds = ["balanced", "relaxed", "packed"] as const;
 const localeIds = ["ja", "en"] as const;
 
+const compactText = z.string().max(120);
+const mediumText = z.string().max(500);
+const longText = z.string().max(2000);
+
 export const stageSchema = z.enum(STAGES);
 export const sessionLanguageSchema = z.enum(["JA", "EN", "UNKNOWN"]);
 
 export const agendaSessionSchema = z.object({
-  id: z.string(),
+  id: compactText,
   date: z.enum(dayIds),
-  dayLabel: z.string(),
+  dayLabel: z.string().max(20),
   language: sessionLanguageSchema,
   stage: stageSchema,
-  startTime: z.string(),
-  endTime: z.string(),
+  startTime: z.string().max(20),
+  endTime: z.string().max(20),
   startMinutes: z.number().int().min(0).max(24 * 60),
   endMinutes: z.number().int().min(0).max(24 * 60),
-  title: z.string(),
-  speakers: z.array(z.string()),
-  categories: z.array(z.string()),
-  rawText: z.string(),
+  title: mediumText,
+  speakers: z.array(z.string().max(200)).max(12),
+  categories: z.array(compactText).max(20),
+  rawText: longText,
   isPlaceholder: z.boolean(),
 });
 
 export const agendaDataSchema = z.object({
   event: z.literal("WebX 2026"),
   sourceUrl: z.string().url(),
-  lastUpdated: z.string(),
-  stages: z.array(stageSchema),
-  sessions: z.array(agendaSessionSchema),
+  lastUpdated: z.string().max(80),
+  stages: z.array(stageSchema).max(STAGES.length),
+  sessions: z.array(agendaSessionSchema).max(300),
 });
 
 export const basicsSchema = z.object({
-  days: z.array(z.enum(dayIds)).min(1),
+  days: z.array(z.enum(dayIds)).min(1).max(dayIds.length),
   language: z.enum(languageIds),
   density: z.enum(densityIds),
 });
 
 export const diagnosticProfileSchema = z.object({
-  topics: z.array(z.enum(topicIds)).min(1),
+  topics: z.array(z.enum(topicIds)).min(1).max(topicIds.length),
   role: z.enum(roleIds),
-  goals: z.array(z.enum(goalIds)).min(1),
+  goals: z.array(z.enum(goalIds)).min(1).max(goalIds.length),
 });
 
 export const recommendRequestSchema = z.object({
@@ -97,30 +101,30 @@ export const recommendRequestSchema = z.object({
 });
 
 export const geminiScoreSchema = z.object({
-  sessionId: z.string(),
+  sessionId: compactText,
   score: z.number().min(0).max(100),
-  reason: z.string().min(1),
-  note: z.string().optional().default(""),
-  matchedThemes: z.array(z.string()).default([]),
+  reason: mediumText.min(1),
+  note: mediumText.optional().default(""),
+  matchedThemes: z.array(compactText).max(24).default([]),
 });
 
 export const geminiRecommendationSchema = z.object({
-  profileTags: z.array(z.string()).default([]),
-  summary: z.string().default(""),
-  sessionScores: z.array(geminiScoreSchema),
+  profileTags: z.array(compactText).max(24).default([]),
+  summary: longText.default(""),
+  sessionScores: z.array(geminiScoreSchema).max(300),
 });
 
 export const recommendationItemSchema = agendaSessionSchema.extend({
-  score: z.number(),
-  reason: z.string(),
-  note: z.string(),
-  matchedThemes: z.array(z.string()),
+  score: z.number().finite().min(0).max(120),
+  reason: mediumText,
+  note: mediumText,
+  matchedThemes: z.array(compactText).max(24),
 });
 
 export const scheduledSessionSchema = recommendationItemSchema.extend({
   moveFromPrevious: z.object({
-    fromStage: z.string(),
-    minutes: z.number(),
+    fromStage: compactText,
+    minutes: z.number().int().min(0).max(24 * 60),
   }).optional(),
 });
 
@@ -128,28 +132,28 @@ export const recommendationResultSchema = z.object({
   requestSummary: z.object({
     mode: z.enum(["diagnostic", "freeText"]),
     locale: z.enum(localeIds).default("ja"),
-    topics: z.array(z.string()),
-    role: z.string().optional(),
-    goals: z.array(z.string()),
-    days: z.array(z.string()),
-    language: z.string(),
-    density: z.string(),
-    generatedAt: z.string(),
+    topics: z.array(compactText).max(24),
+    role: compactText.optional(),
+    goals: z.array(compactText).max(24),
+    days: z.array(compactText).max(dayIds.length),
+    language: compactText,
+    density: compactText,
+    generatedAt: z.string().max(80),
   }),
-  agendaUpdatedAt: z.string(),
+  agendaUpdatedAt: z.string().max(80),
   model: z.object({
-    name: z.string(),
+    name: compactText,
     source: z.enum(["gemini", "local-fallback"]),
-    latencyMs: z.number(),
+    latencyMs: z.number().finite().min(0).max(300_000),
   }),
-  profileTags: z.array(z.string()),
-  summary: z.string(),
-  route: z.array(scheduledSessionSchema),
-  recommendations: z.array(recommendationItemSchema),
+  profileTags: z.array(compactText).max(24),
+  summary: longText,
+  route: z.array(scheduledSessionSchema).max(20),
+  recommendations: z.array(recommendationItemSchema).max(30),
   alternatives: z.array(recommendationItemSchema.extend({
-    conflictWith: z.string().optional(),
-  })),
-  notes: z.array(z.string()),
+    conflictWith: mediumText.optional(),
+  })).max(20),
+  notes: z.array(mediumText).max(10),
 });
 
 export type AgendaSession = z.infer<typeof agendaSessionSchema>;

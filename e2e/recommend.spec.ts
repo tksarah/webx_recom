@@ -51,4 +51,9 @@ test("generates routes from quick and free text input, then downloads pdf", asyn
   await expect(page.getByText(/Speakers: /).first()).toBeVisible();
   await expect(page.getByRole("button", { name: "Download PDF" }).getByText("PDF")).toBeVisible();
   await expect(page.getByRole("link", { name: "View on official Agenda" }).first()).toHaveAttribute("href", /webx-asia\.com\/agenda\//);
+
+  await page.getByRole("link", { name: "Home" }).click();
+  await expect(page).toHaveURL("/");
+  await expect(page.getByText("The Prince Park Tower Tokyo")).toBeVisible();
+  await expect(page.getByRole("heading", { name: /route stop/ })).toHaveCount(0);
 });

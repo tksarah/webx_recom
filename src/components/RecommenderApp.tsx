@@ -17,6 +17,7 @@ import type { RecommendationResult } from "@/lib/types";
 type Mode = "diagnostic" | "freeText";
 type Locale = "ja" | "en";
 type Theme = "light" | "dark";
+type SelectionMode = "single" | "multi";
 type Basics = {
   days: Array<"2026-07-13" | "2026-07-14">;
   language: "both" | "ja" | "en";
@@ -60,6 +61,10 @@ const UI_COPY = {
       days: "参加日",
       language: "希望言語",
       density: "回り方",
+    },
+    selectionMode: {
+      single: "1つ選択",
+      multi: "複数選択可",
     },
     freeTextPlaceholder: "例: AIエージェントとステーブルコイン決済の事業機会を中心に、投資家や大企業の登壇を優先したい",
     generate: "おすすめルートを作成",
@@ -105,6 +110,10 @@ const UI_COPY = {
       days: "Days",
       language: "Preferred language",
       density: "Route density",
+    },
+    selectionMode: {
+      single: "Select one",
+      multi: "Select multiple",
     },
     freeTextPlaceholder: "Example: I want to focus on business opportunities around AI agents and stablecoin payments, prioritizing investors and enterprise speakers.",
     generate: "Generate route",
@@ -313,24 +322,26 @@ export function RecommenderApp() {
 
             {mode === "diagnostic" ? (
               <div className="form-stack">
-                <Fieldset title={t.fields.topics}>
-                  <ChipGrid items={TOPIC_OPTIONS} locale={locale} selected={topics} onToggle={(id) => setTopics(toggle(topics, id))} />
+                <Fieldset title={t.fields.topics} fieldId="topics" locale={locale} selectionMode="multi">
+                  <ChipGrid items={TOPIC_OPTIONS} locale={locale} selected={topics} selectionMode="multi" onToggle={(id) => setTopics(toggle(topics, id))} />
                 </Fieldset>
-                <Fieldset title={t.fields.role}>
-                  <div className="option-row">
+                <Fieldset title={t.fields.role} fieldId="role" locale={locale} selectionMode="single">
+                  <div className="option-row" data-selection-mode="single">
                     {ROLE_OPTIONS.map((item) => (
                       <ChoiceButton
-                        className={role === item.id ? "option selected" : "option"}
+                        baseClass="option"
                         item={item}
                         key={item.id}
                         locale={locale}
                         onClick={() => setRole(item.id)}
+                        selected={role === item.id}
+                        selectionMode="single"
                       />
                     ))}
                   </div>
                 </Fieldset>
-                <Fieldset title={t.fields.goals}>
-                  <ChipGrid items={GOAL_OPTIONS} locale={locale} selected={goals} onToggle={(id) => setGoals(toggle(goals, id))} />
+                <Fieldset title={t.fields.goals} fieldId="goals" locale={locale} selectionMode="multi">
+                  <ChipGrid items={GOAL_OPTIONS} locale={locale} selected={goals} selectionMode="multi" onToggle={(id) => setGoals(toggle(goals, id))} />
                 </Fieldset>
               </div>
             ) : (
@@ -346,43 +357,49 @@ export function RecommenderApp() {
             )}
 
             <div className="form-stack compact">
-              <Fieldset title={t.fields.days}>
-                <div className="option-row">
+              <Fieldset title={t.fields.days} fieldId="days" locale={locale} selectionMode="multi">
+                <div className="option-row" data-selection-mode="multi">
                   {EVENT_DAYS.map((item) => (
                     <ChoiceButton
-                      className={basics.days.includes(item.id) ? "option selected" : "option"}
+                      baseClass="option"
                       item={item}
                       key={item.id}
                       locale={locale}
                       onClick={() => setBasics({ ...basics, days: toggle(basics.days, item.id) as Basics["days"] })}
+                      selected={basics.days.includes(item.id)}
+                      selectionMode="multi"
                     />
                   ))}
                 </div>
               </Fieldset>
 
-              <Fieldset title={t.fields.language}>
-                <div className="option-row">
+              <Fieldset title={t.fields.language} fieldId="language" locale={locale} selectionMode="single">
+                <div className="option-row" data-selection-mode="single">
                   {LANGUAGE_OPTIONS.map((item) => (
                     <ChoiceButton
-                      className={basics.language === item.id ? "option selected" : "option"}
+                      baseClass="option"
                       item={item}
                       key={item.id}
                       locale={locale}
                       onClick={() => setBasics({ ...basics, language: item.id as Basics["language"] })}
+                      selected={basics.language === item.id}
+                      selectionMode="single"
                     />
                   ))}
                 </div>
               </Fieldset>
 
-              <Fieldset title={t.fields.density}>
-                <div className="option-row">
+              <Fieldset title={t.fields.density} fieldId="density" locale={locale} selectionMode="single">
+                <div className="option-row" data-selection-mode="single">
                   {DENSITY_OPTIONS.map((item) => (
                     <ChoiceButton
-                      className={basics.density === item.id ? "option selected" : "option"}
+                      baseClass="option"
                       item={item}
                       key={item.id}
                       locale={locale}
                       onClick={() => setBasics({ ...basics, density: item.id as Basics["density"] })}
+                      selected={basics.density === item.id}
+                      selectionMode="single"
                     />
                   ))}
                 </div>
@@ -409,10 +426,26 @@ export function RecommenderApp() {
   );
 }
 
-function Fieldset({ title, children }: { title: string; children: ReactNode }) {
+function Fieldset({
+  title,
+  children,
+  fieldId,
+  locale,
+  selectionMode,
+}: {
+  title: string;
+  children: ReactNode;
+  fieldId: string;
+  locale: Locale;
+  selectionMode: SelectionMode;
+}) {
+  const t = UI_COPY[locale];
   return (
-    <fieldset>
-      <legend>{title}</legend>
+    <fieldset data-field={fieldId} data-selection-mode={selectionMode}>
+      <legend>
+        <span className="legend-text">{title}</span>
+        <span className={`selection-hint selection-hint-${selectionMode}`}>{t.selectionMode[selectionMode]}</span>
+      </legend>
       {children}
     </fieldset>
   );
@@ -422,30 +455,62 @@ function ChipGrid({
   items,
   locale,
   selected,
+  selectionMode,
   onToggle,
 }: {
   items: readonly LocalizedChoice[];
   locale: Locale;
   selected: string[];
+  selectionMode: SelectionMode;
   onToggle: (id: string) => void;
 }) {
   return (
-    <div className="chip-grid">
+    <div className="chip-grid" data-selection-mode={selectionMode}>
       {items.map((item) => (
-        <button className={selected.includes(item.id) ? "chip selected" : "chip"} key={item.id} onClick={() => onToggle(item.id)} type="button">
-          <span className="choice-label">{choiceLabel(item, locale)}</span>
-          {choiceDescription(item, locale) ? <span className="choice-description">{choiceDescription(item, locale)}</span> : null}
-        </button>
+        <ChoiceButton
+          baseClass="chip"
+          item={item}
+          key={item.id}
+          locale={locale}
+          onClick={() => onToggle(item.id)}
+          selected={selected.includes(item.id)}
+          selectionMode={selectionMode}
+        />
       ))}
     </div>
   );
 }
 
-function ChoiceButton({ className, item, locale, onClick }: { className: string; item: LocalizedChoice; locale: Locale; onClick: () => void }) {
+function ChoiceButton({
+  baseClass,
+  item,
+  locale,
+  onClick,
+  selected,
+  selectionMode,
+}: {
+  baseClass: "chip" | "option";
+  item: LocalizedChoice;
+  locale: Locale;
+  onClick: () => void;
+  selected: boolean;
+  selectionMode: SelectionMode;
+}) {
+  const description = choiceDescription(item, locale);
   return (
-    <button className={className} onClick={onClick} type="button">
-      <span className="choice-label">{choiceLabel(item, locale)}</span>
-      {choiceDescription(item, locale) ? <span className="choice-description">{choiceDescription(item, locale)}</span> : null}
+    <button
+      aria-pressed={selected}
+      className={choiceButtonClassName(baseClass, selectionMode, selected)}
+      data-selected={selected ? "true" : "false"}
+      data-selection-mode={selectionMode}
+      onClick={onClick}
+      type="button"
+    >
+      <span className="choice-indicator" aria-hidden />
+      <span className="choice-copy">
+        <span className="choice-label">{choiceLabel(item, locale)}</span>
+        {description ? <span className="choice-description">{description}</span> : null}
+      </span>
     </button>
   );
 }
@@ -630,6 +695,12 @@ function speakerNames(speakers: readonly string[]): string {
 
 function toggle<T extends string>(values: T[], value: T): T[] {
   return values.includes(value) ? values.filter((item) => item !== value) : [...values, value];
+}
+
+function choiceButtonClassName(baseClass: "chip" | "option", selectionMode: SelectionMode, selected: boolean): string {
+  return [baseClass, `selection-${selectionMode}`, selected ? "selected" : ""]
+    .filter(Boolean)
+    .join(" ");
 }
 
 function stageClass(stage: string): string {

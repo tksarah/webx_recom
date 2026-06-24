@@ -18,6 +18,22 @@ test("generates routes from quick and free text input, then downloads pdf", asyn
   await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
   await expect(page.getByText("決済・送金・通貨活用")).toBeVisible({ timeout: 15_000 });
   await expect(page.getByText("新規事業や提携を探したい")).toBeVisible();
+  await expect(page.locator('[data-field="topics"] .selection-hint')).toHaveText("複数選択可");
+  await expect(page.locator('[data-field="role"] .selection-hint')).toHaveText("1つ選択");
+
+  const daysField = page.locator('[data-field="days"]');
+  await expect(daysField.locator('button[data-selected="true"]')).toHaveCount(2);
+  await daysField.getByRole("button", { name: /^7\/13$/ }).click();
+  await expect(daysField.locator('button[data-selected="true"]')).toHaveCount(1);
+  await daysField.getByRole("button", { name: /^7\/13$/ }).click();
+  await expect(daysField.locator('button[data-selected="true"]')).toHaveCount(2);
+
+  const languageField = page.locator('[data-field="language"]');
+  await expect(languageField.locator('button[data-selected="true"]')).toHaveCount(1);
+  await languageField.getByRole("button", { name: /^英語$/ }).click();
+  await expect(languageField.locator('button[data-selected="true"]')).toHaveCount(1);
+  await expect(languageField.getByRole("button", { name: /^英語$/ })).toHaveAttribute("data-selected", "true");
+  await expect(languageField.getByRole("button", { name: /^JA \/ EN$/ })).toHaveAttribute("data-selected", "false");
 
   await page.getByRole("button", { name: "自由入力" }).click();
   await expect(page.getByLabel("参加目的")).toBeVisible({ timeout: 15_000 });

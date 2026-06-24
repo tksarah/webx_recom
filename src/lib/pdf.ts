@@ -307,7 +307,7 @@ function drawSessionRow(
   doc.save().rect(x, rowTop, 3, rowHeight).fill(stageColor).restore();
   doc.moveTo(x, rowTop + rowHeight).lineTo(x + width, rowTop + rowHeight).strokeColor(COLORS.line).lineWidth(0.45).stroke();
 
-  doc.fillColor(COLORS.ink).fontSize(7.6).text(`${session.dayLabel}\n${session.startTime}`, columns.time.x, rowTop + 7, {
+  doc.fillColor(COLORS.ink).fontSize(7.6).text(`${session.dayLabel}\n${formatCompactTimeRange(session.startMinutes, session.endMinutes)}`, columns.time.x, rowTop + 7, {
     width: columns.time.width,
     height: rowHeight - 10,
     lineGap: 1,
@@ -419,6 +419,17 @@ function speakerNames(speakers: readonly string[], fallback: string): string {
     .map((speaker) => speaker.split(" / ")[0]?.trim())
     .filter((speaker): speaker is string => Boolean(speaker));
   return names.length > 0 ? names.slice(0, 4).join(" / ") : fallback;
+}
+
+export function formatCompactTimeRange(startMinutes: number, endMinutes: number): string {
+  return `${formatCompactTime(startMinutes)}-${formatCompactTime(endMinutes)}`;
+}
+
+function formatCompactTime(totalMinutes: number): string {
+  const safeMinutes = Math.max(0, totalMinutes);
+  const hours = Math.floor(safeMinutes / 60) % 24;
+  const minutes = safeMinutes % 60;
+  return `${hours}:${String(minutes).padStart(2, "0")}`;
 }
 
 function clipText(value: string, maxCharacters: number): string {

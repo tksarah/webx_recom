@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getPdfFontCandidates, renderRecommendationPdf } from "./pdf";
+import { formatCompactTimeRange, getPdfFontCandidates, renderRecommendationPdf } from "./pdf";
 import type { RecommendationResult } from "./types";
 
 describe("renderRecommendationPdf", () => {
@@ -29,6 +29,11 @@ describe("renderRecommendationPdf", () => {
       restoreEnv("PDF_FONT_POSTSCRIPT_NAME", previousPostscriptName);
       restoreEnv("PDF_FONT_FAMILY", previousFamily);
     }
+  });
+
+  it("formats compact PDF time ranges with end times", () => {
+    expect(formatCompactTimeRange(600, 630)).toBe("10:00-10:30");
+    expect(formatCompactTimeRange(640, 680)).toBe("10:40-11:20");
   });
 
   it("generates a readable simple PDF within two pages", async () => {

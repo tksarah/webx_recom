@@ -309,6 +309,42 @@ legend,
   text-transform: uppercase;
 }
 
+legend {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-text {
+  display: inline-flex;
+  align-items: center;
+}
+
+.selection-hint {
+  min-height: 22px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+
+.selection-hint-single {
+  background: var(--surface-soft);
+  color: var(--muted);
+}
+
+.selection-hint-multi {
+  border-style: dashed;
+  color: var(--blue);
+}
+
 .chip-grid,
 .option-row {
   display: flex;
@@ -323,8 +359,9 @@ legend,
   padding: 8px 12px;
   color: var(--text-subtle);
   display: grid;
-  gap: 3px;
-  align-content: center;
+  grid-template-columns: 16px minmax(0, 1fr);
+  gap: 3px 10px;
+  align-items: start;
   text-align: left;
   line-height: 1.25;
 }
@@ -338,11 +375,75 @@ legend,
   min-width: 104px;
 }
 
+.option-row[data-selection-mode="single"] .option {
+  min-width: 132px;
+}
+
+.option.selection-single {
+  border-radius: 18px;
+  padding-inline: 14px;
+  background: var(--surface-soft);
+}
+
+.chip.selection-multi,
+.option.selection-multi {
+  border-style: dashed;
+}
+
 .chip.selected,
 .option.selected {
   background: var(--selected-bg);
   color: var(--selected-ink);
   border-color: var(--selected-line);
+  border-style: solid;
+}
+
+.choice-copy {
+  min-width: 0;
+  display: grid;
+  gap: 3px;
+}
+
+.choice-indicator {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  margin-top: 1px;
+  border: 1.6px solid currentColor;
+  background: transparent;
+}
+
+.selection-single .choice-indicator {
+  border-radius: 999px;
+}
+
+.selection-multi .choice-indicator {
+  border-radius: 4px;
+}
+
+.selection-single.selected .choice-indicator,
+.selection-multi.selected .choice-indicator {
+  background: currentColor;
+}
+
+.selection-single.selected .choice-indicator::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border-radius: 999px;
+  background: var(--selected-bg);
+}
+
+.selection-multi.selected .choice-indicator::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  width: 4px;
+  height: 9px;
+  border-right: 2px solid var(--selected-bg);
+  border-bottom: 2px solid var(--selected-bg);
+  transform: rotate(40deg);
 }
 
 .choice-label {

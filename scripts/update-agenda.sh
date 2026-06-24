@@ -12,6 +12,7 @@ usage() {
     'Usage: bash scripts/update-agenda.sh [--deploy] [--help]' \
     '' \
     'Fetch the latest official WebX Agenda and regenerate data/agenda.json.' \
+    'Host requirements: bash and docker compose. Node/npm run inside Docker.' \
     '' \
     'Options:' \
     '  --deploy  Rebuild and restart the Docker app service after refreshing Agenda data.' \
@@ -26,13 +27,13 @@ agenda_summary() {
     return
   fi
 
-  node -e '
+  docker compose run --rm --build --no-deps --entrypoint node agenda-refresh -e '
 const fs = require("fs");
-const agendaPath = process.argv[1];
-const label = process.argv[2];
+const agendaPath = "/app/data/agenda.json";
+const label = process.argv[1];
 const agenda = JSON.parse(fs.readFileSync(agendaPath, "utf8"));
 console.log(`${label}: ${agenda.lastUpdated || "unknown"} / ${Array.isArray(agenda.sessions) ? agenda.sessions.length : 0} sessions`);
-' "${AGENDA_PATH}" "${label}"
+' "${label}"
 }
 
 while [[ $# -gt 0 ]]; do
@@ -56,7 +57,7 @@ done
 cd "${REPO_ROOT}"
 
 agenda_summary "Before"
-npm run agenda:refresh
+docker compose run --rm --build agenda-refresh
 agenda_summary "After"
 
 if [[ "${DEPLOY}" -eq 1 ]]; then

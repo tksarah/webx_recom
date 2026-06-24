@@ -30,6 +30,8 @@ docker compose up -d --build
 
 ## Manual Agenda Update on Ubuntu
 
+The production host does not need Node.js or npm for manual Agenda updates. It only needs bash and Docker Compose.
+
 ```bash
 bash scripts/update-agenda.sh
 ```

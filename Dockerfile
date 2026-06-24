@@ -10,6 +10,14 @@ COPY . .
 RUN mkdir -p public
 RUN npm run build
 
+FROM deps AS agenda-refresh
+WORKDIR /app
+COPY tsconfig.json ./
+COPY src ./src
+COPY scripts ./scripts
+COPY data ./data
+CMD ["npm", "run", "agenda:refresh"]
+
 FROM node:24-bookworm-slim AS runner
 WORKDIR /app
 ENV NODE_ENV=production

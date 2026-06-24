@@ -15,6 +15,16 @@ services:
     expose:
       - "3000"
 
+  agenda-refresh:
+    build:
+      context: .
+      target: agenda-refresh
+    profiles:
+      - tools
+    command: npm run agenda:refresh
+    volumes:
+      - ./data:/app/data
+
   caddy:
     image: caddy:2.8-alpine
     restart: unless-stopped

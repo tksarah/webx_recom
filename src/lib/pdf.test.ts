@@ -1,8 +1,36 @@
 import { describe, expect, it } from "vitest";
-import { renderRecommendationPdf } from "./pdf";
+import { getPdfFontCandidates, renderRecommendationPdf } from "./pdf";
 import type { RecommendationResult } from "./types";
 
 describe("renderRecommendationPdf", () => {
+  it("configures the production Noto CJK TTC font by PostScript name", () => {
+    expect(getPdfFontCandidates()).toContainEqual({
+      path: "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+      postscriptName: "NotoSansCJKjp-Regular",
+    });
+  });
+
+  it("prefers PDF_FONT_POSTSCRIPT_NAME over the legacy PDF_FONT_FAMILY value", () => {
+    const previousPath = process.env.PDF_FONT_PATH;
+    const previousPostscriptName = process.env.PDF_FONT_POSTSCRIPT_NAME;
+    const previousFamily = process.env.PDF_FONT_FAMILY;
+
+    try {
+      process.env.PDF_FONT_PATH = "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc";
+      process.env.PDF_FONT_POSTSCRIPT_NAME = "NotoSansCJKjp-Regular";
+      process.env.PDF_FONT_FAMILY = "Noto Sans CJK JP";
+
+      expect(getPdfFontCandidates()[0]).toEqual({
+        path: "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        postscriptName: "NotoSansCJKjp-Regular",
+      });
+    } finally {
+      restoreEnv("PDF_FONT_PATH", previousPath);
+      restoreEnv("PDF_FONT_POSTSCRIPT_NAME", previousPostscriptName);
+      restoreEnv("PDF_FONT_FAMILY", previousFamily);
+    }
+  });
+
   it("generates a readable simple PDF within two pages", async () => {
     const result: RecommendationResult = {
       requestSummary: {
@@ -128,4 +156,13 @@ describe("renderRecommendationPdf", () => {
 
 function countPages(pdf: Buffer): number {
   return pdf.toString("latin1").match(/\/Type\s*\/Page\b/g)?.length ?? 0;
+}
+
+function restoreEnv(name: "PDF_FONT_PATH" | "PDF_FONT_POSTSCRIPT_NAME" | "PDF_FONT_FAMILY", value: string | undefined): void {
+  if (value === undefined) {
+    delete process.env[name];
+    return;
+  }
+
+  process.env[name] = value;
 }

@@ -4,7 +4,7 @@ import { RecommendationResult } from "./types";
 
 type FontCandidate = {
   path: string;
-  family?: string;
+  postscriptName?: string;
 };
 
 type TableSession = RecommendationResult["route"][number] | RecommendationResult["alternatives"][number];
@@ -103,12 +103,12 @@ type RenderState = {
   agendaUpdatedAt: string;
 };
 
-function fontCandidates(): FontCandidate[] {
+export function getPdfFontCandidates(): FontCandidate[] {
   return [
     process.env.PDF_FONT_PATH
       ? {
           path: process.env.PDF_FONT_PATH,
-          family: process.env.PDF_FONT_FAMILY || guessCollectionFamily(process.env.PDF_FONT_PATH),
+          postscriptName: configuredPostscriptName(process.env.PDF_FONT_PATH),
         }
       : null,
     { path: "C:\\Windows\\Fonts\\NotoSansJP-VF.ttf" },
@@ -116,9 +116,9 @@ function fontCandidates(): FontCandidate[] {
     { path: "/usr/share/fonts/truetype/noto/NotoSansJP-Regular.ttf" },
     { path: "/usr/share/fonts/truetype/noto/NotoSansJP-VF.ttf" },
     { path: "/usr/share/fonts/opentype/noto/NotoSansCJKjp-Regular.otf" },
-    { path: "C:\\Windows\\Fonts\\meiryo.ttc", family: "Meiryo" },
-    { path: "C:\\Windows\\Fonts\\YuGothR.ttc", family: "Yu Gothic" },
-    { path: "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc", family: "Noto Sans CJK JP" },
+    { path: "C:\\Windows\\Fonts\\meiryo.ttc", postscriptName: "Meiryo" },
+    { path: "C:\\Windows\\Fonts\\YuGothR.ttc", postscriptName: "YuGothic-Regular" },
+    { path: "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc", postscriptName: "NotoSansCJKjp-Regular" },
   ].filter(Boolean) as FontCandidate[];
 }
 
@@ -139,9 +139,7 @@ export async function renderRecommendationPdf(result: RecommendationResult): Pro
     doc.on("end", () => resolve(Buffer.concat(chunks)));
   });
 
-  if (!tryApplyFont(doc)) {
-    doc.font("Helvetica");
-  }
+  applyPdfFont(doc, locale);
 
   const state: RenderState = {
     pageCount: 1,
@@ -431,33 +429,60 @@ function clipText(value: string, maxCharacters: number): string {
   return `${chars.slice(0, maxCharacters - 1).join("")}...`;
 }
 
-function tryApplyFont(doc: PDFKit.PDFDocument): boolean {
-  for (const candidate of fontCandidates()) {
+function applyPdfFont(doc: PDFKit.PDFDocument, locale: Locale): void {
+  const failures: string[] = [];
+
+  for (const candidate of getPdfFontCandidates()) {
     if (!existsSync(candidate.path)) {
       continue;
     }
     try {
-      doc.registerFont("AppFont", candidate.path, candidate.family);
+      doc.registerFont("AppFont", candidate.path, candidate.postscriptName);
       doc.font("AppFont");
-      return true;
+      return;
     } catch (error) {
-      console.warn(`Failed to use PDF font ${candidate.path}.`, error);
+      const label = candidate.postscriptName ? `${candidate.path}#${candidate.postscriptName}` : candidate.path;
+      failures.push(label);
+      console.warn(`Failed to use PDF font ${label}.`, error);
     }
   }
-  return false;
+
+  if (locale === "ja") {
+    const tried = failures.length > 0 ? ` Tried but failed: ${failures.join(", ")}.` : "";
+    throw new Error(`No usable Japanese PDF font was found. Install a CJK font or set PDF_FONT_PATH/PDF_FONT_POSTSCRIPT_NAME.${tried}`);
+  }
+
+  doc.font("Helvetica");
 }
 
-function guessCollectionFamily(fontPath: string): string | undefined {
+function guessCollectionPostscriptName(fontPath: string): string | undefined {
   if (!fontPath.toLowerCase().endsWith(".ttc")) {
     return undefined;
   }
-  if (fontPath.toLowerCase().includes("noto")) {
-    return "Noto Sans CJK JP";
+  const lowerPath = fontPath.toLowerCase();
+  if (lowerPath.includes("notosanscjk")) {
+    return "NotoSansCJKjp-Regular";
   }
-  if (fontPath.toLowerCase().includes("meiryo")) {
+  if (lowerPath.includes("notoserifcjk")) {
+    return "NotoSerifCJKjp-Regular";
+  }
+  if (lowerPath.includes("meiryo")) {
     return "Meiryo";
   }
+  if (lowerPath.includes("yugothr")) {
+    return "YuGothic-Regular";
+  }
   return undefined;
+}
+
+function configuredPostscriptName(fontPath: string): string | undefined {
+  if (!fontPath.toLowerCase().endsWith(".ttc")) {
+    return undefined;
+  }
+
+  return process.env.PDF_FONT_POSTSCRIPT_NAME
+    || process.env.PDF_FONT_FAMILY
+    || guessCollectionPostscriptName(fontPath);
 }
 
 function getLocale(result: RecommendationResult): Locale {

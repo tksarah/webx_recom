@@ -9,7 +9,7 @@ services:
       PORT: 3000
       ANALYTICS_PATH: /app/storage/analytics.ndjson
       PDF_FONT_PATH: /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
-      PDF_FONT_FAMILY: Noto Sans CJK JP
+      PDF_FONT_POSTSCRIPT_NAME: NotoSansCJKjp-Regular
     volumes:
       - analytics_data:/app/storage
     expose:

@@ -130,6 +130,20 @@ h1 {
   letter-spacing: 0;
 }
 
+.agenda-update-note {
+  max-width: 720px;
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.agenda-update-note span {
+  display: block;
+  color: var(--soft-text);
+}
+
 h2 {
   margin-bottom: 0;
   font-size: 30px;

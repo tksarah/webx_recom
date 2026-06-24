@@ -28,6 +28,20 @@ docker compose up -d --build
 - `npm.cmd run build`: 本番ビルドを検証します。
 - `npm.cmd run test:e2e`: GeminiをモックしたE2Eを実行します。
 
+## Manual Agenda Update on Ubuntu
+
+```bash
+bash scripts/update-agenda.sh
+```
+
+Docker production reflects `data/agenda.json` from the built image. To refresh the Agenda and rebuild the app service:
+
+```bash
+bash scripts/update-agenda.sh --deploy
+```
+
+The script prints the Agenda `lastUpdated` value and session count before and after refresh.
+
 ## Privacy
 
 匿名集計には、入力モード、選択タグ、言語、参加日、推薦セッションID、モデル応答時間だけを保存します。自由記述の本文、氏名、メール、IP、User-Agent は保存しません。

@@ -44,6 +44,9 @@ const UI_COPY = {
     title: "WebX 2026 おすすめセッションルート",
     agendaLoading: "Agenda読込中",
     agendaCount: (count: number) => `${count}件のセッション`,
+    agendaUpdateNote: "元のサイトのAgendaは更新が断続的なため、本サイトは1日に1、2回更新されます。",
+    agendaUpdatedAt: (value: string) => `最新の更新日時: ${value}`,
+    agendaUpdatedAtPending: "最新の更新日時: 読込中",
     inputPanelAria: "推薦条件入力",
     resultPanelAria: "推薦結果",
     modeTabsAria: "入力モード",
@@ -86,6 +89,9 @@ const UI_COPY = {
     title: "WebX 2026 Recommended Session Route",
     agendaLoading: "Loading agenda",
     agendaCount: (count: number) => `${count} sessions`,
+    agendaUpdateNote: "The original Agenda is updated intermittently, so this site is refreshed once or twice a day.",
+    agendaUpdatedAt: (value: string) => `Last updated: ${value}`,
+    agendaUpdatedAtPending: "Last updated: loading",
     inputPanelAria: "Recommendation input",
     resultPanelAria: "Recommendation result",
     modeTabsAria: "Input mode",
@@ -256,6 +262,10 @@ export function RecommenderApp() {
           <div>
             <p className="eyebrow">WebX 2026</p>
             <h1>{t.title}</h1>
+            <p className="agenda-update-note">
+              {t.agendaUpdateNote}
+              <span>{agendaInfo ? t.agendaUpdatedAt(formatAgendaUpdatedAt(agendaInfo.lastUpdated, locale)) : t.agendaUpdatedAtPending}</span>
+            </p>
           </div>
           <div className="topbar-actions">
             <a className="home-link" href="/" aria-label={t.home} title={t.home}>
@@ -577,6 +587,23 @@ function agendaSessionUrl(session: Pick<RecommendationResult["recommendations"][
   }
 
   return `${WEBX_AGENDA_URL}#:~:text=${encodeURIComponent(title.slice(0, 120))}`;
+}
+
+function formatAgendaUpdatedAt(value: string, locale: Locale): string {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return value;
+  }
+
+  return new Intl.DateTimeFormat(locale === "en" ? "en-US" : "ja-JP", {
+    timeZone: "Asia/Tokyo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).format(date);
 }
 
 function choiceLabel(item: LocalizedChoice, locale: Locale): string {

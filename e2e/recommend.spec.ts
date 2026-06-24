@@ -46,6 +46,8 @@ test("generates routes from quick and free text input, then downloads pdf", asyn
 
   await page.getByRole("button", { name: "English" }).click();
   await expect(page.getByRole("button", { name: "Generate route" })).toBeVisible();
+  await expect(page.getByText("The original Agenda is updated intermittently")).toBeVisible();
+  await expect(page.getByText(/Last updated:/)).toBeVisible();
   await expect(page.getByRole("heading", { name: "Route", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Top Picks", exact: true })).toBeVisible();
   await expect(page.getByText(/Speakers: /).first()).toBeVisible();

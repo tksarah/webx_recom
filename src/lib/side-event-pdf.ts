@@ -1,6 +1,6 @@
 import { existsSync } from "node:fs";
 import PDFDocument from "pdfkit";
-import { getPdfFontCandidates } from "./pdf";
+import { formatCompactTimeRange, getPdfFontCandidates } from "./pdf";
 import { SideEventRecommendationResult } from "./types";
 
 type TableEvent = SideEventRecommendationResult["route"][number] | SideEventRecommendationResult["alternatives"][number];
@@ -22,8 +22,8 @@ const PAGE = {
 
 const TABLE = {
   headerHeight: 18,
-  routeRowHeight: 42,
-  alternativeRowHeight: 38,
+  routeRowHeight: 48,
+  alternativeRowHeight: 42,
 };
 
 const PDF_COPY = {
@@ -85,6 +85,12 @@ type RenderState = {
   copy: typeof PDF_COPY[Locale];
   sideEventsUpdatedAt: string;
 };
+
+export function formatSideEventPdfTimeRange(
+  event: Pick<TableEvent, "dayLabel" | "startMinutes" | "endMinutes">,
+): string {
+  return `${event.dayLabel}\n${formatCompactTimeRange(event.startMinutes, event.endMinutes)}`;
+}
 
 export async function renderSideEventRecommendationPdf(result: SideEventRecommendationResult): Promise<Buffer> {
   const locale = result.requestSummary.locale === "en" ? "en" : "ja";
@@ -263,7 +269,7 @@ function drawEventRow(
   doc.save().rect(x, y, 3, rowHeight).fill(COLORS.accent).restore();
   doc.moveTo(x, y + rowHeight).lineTo(x + width, y + rowHeight).strokeColor(COLORS.line).lineWidth(0.45).stroke();
 
-  doc.fillColor(COLORS.ink).fontSize(7.6).text(`${event.dayLabel}\n${event.startTime}`, columns.time.x, y + 7, {
+  doc.fillColor(COLORS.ink).fontSize(7.6).text(formatSideEventPdfTimeRange(event), columns.time.x, y + 7, {
     width: columns.time.width,
     height: rowHeight - 10,
     lineGap: 1,
@@ -280,7 +286,7 @@ function drawEventRow(
     lineGap: 1,
     ellipsis: true,
   });
-  doc.fillColor(COLORS.muted).fontSize(7.3).text(clipText(event.note || event.reason, 90), columns.note.x, y + 7, {
+  doc.fillColor(COLORS.muted).fontSize(7.3).text(clipText(buildEventNote(event, state.locale), 120), columns.note.x, y + 7, {
     width: columns.note.width,
     height: rowHeight - 10,
     lineGap: 1,
@@ -353,11 +359,42 @@ function drawFooter(doc: PDFKit.PDFDocument, state: RenderState): void {
 function tableColumns(doc: PDFKit.PDFDocument) {
   const x = doc.page.margins.left;
   return {
-    time: { x: x + 8, width: 64 },
-    venue: { x: x + 78, width: 116 },
-    event: { x: x + 202, width: 206 },
-    note: { x: x + 416, width: contentWidth(doc) - 424 },
+    time: { x: x + 8, width: 70 },
+    venue: { x: x + 86, width: 112 },
+    event: { x: x + 206, width: 188 },
+    note: { x: x + 402, width: contentWidth(doc) - 410 },
   };
+}
+
+function buildEventNote(event: TableEvent, locale: Locale): string {
+  const moveFromPrevious = "moveFromPrevious" in event ? event.moveFromPrevious : undefined;
+  const notes = [
+    event.organizers.length > 0 ? `${locale === "en" ? "Host" : "主催"}: ${event.organizers.slice(0, 3).join(" / ")}` : "",
+    registrationNote(event, locale),
+    moveFromPrevious ? `${locale === "en" ? "Move" : "移動"}: ${moveFromPrevious.fromVenue} ${moveFromPrevious.minutes}min` : "",
+    event.note || event.reason,
+  ].filter(Boolean);
+
+  return notes.join(" | ");
+}
+
+function registrationNote(event: TableEvent, locale: Locale): string {
+  const notes: string[] = [];
+
+  if (event.registration.free) {
+    notes.push(locale === "en" ? "Free" : "無料");
+  }
+  if (event.registration.approvalRequired) {
+    notes.push(locale === "en" ? "Approval required" : "承認制");
+  }
+  if (event.registration.registrationRequired) {
+    notes.push(locale === "en" ? "Registration required" : "登録要");
+  }
+  if (event.isOfficial) {
+    notes.push(locale === "en" ? "Official" : "公式");
+  }
+
+  return notes.join(" / ");
 }
 
 function contentWidth(doc: PDFKit.PDFDocument): number {

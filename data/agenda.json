@@ -1,7 +1,7 @@
 {
   "event": "WebX 2026",
   "sourceUrl": "https://webx-asia.com/agenda/",
-  "lastUpdated": "2026-06-24T01:05:04.355Z",
+  "lastUpdated": "2026-07-01T10:07:03.589Z",
   "stages": [
     "CRYL Stage",
     "Binance Stage",
@@ -48,6 +48,22 @@
       "dayLabel": "7/13",
       "language": "JA",
       "stage": "Binance Stage",
+      "startTime": "10:20 AM",
+      "endTime": "10:35 AM",
+      "startMinutes": 620,
+      "endMinutes": 635,
+      "title": "詳細未公開",
+      "speakers": [],
+      "categories": [],
+      "rawText": "COMING SOON",
+      "isPlaceholder": true
+    },
+    {
+      "id": "webx-2026-ag151",
+      "date": "2026-07-13",
+      "dayLabel": "7/13",
+      "language": "UNKNOWN",
+      "stage": "Visionary Stage",
       "startTime": "10:20 AM",
       "endTime": "10:35 AM",
       "startMinutes": 620,
@@ -109,6 +125,22 @@
       "isPlaceholder": false
     },
     {
+      "id": "webx-2026-ag152",
+      "date": "2026-07-13",
+      "dayLabel": "7/13",
+      "language": "UNKNOWN",
+      "stage": "Visionary Stage",
+      "startTime": "10:40 AM",
+      "endTime": "10:55 AM",
+      "startMinutes": 640,
+      "endMinutes": 655,
+      "title": "詳細未公開",
+      "speakers": [],
+      "categories": [],
+      "rawText": "COMING SOON",
+      "isPlaceholder": true
+    },
+    {
       "id": "webx-2026-ag40",
       "date": "2026-07-13",
       "dayLabel": "7/13",
@@ -120,10 +152,11 @@
       "endMinutes": 700,
       "title": "AIが変えるサイバーリスク — 金融・Web3が構築すべき次世代セキュリティ戦略",
       "speakers": [
+        "平 将明 / 自民党 / 衆議院議員 前デジタル大臣 国家サイバーセキュリティー戦略本部長/AI･web3小委員会委員長",
         "廣末 紀之 / ビットバンク株式会社 / 代表取締役社長CEO"
       ],
       "categories": [],
-      "rawText": "AIが変えるサイバーリスク — 金融・Web3が構築すべき次世代セキュリティ戦略 廣末 紀之 / ビットバンク株式会社 / 代表取締役社長CEO",
+      "rawText": "AIが変えるサイバーリスク — 金融・Web3が構築すべき次世代セキュリティ戦略 平 将明 / 自民党 / 衆議院議員 前デジタル大臣 国家サイバーセキュリティー戦略本部長/AI･web3小委員会委員長 廣末 紀之 / ビットバンク株式会社 / 代表取締役社長CEO",
       "isPlaceholder": false
     },
     {
@@ -279,11 +312,14 @@
       "endMinutes": 760,
       "title": "オンチェーン金融の現在地――政策・市場・技術が描く日本の針路",
       "speakers": [
+        "平 将明 / 自民党 / 衆議院議員 前デジタル大臣 国家サイバーセキュリティー戦略本部長/AI･web3小委員会委員長",
         "齋藤 正勝 / 株式会社トレードワークス / 代表取締役社長",
+        "蓮尾 聡 / コインチェック株式会社 / 代表取締役会長執行役員",
+        "神田 潤一 / 衆議院議員 / 自由民主党金融調査会事務局長",
         "久田 哲史 / 株式会社Datachain / Moderator"
       ],
       "categories": [],
-      "rawText": "オンチェーン金融の現在地――政策・市場・技術が描く日本の針路 齋藤 正勝 / 株式会社トレードワークス / 代表取締役社長 久田 哲史 / 株式会社Datachain / Moderator",
+      "rawText": "オンチェーン金融の現在地――政策・市場・技術が描く日本の針路 平 将明 / 自民党 / 衆議院議員 前デジタル大臣 国家サイバーセキュリティー戦略本部長/AI･web3小委員会委員長 齋藤 正勝 / 株式会社トレードワークス / 代表取締役社長 蓮尾 聡 / コインチェック株式会社 / 代表取締役会長執行役員 神田 潤一 / 衆議院議員 / 自由民主党金融調査会事務局長 久田 哲史 / 株式会社Datachain / Moderator",
       "isPlaceholder": false
     },
     {
@@ -433,10 +469,12 @@
       "speakers": [
         "長瀨 威志 / アンダーソン・毛利・友常法律事務所外国法共同事業 / Moderator",
         "朝倉 智也 / SBIグローバルアセットマネジメント / 代表取締役社長",
-        "水﨑 優駿 / 野村アセットマネジメント株式会社 / ETFソリューション部 プロダクト戦略チーム チームリーダー"
+        "水﨑 優駿 / 野村アセットマネジメント株式会社 / ETFソリューション部 プロダクト戦略チーム チームリーダー",
+        "城 圭介 / ブラックロック・ジャパン株式会社 / 取締役、プロダクト・ソリューション部門長、マネージング・ディレクター",
+        "菊地 孝史 / 東京証券取引所 / 上場推進部 部長"
       ],
       "categories": [],
-      "rawText": "日本の暗号資産ETFは米国の何を再現し、何を超えるか 長瀨 威志 / アンダーソン・毛利・友常法律事務所外国法共同事業 / Moderator 朝倉 智也 / SBIグローバルアセットマネジメント / 代表取締役社長 水﨑 優駿 / 野村アセットマネジメント株式会社 / ETFソリューション部 プロダクト戦略チーム チームリーダー",
+      "rawText": "日本の暗号資産ETFは米国の何を再現し、何を超えるか 長瀨 威志 / アンダーソン・毛利・友常法律事務所外国法共同事業 / Moderator 朝倉 智也 / SBIグローバルアセットマネジメント / 代表取締役社長 水﨑 優駿 / 野村アセットマネジメント株式会社 / ETFソリューション部 プロダクト戦略チーム チームリーダー 城 圭介 / ブラックロック・ジャパン株式会社 / 取締役、プロダクト・ソリューション部門長、マネージング・ディレクター 菊地 孝史 / 東京証券取引所 / 上場推進部 部長",
       "isPlaceholder": false
     },
     {
@@ -648,10 +686,11 @@
         "Omkar Godbole / CoinDesk / Moderator",
         "Christian Rau / Mastercard / Senior Vice President Digital Assets and Blockchain",
         "Lu Yin / Solana Foundation / Head of APAC (BD & Growth)",
+        "Yam Ki Chan / Circle Internet Group / Managing Director, Asia Pacific",
         "Oliver Harris / Kinexys by J.P. Morgan / マネージング・ディレクター, グローバル統括責任者"
       ],
       "categories": [],
-      "rawText": "ステーブルコインとトークン預金 — グローバル金融・決済大手が語る次世代企業決済 Omkar Godbole / CoinDesk / Moderator Christian Rau / Mastercard / Senior Vice President Digital Assets and Blockchain Lu Yin / Solana Foundation / Head of APAC (BD & Growth) Oliver Harris / Kinexys by J.P. Morgan / マネージング・ディレクター, グローバル統括責任者",
+      "rawText": "ステーブルコインとトークン預金 — グローバル金融・決済大手が語る次世代企業決済 Omkar Godbole / CoinDesk / Moderator Christian Rau / Mastercard / Senior Vice President Digital Assets and Blockchain Lu Yin / Solana Foundation / Head of APAC (BD & Growth) Yam Ki Chan / Circle Internet Group / Managing Director, Asia Pacific Oliver Harris / Kinexys by J.P. Morgan / マネージング・ディレクター, グローバル統括責任者",
       "isPlaceholder": false
     },
     {
@@ -728,11 +767,13 @@
       "endTime": "4:10 PM",
       "startMinutes": 955,
       "endMinutes": 970,
-      "title": "詳細未公開",
-      "speakers": [],
+      "title": "eole Keynote",
+      "speakers": [
+        "瀧野 諭吾 / 株式会社イオレ / 代表取締役社長 兼 CEO"
+      ],
       "categories": [],
-      "rawText": "COMING SOON",
-      "isPlaceholder": true
+      "rawText": "eole Keynote 瀧野 諭吾 / 株式会社イオレ / 代表取締役社長 兼 CEO",
+      "isPlaceholder": false
     },
     {
       "id": "webx-2026-ag121",
@@ -779,11 +820,10 @@
       "title": "AIがお金を使う日 ―エージェント経済で激動する未来を読む",
       "speakers": [
         "堀江 貴文",
-        "岡部 典孝 / JPYC株式会社 / 代表取締役",
-        "各務 貴仁 / 株式会社CoinPost / Moderator"
+        "岡部 典孝 / JPYC株式会社 / 代表取締役"
       ],
       "categories": [],
-      "rawText": "AIがお金を使う日 ―エージェント経済で激動する未来を読む 堀江 貴文 岡部 典孝 / JPYC株式会社 / 代表取締役 各務 貴仁 / 株式会社CoinPost / Moderator",
+      "rawText": "AIがお金を使う日 ―エージェント経済で激動する未来を読む 堀江 貴文 岡部 典孝 / JPYC株式会社 / 代表取締役",
       "isPlaceholder": false
     },
     {
@@ -800,11 +840,12 @@
       "speakers": [
         "大石 峰士 / 東京電力パワーグリッド株式会社 / 代表取締役副社長",
         "大泉 潤 / 函館市長",
+        "吉田 修一郎 / 経済産業省 / イノベーション・環境局 イノベーション政策課 フロンティア推進室長",
         "鬼頭 和希 / Growth Ring Grid Pte.Ltd. / 共同代表",
         "山田 耕三 / 株式会社 Digital Entertainment Asset / Moderator"
       ],
       "categories": [],
-      "rawText": "日本の社会インフラ、次の10年 ── 電力・自治体DXの最前線 大石 峰士 / 東京電力パワーグリッド株式会社 / 代表取締役副社長 大泉 潤 / 函館市長 鬼頭 和希 / Growth Ring Grid Pte.Ltd. / 共同代表 山田 耕三 / 株式会社 Digital Entertainment Asset / Moderator",
+      "rawText": "日本の社会インフラ、次の10年 ── 電力・自治体DXの最前線 大石 峰士 / 東京電力パワーグリッド株式会社 / 代表取締役副社長 大泉 潤 / 函館市長 吉田 修一郎 / 経済産業省 / イノベーション・環境局 イノベーション政策課 フロンティア推進室長 鬼頭 和希 / Growth Ring Grid Pte.Ltd. / 共同代表 山田 耕三 / 株式会社 Digital Entertainment Asset / Moderator",
       "isPlaceholder": false
     },
     {
@@ -974,11 +1015,12 @@
       "speakers": [
         "Katherine Dowling / Bitcoin Standard Treasury Company / President and Board Director",
         "Giselle Lai / Fidelity International / Director, Digital Assets Strategist, APAC",
+        "John D'Agostino / Coinbase / Head of Strategy",
         "Ken Tojo / ブラックロック・ジャパン株式会社 / ディレクター",
         "アリス フレンチ / ブルームバーグ / Moderator"
       ],
       "categories": [],
-      "rawText": "機関投資家の次のステージへ — クリプトETFが再設計する金融の常識 Katherine Dowling / Bitcoin Standard Treasury Company / President and Board Director Giselle Lai / Fidelity International / Director, Digital Assets Strategist, APAC Ken Tojo / ブラックロック・ジャパン株式会社 / ディレクター アリス フレンチ / ブルームバーグ / Moderator",
+      "rawText": "機関投資家の次のステージへ — クリプトETFが再設計する金融の常識 Katherine Dowling / Bitcoin Standard Treasury Company / President and Board Director Giselle Lai / Fidelity International / Director, Digital Assets Strategist, APAC John D'Agostino / Coinbase / Head of Strategy Ken Tojo / ブラックロック・ジャパン株式会社 / ディレクター アリス フレンチ / ブルームバーグ / Moderator",
       "isPlaceholder": false
     },
     {
@@ -1030,10 +1072,11 @@
         "齊藤 達也 / 株式会社Progmat / Moderator",
         "平田 路依 / Ava Labs / カントリーマネージャー",
         "東郷 太郎 / デジタルアセット / マネージングディレクター, 日本",
-        "西澤 明男 / 三菱UFJ信託銀行株式会社 / 執行役員部長"
+        "西澤 明男 / 三菱UFJ信託銀行株式会社 / 執行役員部長",
+        "明間 俊宏 / JPX総研 / 課長"
       ],
       "categories": [],
-      "rawText": "国債×ブロックチェーン：オンチェーン化が変える日本の金融インフラ 齊藤 達也 / 株式会社Progmat / Moderator 平田 路依 / Ava Labs / カントリーマネージャー 東郷 太郎 / デジタルアセット / マネージングディレクター, 日本 西澤 明男 / 三菱UFJ信託銀行株式会社 / 執行役員部長",
+      "rawText": "国債×ブロックチェーン：オンチェーン化が変える日本の金融インフラ 齊藤 達也 / 株式会社Progmat / Moderator 平田 路依 / Ava Labs / カントリーマネージャー 東郷 太郎 / デジタルアセット / マネージングディレクター, 日本 西澤 明男 / 三菱UFJ信託銀行株式会社 / 執行役員部長 明間 俊宏 / JPX総研 / 課長",
       "isPlaceholder": false
     },
     {
@@ -1062,7 +1105,7 @@
       "endTime": "11:05 AM",
       "startMinutes": 625,
       "endMinutes": 665,
-      "title": "ステーブルコイン、実装へ — Stripe・Visa・Rippleが描くアジアのリテール決済",
+      "title": "ステーブルコイン、実装へ — Stripe・Visaが描くアジアのリテール決済",
       "speakers": [
         "スーン デビー / Privy, a Stripe company / Head of Marketing",
         "Nischint Sanghavi / Visa / Head of Digital Currencies, Asia Pacific",
@@ -1070,7 +1113,7 @@
         "小柳 建彦 / 日本経済新聞社 / Moderator"
       ],
       "categories": [],
-      "rawText": "ステーブルコイン、実装へ — Stripe・Visa・Rippleが描くアジアのリテール決済 スーン デビー / Privy, a Stripe company / Head of Marketing Nischint Sanghavi / Visa / Head of Digital Currencies, Asia Pacific Fiona Murray / Ripple / Vice President and Managing Director of APAC, Ripple 小柳 建彦 / 日本経済新聞社 / Moderator",
+      "rawText": "ステーブルコイン、実装へ — Stripe・Visaが描くアジアのリテール決済 スーン デビー / Privy, a Stripe company / Head of Marketing Nischint Sanghavi / Visa / Head of Digital Currencies, Asia Pacific Fiona Murray / Ripple / Vice President and Managing Director of APAC, Ripple 小柳 建彦 / 日本経済新聞社 / Moderator",
       "isPlaceholder": false
     },
     {
@@ -1101,9 +1144,9 @@
       "language": "EN",
       "stage": "CRYL Stage",
       "startTime": "10:55 AM",
-      "endTime": "11:10 AM",
+      "endTime": "11:15 AM",
       "startMinutes": 655,
-      "endMinutes": 670,
+      "endMinutes": 675,
       "title": "詳細未公開",
       "speakers": [],
       "categories": [],
@@ -1152,10 +1195,10 @@
       "dayLabel": "7/14",
       "language": "JA",
       "stage": "CRYL Stage",
-      "startTime": "11:15 AM",
-      "endTime": "11:55 AM",
-      "startMinutes": 675,
-      "endMinutes": 715,
+      "startTime": "11:20 AM",
+      "endTime": "12:00 PM",
+      "startMinutes": 680,
+      "endMinutes": 720,
       "title": "日本暗号資産市場は金商法でどう変わる？ — 制度設計の最前線から読む業界の針路",
       "speakers": [
         "関口 慶太 / 日本経済新聞社 / Moderator"
@@ -1202,25 +1245,6 @@
       "isPlaceholder": false
     },
     {
-      "id": "webx-2026-ag43",
-      "date": "2026-07-14",
-      "dayLabel": "7/14",
-      "language": "UNKNOWN",
-      "stage": "CRYL Stage",
-      "startTime": "12:00 PM",
-      "endTime": "12:40 PM",
-      "startMinutes": 720,
-      "endMinutes": 760,
-      "title": "ベンチャーキャピタルが賭ける未来 — a16zポートフォリオが示すWeb3の次の一手",
-      "speakers": [
-        "Alex Svanevik / Nansen / CEO",
-        "Thomas Chou / Canton Foundation / アジア太平洋地域責任者"
-      ],
-      "categories": [],
-      "rawText": "ベンチャーキャピタルが賭ける未来 — a16zポートフォリオが示すWeb3の次の一手 Alex Svanevik / Nansen / CEO Thomas Chou / Canton Foundation / アジア太平洋地域責任者",
-      "isPlaceholder": false
-    },
-    {
       "id": "webx-2026-ag125",
       "date": "2026-07-14",
       "dayLabel": "7/14",
@@ -1237,6 +1261,25 @@
       "isPlaceholder": false
     },
     {
+      "id": "webx-2026-ag43",
+      "date": "2026-07-14",
+      "dayLabel": "7/14",
+      "language": "UNKNOWN",
+      "stage": "CRYL Stage",
+      "startTime": "12:05 PM",
+      "endTime": "12:40 PM",
+      "startMinutes": 725,
+      "endMinutes": 760,
+      "title": "ベンチャーキャピタルが賭ける未来 — a16zポートフォリオが示すWeb3の次の一手",
+      "speakers": [
+        "Alex Svanevik / Nansen / CEO",
+        "Thomas Chou / Canton Foundation / アジア太平洋地域責任者"
+      ],
+      "categories": [],
+      "rawText": "ベンチャーキャピタルが賭ける未来 — a16zポートフォリオが示すWeb3の次の一手 Alex Svanevik / Nansen / CEO Thomas Chou / Canton Foundation / アジア太平洋地域責任者",
+      "isPlaceholder": false
+    },
+    {
       "id": "webx-2026-ag104",
       "date": "2026-07-14",
       "dayLabel": "7/14",
@@ -1249,10 +1292,11 @@
       "title": "DeFiはAIで死ぬのか？―日本人DeFi創業者が徹底討論",
       "speakers": [
         "神藤 優介 / DeltaForesight / 創業者 兼 代表取締役CEO",
-        "小副川 祐輔 / Napier Labs（ネイピアラボ） / Founder & CEO"
+        "小副川 祐輔 / Napier Labs（ネイピアラボ） / Founder & CEO",
+        "菊池 マサカズ / Secured Finance AG / Founder & CEO"
       ],
       "categories": [],
-      "rawText": "DeFiはAIで死ぬのか？―日本人DeFi創業者が徹底討論 神藤 優介 / DeltaForesight / 創業者 兼 代表取締役CEO 小副川 祐輔 / Napier Labs（ネイピアラボ） / Founder & CEO",
+      "rawText": "DeFiはAIで死ぬのか？―日本人DeFi創業者が徹底討論 神藤 優介 / DeltaForesight / 創業者 兼 代表取締役CEO 小副川 祐輔 / Napier Labs（ネイピアラボ） / Founder & CEO 菊池 マサカズ / Secured Finance AG / Founder & CEO",
       "isPlaceholder": false
     },
     {
@@ -1262,9 +1306,9 @@
       "language": "EN",
       "stage": "Binance Stage",
       "startTime": "12:30 PM",
-      "endTime": "12:50 PM",
+      "endTime": "12:45 PM",
       "startMinutes": 750,
-      "endMinutes": 770,
+      "endMinutes": 765,
       "title": "詳細未公開",
       "speakers": [],
       "categories": [],
@@ -1299,9 +1343,9 @@
       "dayLabel": "7/14",
       "language": "UNKNOWN",
       "stage": "Binance Stage",
-      "startTime": "12:55 PM",
+      "startTime": "12:50 PM",
       "endTime": "1:30 PM",
-      "startMinutes": 775,
+      "startMinutes": 770,
       "endMinutes": 810,
       "title": "ステーブルコインはカード決済を超えるか — 決済大手が語るリテールの未来",
       "speakers": [
@@ -1426,10 +1470,12 @@
       "title": "機関投資家のクリプト戦略を総設計 — カストディ・決済・流動性の統合アプローチ",
       "speakers": [
         "John D'Agostino / Coinbase / Head of Strategy",
+        "Abel Seow / BitGo / Head of APAC/Managing Director",
+        "Tanu Thakur / Circle Internet Group / Assistant General Counsel, International",
         "Martin Arnold / Financial Times / Moderator"
       ],
       "categories": [],
-      "rawText": "機関投資家のクリプト戦略を総設計 — カストディ・決済・流動性の統合アプローチ John D'Agostino / Coinbase / Head of Strategy Martin Arnold / Financial Times / Moderator",
+      "rawText": "機関投資家のクリプト戦略を総設計 — カストディ・決済・流動性の統合アプローチ John D'Agostino / Coinbase / Head of Strategy Abel Seow / BitGo / Head of APAC/Managing Director Tanu Thakur / Circle Internet Group / Assistant General Counsel, International Martin Arnold / Financial Times / Moderator",
       "isPlaceholder": false
     },
     {
@@ -1514,13 +1560,11 @@
       "endTime": "3:50 PM",
       "startMinutes": 905,
       "endMinutes": 950,
-      "title": "集合知、オンチェーンへ — 予測市場は金融をどう再定義するか",
-      "speakers": [
-        "Mike Eidlin / ポリマーケット / 日本代表"
-      ],
+      "title": "詳細未公開",
+      "speakers": [],
       "categories": [],
-      "rawText": "集合知、オンチェーンへ — 予測市場は金融をどう再定義するか Mike Eidlin / ポリマーケット / 日本代表",
-      "isPlaceholder": false
+      "rawText": "COMING SOON",
+      "isPlaceholder": true
     },
     {
       "id": "webx-2026-ag108",
@@ -1534,11 +1578,10 @@
       "endMinutes": 945,
       "title": "フランクリン・ビーと語る — ファイヤーサイドチャット",
       "speakers": [
-        "Franklin Bi / Pantera Capital / General Partner",
-        "酒井 良 / WebX / Moderator"
+        "Franklin Bi / Pantera Capital / General Partner"
       ],
       "categories": [],
-      "rawText": "フランクリン・ビーと語る — ファイヤーサイドチャット Franklin Bi / Pantera Capital / General Partner 酒井 良 / WebX / Moderator",
+      "rawText": "フランクリン・ビーと語る — ファイヤーサイドチャット Franklin Bi / Pantera Capital / General Partner",
       "isPlaceholder": false
     },
     {
@@ -1629,10 +1672,10 @@
       "speakers": [
         "Iñaki Moreno / Google / AI GTM - Strategic Partnerships",
         "Daniil and David Liberman / Gonka / Co-creators",
-        "Michael / 0G Labs / Co-Founder & CEO"
+        "Frederick Tan / The Block / Moderator"
       ],
       "categories": [],
-      "rawText": "分散型AIスタックの全貌 — インフラ・アプリ・そして次のフロンティア Iñaki Moreno / Google / AI GTM - Strategic Partnerships Daniil and David Liberman / Gonka / Co-creators Michael / 0G Labs / Co-Founder & CEO",
+      "rawText": "分散型AIスタックの全貌 — インフラ・アプリ・そして次のフロンティア Iñaki Moreno / Google / AI GTM - Strategic Partnerships Daniil and David Liberman / Gonka / Co-creators Frederick Tan / The Block / Moderator",
       "isPlaceholder": false
     },
     {
@@ -1710,11 +1753,9 @@
       "startMinutes": 1060,
       "endMinutes": 1070,
       "title": "WebX 閉会のご挨拶",
-      "speakers": [
-        "酒井 良 / WebX / CEO"
-      ],
+      "speakers": [],
       "categories": [],
-      "rawText": "WebX 閉会のご挨拶 酒井 良 / WebX / CEO",
+      "rawText": "WebX 閉会のご挨拶",
       "isPlaceholder": false
     }
   ]

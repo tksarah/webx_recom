@@ -72,6 +72,8 @@ const UI_COPY = {
     pdfError: "PDFの生成に失敗しました",
     home: "ホーム",
     sideEvents: "サイドイベント",
+    sideEventsCta: "サイドイベントについてはこちらから",
+    sideEventsCtaDescription: "Luma掲載イベントのおすすめルート",
     localeSwitch: "表示言語",
     emptyTitle: "7月13日-14日",
     emptyVenue: "ザ・プリンス パークタワー東京",
@@ -122,6 +124,8 @@ const UI_COPY = {
     pdfError: "Failed to generate PDF",
     home: "Home",
     sideEvents: "Side events",
+    sideEventsCta: "Explore side events here",
+    sideEventsCtaDescription: "Recommended routes from the Luma calendar",
     localeSwitch: "Display language",
     emptyTitle: "July 13-14",
     emptyVenue: "The Prince Park Tower Tokyo",
@@ -283,9 +287,12 @@ export function RecommenderApp() {
               <Home size={16} aria-hidden />
               <span>{t.home}</span>
             </a>
-            <a className="home-link" href="/side-events" aria-label={t.sideEvents} title={t.sideEvents}>
+            <a className="side-event-cta-link" href="/side-events" aria-label={t.sideEventsCta} title={t.sideEventsCta}>
               <CalendarDays size={16} aria-hidden />
-              <span>{t.sideEvents}</span>
+              <span className="side-event-cta-copy">
+                <span>{t.sideEventsCta}</span>
+                <span>{t.sideEventsCtaDescription}</span>
+              </span>
             </a>
             <button
               className="theme-toggle"

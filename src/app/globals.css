@@ -162,6 +162,7 @@ h4 {
 
 .agenda-pill,
 .home-link,
+.side-event-cta-link,
 .theme-toggle,
 .icon-button,
 .primary-button,
@@ -226,6 +227,41 @@ h4 {
   font-weight: 800;
   text-decoration: none;
   white-space: nowrap;
+}
+
+.side-event-cta-link {
+  min-height: 48px;
+  max-width: 280px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 7px 12px;
+  border-radius: 8px;
+  background: var(--selected-bg);
+  color: var(--selected-ink);
+  border-color: var(--selected-line);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.side-event-cta-copy {
+  min-width: 0;
+  display: grid;
+  gap: 2px;
+  line-height: 1.25;
+}
+
+.side-event-cta-copy span:first-child {
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+.side-event-cta-copy span:last-child {
+  color: var(--selected-description);
+  font-size: 11px;
+  font-weight: 700;
+  overflow-wrap: anywhere;
 }
 
 .panel-grid {
@@ -486,6 +522,7 @@ textarea:focus,
 .primary-button:focus-visible,
 .icon-button:focus-visible,
 .home-link:focus-visible,
+.side-event-cta-link:focus-visible,
 .theme-toggle:focus-visible,
 .locale-switch button:focus-visible,
 .session-link:focus-visible,
@@ -661,43 +698,12 @@ textarea:focus,
     var(--surface);
 }
 
-.side-event-timeline-item {
-  grid-template-columns: 84px minmax(0, 1fr) 28px;
-}
-
-.event-thumb-wrap {
-  width: 84px;
-  aspect-ratio: 1;
-  overflow: hidden;
-  border-radius: 8px;
-  background: var(--surface-soft);
-  border: 1px solid var(--line);
-}
-
-.event-thumb,
-.event-card-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.event-thumb-placeholder {
-  width: 100%;
-  height: 100%;
-  display: block;
-  background: linear-gradient(135deg, var(--surface-soft), var(--line));
+.side-event-dot {
+  background: var(--blue);
 }
 
 .side-event-card {
-  overflow: hidden;
-}
-
-.event-card-image {
-  height: 118px;
-  margin: -14px -14px 6px;
-  width: calc(100% + 28px);
-  border-bottom: 1px solid var(--line);
+  min-height: 168px;
 }
 
 .side-event-badge {
@@ -838,14 +844,6 @@ textarea:focus,
 
   .timeline-item {
     grid-template-columns: 12px minmax(0, 1fr);
-  }
-
-  .side-event-timeline-item {
-    grid-template-columns: 64px minmax(0, 1fr);
-  }
-
-  .event-thumb-wrap {
-    width: 64px;
   }
 
   .rank {

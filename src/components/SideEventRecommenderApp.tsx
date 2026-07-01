@@ -308,9 +308,9 @@ export function SideEventRecommenderApp() {
     <main className="app-shell">
       <section className="workspace">
         <header className="topbar">
-          <div>
+          <div className="topbar-copy">
             <p className="eyebrow">WebX 2026</p>
-            <h1>{t.title}</h1>
+            <h1 className="page-title">{t.title}</h1>
             <p className="agenda-update-note">
               {t.updateNote}
               <span>{sideEventInfo ? t.updatedAt(formatUpdatedAt(sideEventInfo.lastUpdated, locale)) : t.updatedAtPending}</span>

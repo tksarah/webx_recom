@@ -1,0 +1,1049 @@
+{
+  "event": "WebX 2026 Side Events",
+  "sourceUrl": "https://luma.com/webx.sideevents",
+  "lastUpdated": "2026-07-01T08:36:51.651Z",
+  "events": [
+    {
+      "id": "side-event-db44t5rq",
+      "title": "Utila Private Executive Dinner",
+      "url": "https://luma.com/db44t5rq",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-09",
+      "dayLabel": "7/9",
+      "startDateTime": "2026-07-09T09:30:00.000Z",
+      "endDateTime": "2026-07-09T12:30:00.000Z",
+      "startTime": "18:30",
+      "endTime": "21:30",
+      "startMinutes": 1110,
+      "endMinutes": 1290,
+      "venueName": "日本渋谷区",
+      "address": "渋谷区, 東京都, JP",
+      "venueKey": "日本渋谷区-渋谷区-東京都-jp",
+      "latitude": 35.68533992761383,
+      "longitude": 139.69808991736915,
+      "description": "Utila Private Executive Dinner 日本企業のデジタルアセット管理とTreasury戦略を考える特別ディナー ― Institutional Wallet × Treasury Management × web3の実務最前線 ― 🔹 主催：Utila 🔹 オーガナイザー：DeFimans 📌 イベント概要 Utila主催、DeFimansオーガナイズによる完全招待制のエグゼクティブディナーです。 本イベントでは、日本企業におけるデジタルアセット活用の拡大を見据え、Institutional Wallet、Treasury Management、ガバナンス、セキュリティ、規制対応を中心テーマに、少人数ならではの率直な議論を行います。 参加者は、金融機関、事業会社、システムインテグレーター、web3事業者など、デジタルアセット領域における意思決定層を中心に構成されます。 国内外のエグゼクティブの方々と、今後の事業連携や新たな取り組みの可能性を探る場としてご活用いただけます。 🗓️ イベント詳細 日時： 2026年7月9日（木）18:30～21:30（受付開始18:15） 会場： 鮨かきだ 新宿店 形式： 着席 定員： 最大30名（事前承認制） 参加費： 無料 ドレスコード： ビジネスフォーマルまたはスマートカジュアル ⭐️ こんな方におすすめ 日本企業におけるデジタルアセット活用やTreasury戦略を検討している方 Institutional向けWeb3インフラの活用・提供を検討している方 日本市場での事業展開・パートナーシップを模索している方 ⏳ タイムスケジュール（予定） 18:15 受付開始 18:30 開会・ウェルカムトーク 18:45 着席ディナー開始 20:00 自由対話 21:30 終了 🔹企業紹介 UtilaUtilaは、機関投資家向けの安全なオールインワン型デジタル資産運用プラットフォームです。あらゆる規模の組織がデジタル資産を安全に管理・構築できるよう支援します。Utilaは、安全なMPCウォレット、細かなポリシー管理、充実したAPI、決済およびトークン化エンジン、銀行システムやAML・取引所・DeFiなどとのシームレスな統合機能を提供しています。月間100億ドル以上の処理実績、累計600億ドル超のトランザクションを安全に取り扱っており、業界のリーダーたちから信頼され、急成長をしています。公式サイト: https://utila.io/ Linkedin: https://www.linkedin.com/company/utila-io/ X: https://x.com/utila_io/ DeFimansweb3業界で実業経験を積んだメンバーによって設立されたDeFimansは、トークンエコノミクスの構築やブロックチェーン技術の活用等、web3領域に特化したハンズオン型のプロフェッショナルファームです。web3ビジネスでの“信用”を創造し、クライアントと共に日本のweb3業界の発展に向けて歩み続けます。公式サイト：https://defimans.com/ X：https://twitter.com/DeFimans 総合お問合せ：info@defimans.com",
+      "organizers": [
+        "DeFimans",
+        "Utila .io",
+        "DeFimans Co., Ltd."
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/ka/f1092a50-1733-4c0c-a4d4-4545be4961c0.jpg",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/fx/d95e6da6-2aef-4657-96d9-a18473a28a77.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": true,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "stablecoin",
+        "rwa",
+        "ai",
+        "regulation",
+        "defi",
+        "security",
+        "enterprise",
+        "payments",
+        "infrastructure",
+        "investment"
+      ],
+      "rawText": "Utila Private Executive Dinner Utila Private Executive Dinner 日本企業のデジタルアセット管理とTreasury戦略を考える特別ディナー ― Institutional Wallet × Treasury Management × web3の実務最前線 ― 🔹 主催：Utila 🔹 オーガナイザー：DeFimans 📌 イベント概要 Utila主催、DeFimansオーガナイズによる完全招待制のエグゼクティブディナーです。 本イベントでは、日本企業におけるデジタルアセット活用の拡大を見据え、Institutional Wallet、Treasury Management、ガバナンス、セキュリティ、規制対応を中心テーマに、少人数ならではの率直な議論を行います。 参加者は、金融機関、事業会社、システムインテグレーター、web3事業者など、デジタルアセット領域における意思決定層を中心に構成されます。 国内外のエグゼクティブの方々と、今後の事業連携や新たな取り組みの可能性を探る場としてご活用いただけます。 🗓️ イベント詳細 日時： 2026年7月9日（木）18:30～21:30（受付開始18:15） 会場： 鮨かきだ 新宿店 形式： 着席 定員： 最大30名（事前承認制） 参加費： 無料 ドレスコード： ビジネスフォーマルまたはスマートカジュアル ⭐️ こんな方におすすめ 日本企業におけるデジタルアセット活用やTreasury戦略を検討している方 Institutional向けWeb3インフラの活用・提供を検討している方 日本市場での事業展開・パートナーシップを模索している方 ⏳ タイムスケジュール（予定） 18:15 受付開始 18:30 開会・ウェルカムトーク 18:45 着席ディナー開始 20:00 自由対話 21:30 終了 🔹企業紹介 UtilaUtilaは、機関投資家向けの安全なオールインワン型デジタル資産運用プラットフォームです。あらゆる規模の組織がデジタル資産を安全に管理・構築できるよう支援します。Utilaは、安全なMPCウォレット、細かなポリシー管理、充実したAPI、決済およびトークン化エンジン、銀行システムやAML・取引所・DeFiなどとのシームレスな統合機能を提供しています。月間100億ドル以上の処理実績、累計600億ドル超のトランザクションを安全に取り扱っており、業界のリーダーたちから信頼され、急成長をしています。公式サイト: https://utila.io/ Linkedin: https://www.linkedin.com/company/utila-io/ X: https://x.com/utila_io/ DeFimansweb3業界で実業経験を積んだメンバーによって設立されたDeFimansは、トークンエコノミクスの構築やブロックチェーン技術の活用等、web3領域に特化したハンズオン型のプロフェッショナルファームです。web3ビジネスでの“信用”を創造し、クライアントと共に日本のweb3業界の発展に向けて歩み続けます。公式サイト：https://defimans.com/ X：https://twitter.com/DeFimans 総合お問合せ：info@defimans.com DeFimans Utila .io DeFimans Co., Ltd. 日本渋谷区 渋谷区, 東京都, JP イベントをさがすログイン主催DeFimansフォローホストUtila .ioDeFimans Co., Ltd.ホストに連絡イベントを報告クリプトWebX 2026 @Tokyo, Japanでフィーチャー中Utila Private Executive DinnerDeFimans参加登録して住所を確認東京都渋谷区参加登録承認が必要参加登録にはホストの承認が必要です。ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加リクエストウォレットを使って、トークンの所有権の確認が求められます。イベントについて​Utila Private Executive Dinner​日本企業のデジタルアセット管理とTreasury戦略を考える特別ディナー― Institutional Wallet × Treasury Management × web3の実務最前線 ―​🔹 主催：Utila🔹 オーガナイザー：DeFimans​📌 イベント概要​Utila主催、DeFimansオーガナイズによる完全招待制のエグゼクティブディナーです。​本イベントでは、日本企業におけるデジタルアセット活用の拡大を見据え、Institutional Wallet、Treasury Management、ガバナンス、セキュリティ、規制対応を中心テーマに、少人数ならではの率直な議論を行います。​参加者は、金融機関、事業会社、システムインテグレーター、web3事業者など、デジタルアセット領域における意思決定層を中心に構成されます。​国内外のエグゼクティブの方々と、今後の事業連携や新たな取り組みの可能性を探る場としてご活用いただけます。​🗓️ イベント詳細​日時： 2026年7月9日（木）18:30～21:30（受付開始18:15）​会場： 鮨かきだ 新宿店​形式： 着席​定員： 最大30名（事前承認制）​参加費： 無料​ドレスコード： ビジネスフォーマルまたはスマートカジュアル​⭐️ こんな方におすすめ​日本企業におけるデジタルアセット活用やTreasury戦略を検討している方​Institutional向けWeb3インフラの活用・提供を検討している方​日本市場での事業展開・パートナーシップを模索している方​⏳ タイムスケジュール（予定）​18:15 受付開始​18:30 開会・ウェルカムトーク​18:45 着席ディナー開始​20:00 自由対話​21:30 終了​​🔹企業紹介​Utila​Utilaは、機関投資家向けの安全なオールインワン型デジタル資産運用プラットフォームです。あらゆる規模の組織がデジタル資産を安全に管理・構築できるよう支援します。Utilaは、安全なMPCウォレット、細かなポリシー管理、充実したAPI、決済およびトークン化エンジン、銀行システムやAML・取引所・DeFiなどとのシームレスな統合機能を提供しています。月間100億ドル以上の処理実績、累計600億ドル超のトランザクションを安全に取り扱っており、業界のリーダーたちから信頼され、急成長をしています。​公式サイト: https://utila.io/​Linkedin: https://www.linkedin.com/company/utila-io/​X: https://x.com/utila_io/​​DeFimans​web3業界で実業経験を積んだメンバーによって設立されたDeFimansは、トークンエコノミクスの構築やブロックチェーン技術の活用等、web3領域に特化したハンズオン型のプロフェッショナルファームです。web3ビジネスでの“信用”を創造し、クライアントと共に日本のweb3業界の発展に向けて歩み続けます。​公式サイト：https://defimans.com/​X：https://twitter.com/DeFimans​総合お問合せ：[email protected]場所正確な開催場所を確認するには、参加登録してください。東京都渋谷区主催DeFimansフォローホストUtila .ioDeFimans Co., Ltd.ホストに連絡イベントを報告クリプトさがす料金ヘルプアプリをダウンロード",
+      "isOfficial": false
+    },
+    {
+      "id": "side-event-o8r2nvg5",
+      "title": "Web3 & Crypto Nomikai / Web3・クリプト・飲み会 (By stealthfounders.com)",
+      "url": "https://luma.com/o8r2nvg5",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-09",
+      "dayLabel": "7/9",
+      "startDateTime": "2026-07-09T10:00:00.000Z",
+      "endDateTime": "2026-07-09T13:00:00.000Z",
+      "startTime": "19:00",
+      "endTime": "22:00",
+      "startMinutes": 1140,
+      "endMinutes": 1320,
+      "venueName": "皆川ビル",
+      "address": "皆川ビル, 渋谷区, 東京都, JP",
+      "venueKey": "皆川ビル-皆川ビル-渋谷区-東京都-jp",
+      "latitude": 35.661427,
+      "longitude": 139.701089,
+      "description": "Calling all Web3 and Crypto professionals in Tokyo! 東京で働く、Web3・クリプト業界のみなさん、集まれ！ If you work in DeFi, stablecoins, tokenization, NFT infrastructure, crypto exchanges, blockchain development, or anything related to the intersection of Web3 and digital assets, this night is for you. This is an unofficial side event to warm up for WebX 2026 (July 13-14, Tokyo International Forum), Asia's largest Web3 conference. DeFi、ステーブルコイン、トークン化、NFTインフラ、暗号資産取引所、ブロックチェーン開発など、Web3とデジタルアセットの融合に関わっている方なら、この夜はあなたのためのイベントです。本イベントは、アジア最大級のWeb3カンファレンス「WebX 2026」（7月13〜14日、東京国際フォーラム）に向けたウォームアップを兼ねた非公式サイドイベントです。 The crypto and Web3 space in Japan is accelerating. Stablecoin regulation is opening new doors, institutional players are entering tokenized assets, and Layer 1 and Layer 2 ecosystems are scaling faster than ever. We are bringing together the people who are building and shaping the next generation of digital finance. 日本における暗号資産・Web3の動きは加速しています。ステーブルコイン規制が新たな扉を開き、機関投資家がトークン化資産に参入し、Layer 1・Layer 2エコシステムはかつてないスピードで拡大しています。次世代のデジタル金融を構築し、形作っている人たちが集まります。 You'll get the chance to meet: Blockchain and smart contract engineers Crypto exchange and custody operators DeFi protocol builders and tokenization specialists Data analysts and researchers in on-chain analytics Founders, product managers, and operators in the Web3 space 出会える人たち： ブロックチェーン・スマートコントラクトエンジニア 暗号資産取引所・カストディ事業者 DeFiプロトコルビルダー・トークン化スペシャリスト オンチェーン分析のデータアナリスト・リサーチャー Web3分野の起業家、プロダクトマネージャー、オペレーター No presentations. No slides. Just good people sharing stories and chatting openly about what it's really like to build in Web3 and crypto today. No gatekeeping, no formal talks: just real conversations. Think of it as a pre-WebX warmup with the people you actually want to meet. プレゼンなし。スライドなし。Web3・クリプトの世界で実際にビルドする中でのリアルな話を、気の合う人たちと自由に語り合うだけ。ゲートキーピングも、堅いトークもありません。ただの本音トークです。WebXの前に、本当に会いたい人たちと繋がるウォームアップの場です。 If you're building, deploying, investing, or thinking about creating something in the Web3 and crypto space, you'll fit right in. Web3・クリプト分野で、作っている人、デプロイしている人、投資している人、これから何かを始めたいと考えている人なら、きっと馴染めるはずです。 We also have a Discord group for founders, engineers, operators, and builders in Tokyo and around the world if anyone wants to join: https://discord.gg/pUhaV9KKT5. 東京や世界中の起業家、エンジニア、オペレーター、ビルダー向けのDiscordコミュニティもあります。興味のある方はこちらから参加してください：https://discord.gg/pUhaV9KKT5。",
+      "organizers": [
+        "Drinks With Founders Tokyo (By stealthfounders.com)",
+        "Donald Murataj"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/event-covers/d6/55d719dc-143f-4045-8698-709a7f8c7974.jpg",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/36/8456cf9c-35f3-43db-a26e-4424a4a4e1ad.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "stablecoin",
+        "rwa",
+        "ai",
+        "regulation",
+        "defi",
+        "security",
+        "enterprise",
+        "infrastructure",
+        "investment"
+      ],
+      "rawText": "Web3 & Crypto Nomikai / Web3・クリプト・飲み会 (By stealthfounders.com) Calling all Web3 and Crypto professionals in Tokyo! 東京で働く、Web3・クリプト業界のみなさん、集まれ！ If you work in DeFi, stablecoins, tokenization, NFT infrastructure, crypto exchanges, blockchain development, or anything related to the intersection of Web3 and digital assets, this night is for you. This is an unofficial side event to warm up for WebX 2026 (July 13-14, Tokyo International Forum), Asia's largest Web3 conference. DeFi、ステーブルコイン、トークン化、NFTインフラ、暗号資産取引所、ブロックチェーン開発など、Web3とデジタルアセットの融合に関わっている方なら、この夜はあなたのためのイベントです。本イベントは、アジア最大級のWeb3カンファレンス「WebX 2026」（7月13〜14日、東京国際フォーラム）に向けたウォームアップを兼ねた非公式サイドイベントです。 The crypto and Web3 space in Japan is accelerating. Stablecoin regulation is opening new doors, institutional players are entering tokenized assets, and Layer 1 and Layer 2 ecosystems are scaling faster than ever. We are bringing together the people who are building and shaping the next generation of digital finance. 日本における暗号資産・Web3の動きは加速しています。ステーブルコイン規制が新たな扉を開き、機関投資家がトークン化資産に参入し、Layer 1・Layer 2エコシステムはかつてないスピードで拡大しています。次世代のデジタル金融を構築し、形作っている人たちが集まります。 You'll get the chance to meet: Blockchain and smart contract engineers Crypto exchange and custody operators DeFi protocol builders and tokenization specialists Data analysts and researchers in on-chain analytics Founders, product managers, and operators in the Web3 space 出会える人たち： ブロックチェーン・スマートコントラクトエンジニア 暗号資産取引所・カストディ事業者 DeFiプロトコルビルダー・トークン化スペシャリスト オンチェーン分析のデータアナリスト・リサーチャー Web3分野の起業家、プロダクトマネージャー、オペレーター No presentations. No slides. Just good people sharing stories and chatting openly about what it's really like to build in Web3 and crypto today. No gatekeeping, no formal talks: just real conversations. Think of it as a pre-WebX warmup with the people you actually want to meet. プレゼンなし。スライドなし。Web3・クリプトの世界で実際にビルドする中でのリアルな話を、気の合う人たちと自由に語り合うだけ。ゲートキーピングも、堅いトークもありません。ただの本音トークです。WebXの前に、本当に会いたい人たちと繋がるウォームアップの場です。 If you're building, deploying, investing, or thinking about creating something in the Web3 and crypto space, you'll fit right in. Web3・クリプト分野で、作っている人、デプロイしている人、投資している人、これから何かを始めたいと考えている人なら、きっと馴染めるはずです。 We also have a Discord group for founders, engineers, operators, and builders in Tokyo and around the world if anyone wants to join: https://discord.gg/pUhaV9KKT5. 東京や世界中の起業家、エンジニア、オペレーター、ビルダー向けのDiscordコミュニティもあります。興味のある方はこちらから参加してください：https://discord.gg/pUhaV9KKT5。 Drinks With Founders Tokyo (By stealthfounders.com) Donald Murataj 皆川ビル 皆川ビル, 渋谷区, 東京都, JP イベントをさがすログイン主催Drinks With Founders Tokyo (By stealthfounders.com)フォロー🌟 Our goal is to help inexperienced founders and entrepreneurs gain mentorship from veterans to help people make their ideas into a realityホストDonald Murataj61人が参加予定Yuki Sato、Rintaro Mizuno、他59人ホストに連絡イベントを報告クリプトWebX 2026 @Tokyo, Japanでフィーチャー中Web3 & Crypto Nomikai / Web3・クリプト・飲み会 (By stealthfounders.com)Drinks With Founders Tokyo (By stealthfounders.com)皆川ビル東京都渋谷区参加登録ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加登録ウォレットを使って、トークンの所有権の確認が求められます。イベントについて​Calling all Web3 and Crypto professionals in Tokyo! 東京で働く、Web3・クリプト業界のみなさん、集まれ！​If you work in DeFi, stablecoins, tokenization, NFT infrastructure, crypto exchanges, blockchain development, or anything related to the intersection of Web3 and digital assets, this night is for you. This is an unofficial side event to warm up for WebX 2026 (July 13-14, Tokyo International Forum), Asia's largest Web3 conference. DeFi、ステーブルコイン、トークン化、NFTインフラ、暗号資産取引所、ブロックチェーン開発など、Web3とデジタルアセットの融合に関わっている方なら、この夜はあなたのためのイベントです。本イベントは、アジア最大級のWeb3カンファレンス「WebX 2026」（7月13〜14日、東京国際フォーラム）に向けたウォームアップを兼ねた非公式サイドイベントです。​The crypto and Web3 space in Japan is accelerating. Stablecoin regulation is opening new doors, institutional players are entering tokenized assets, and Layer 1 and Layer 2 ecosystems are scaling faster than ever. We are bringing together the people who are building and shaping the next generation of digital finance. 日本における暗号資産・Web3の動きは加速しています。ステーブルコイン規制が新たな扉を開き、機関投資家がトークン化資産に参入し、Layer 1・Layer 2エコシステムはかつてないスピードで拡大しています。次世代のデジタル金融を構築し、形作っている人たちが集まります。​You'll get the chance to meet:​Blockchain and smart contract engineers​Crypto exchange and custody operators​DeFi protocol builders and tokenization specialists​Data analysts and researchers in on-chain analytics​Founders, product managers, and operators in the Web3 space​出会える人たち：​ブロックチェーン・スマートコントラクトエンジニア​暗号資産取引所・カストディ事業者​DeFiプロトコルビルダー・トークン化スペシャリスト​オンチェーン分析のデータアナリスト・リサーチャー​Web3分野の起業家、プロダクトマネージャー、オペレーター​No presentations. No slides. Just good people sharing stories and chatting openly about what it's really like to build in Web3 and crypto today. No gatekeeping, no formal talks: just real conversations. Think of it as a pre-WebX warmup with the people you actually want to meet. プレゼンなし。スライドなし。Web3・クリプトの世界で実際にビルドする中でのリアルな話を、気の合う人たちと自由に語り合うだけ。ゲートキーピングも、堅いトークもありません。ただの本音トークです。WebXの前に、本当に会いたい人たちと繋がるウォームアップの場です。​If you're building, deploying, investing, or thinking about creating something in the Web3 and crypto space, you'll fit right in. Web3・クリプト分野で、作っている人、デプロイしている人、投資している人、これから何かを始めたいと考えている人なら、きっと馴染めるはずです。​We also have a Discord group for founders, engineers, operators, and builders in Tokyo and around the world if anyone wants to join: https://discord.gg/pUhaV9KKT5. 東京や世界中の起業家、エンジニア、オペレーター、ビルダー向けのDiscordコミュニティもあります。興味のある方はこちらから参加してください：https://discord.gg/pUhaV9KKT5。場所皆川ビル日本、〒150-0041 東京都渋谷区神南１丁目２２−１０ 皆川ビルTake the elevator to 7th floor, you will see the Perrys Bar Logo if you look up. エレベーターで7階まで上がってください。上を見上げると、Perrys Barのロゴが見えます。主催Drinks With Founders Tokyo (By stealthfounders.com)フォロー🌟 Our goal is to help inexperienced founders and entrepreneurs gain mentorship from veterans to help people make their ideas into a realityホストDonald Murataj61人が参加予定Yuki Sato、Rintaro Mizuno、他59人ホストに連絡イベントを報告クリプトさがす料金ヘルプアプリをダウンロード",
+      "isOfficial": true
+    },
+    {
+      "id": "side-event-qsukwymx",
+      "title": "Bitget Wallet - Tokyo Onchain Night",
+      "url": "https://luma.com/qsukwymx",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-11",
+      "dayLabel": "7/11",
+      "startDateTime": "2026-07-11T08:30:00.000Z",
+      "endDateTime": "2026-07-11T11:30:00.000Z",
+      "startTime": "17:30",
+      "endTime": "20:30",
+      "startMinutes": 1050,
+      "endMinutes": 1230,
+      "venueName": "日本渋谷区",
+      "address": "渋谷区, 東京都, JP",
+      "venueKey": "日本渋谷区-渋谷区-東京都-jp",
+      "latitude": 35.65947268201401,
+      "longitude": 139.69836646532156,
+      "description": "WebX2026の開催時期に合わせ、Bitget Walletが東京で完全招待制のイベントを開催！ 登壇セッションと立食パーティーを通じて、プロジェクト、スポンサー、コミュニティ関係者が一堂に会する特別な一夜をお楽しみください🥂 イベント概要 開催日時：7月11日 17:30 ~ 20:30 参加人数：100名程度（完全招待制） 参加費：無料 主催：Bitget Wallet スポンサー：FomoWell OceanBase XRPL Japan BTSE タイムテーブル 17:30 受付開始 オープニング 登壇セッション 立食パーティー・参加者交流 20:30 終了 飲食 ビュッフェ形式のお食事と飲み放題のドリンクをご用意しています。 後半は立食パーティー形式で、参加者同士の交流をお楽しみいただけます。 注意事項 本イベントは完全招待制です。参加には事前登録および主催側の承認が必要です。 定員に達した場合、参加受付を締め切らせていただく場合があります。 イベント内容およびタイムテーブルは、予告なく変更となる場合があります。 会場内では、個人が特定されない範囲で写真・動画撮影を行う場合があります。撮影した写真・動画は、SNS等で使用される可能性がありますので、あらかじめご了承ください。 参加者への迷惑行為や過度な営業・勧誘行為はお控えください。 本イベントに登録することで、登録情報がネットワーキングおよび関連するビジネスフォローアップの目的でスポンサー企業に共有される場合があることに同意したものとします。 Bitget Wallet Bitget Walletは、世界9,000万人以上が利用するセルフカストディ型のWeb3スーパーアプリ。 資産の管理はもちろん、Swap・DeFi運用・Meme取引まで、Web3の体験をこれひとつに集約しています。 ガス代無料や送金無料など、はじめての方がつまずきやすいポイントを徹底的になくした設計で、「自分の資産は自分で持つ」セルフカストディの第一歩を、もっと身近に。 マルチチェーン対応で、Web3初心者から上級者まで、すべての人の入り口になることを目指しています。 X：https://x.com/BitgetWallet FomoWell FomoWellは、Bitcoinエコシステム向けに設計された、トークン発行・取引を支えるBTCFiプラットフォーム。 すべてのプロセスをオンチェーンで実行することで高い透明性と安全性を確保し、AMMプールへの自動流動性供給によって円滑な取引環境を実現しています。 DFINITY Foundationから190万ドルの出資を受けているほか、Waterdrip CapitalやFeixiaohaoからの戦略的支援も受けています。これらの実績は、同社の技術力とビジョンに対する業界からの評価を示すとともに、Bitcoinエコシステムのさらなる発展を後押しするものです。 X：https://x.com/FomowellX OceanBase OceanBaseは、金融・決済サービスなど、高い信頼性が求められるあらゆる規模の重要なシステムを支える、世界トップクラスのデータベース。 Ant Groupによって2010年に開発され、Alipay、Trip. com、ICBCなど、世界4,000社以上の企業に導入されています。 データを安全に守りながら、高速処理、大規模利用への対応、コスト効率のよい運用を実現し、リアルタイム分析にも対応しています。 高いシステム耐障害性とビジネスの成長を支えるデータ基盤として、世界中の企業に活用されているプロジェクトです。 X：https://x.com/oceanbasedb XRPL Japan 一般社団法人XRPL Japanは、XRP Ledger（XRPL）エコシステムの拡大と活性化を目的に活動する非営利団体です。 「XRPLエコシステムを拡大・活性化させ、XRPおよびXRPLの価値を最大化する」というミッションのもと、教育活動やコミュニティ支援、イベント開催、企業との連携を通じて、日本におけるXRPLの普及と実社会での活用を推進しています。 また、「XRP Ledgerに関わるすべての人を幸せにする」というビジョンを掲げ、エコシステムの強化と持続的な成長に取り組んでいます。 X：https://x.com/XRPLJapan BTSE BTSEは、暗号資産取引所の運営に加え、取引所や決済システムなどの金融インフラを企業向けに提供する、グローバルなフィンテック・ブロックチェーン企業。 企業向けソリューションは、世界100以上のデジタルアセット関連プラットフォームで採用され、取引所や決済サービスの立ち上げ・運営に活用されています。 同社の高度なソフトウェアは、急速に変化する市場環境において企業や顧客の成長を支え、その中核技術は業界全体で広く採用されています。 X：https://x.com/BTSE_Official ScalingX Labs ScalingX Labsは、AIおよび最先端テクノロジー分野に特化した、グローバルなベンチャー支援・成長支援パートナー。 シンガポール、香港、サンフランシスコを拠点に、アーリーステージのスタートアップへ戦略的な資金提供、事業実行支援、市場アクセスを提供しています。 また、資金調達、人材採用、エコシステム拡大といった重要なフェーズで、創業者と伴走しながら成長を支援しています。 X：https://x.com/scaling_x Crypto Hiroba Crypto Hirobaは、独自トークンCHPが織りなすトークノミクスを軸にしたWeb3コミュニティ。 コミュニティ内での交流、学習、イベント参加、関連プロジェクトへの貢献など、さまざまな活動を通じてCHPを獲得できます。さらに、毎月大量のプレゼントがメンバーの皆さまへ降り注ぐ！ Web3初心者から上級者の方までお気軽に遊びに来てください。 X：https://x.com/CryptoHiroba -----【 English 】----- Bitget Wallet will host an invite-only event in Tokyo to coincide with WebX2026! Join us for a special evening where projects, sponsors, and community members come together through speaker sessions and a standing-style party. 🥂 Event Overview Date & Time: July 11, 17:30–20:30 (JST) Capacity: Around 100 guests, invite-only Fee: Free Host: Bitget Wallet Sponsors:FomoWell OceanBase XRPL Japan BTSE Timetable 17:30 Reception Opens Opening Speaker Sessions Standing Party & Socializing 20:30 Closing Food & Drinks Buffet-style food and free-flow drinks will be provided. In the second half of the event, guests can enjoy a standing-style party and connect with other participants. Notes This is an invite-only event. Advance registration and approval by the host are required to attend. Registration may close once the event reaches capacity. Event content and timetable are subject to change without prior notice. Photos and videos may be taken at the venue in a way that does not identify individuals. Please note that these photos and videos may be used on social media and other related channels. Please refrain from any behavior that may disturb other participants, as well as excessive sales or solicitation activities. By registering for this event, you agree that your registration information may be shared with event sponsors for networking and relevant business follow-up purposes. Bitget Wallet Bitget Wallet is a self-custody Web3 super app used by more than 90 million people worldwide. From asset management to swaps, DeFi yield opportunities, and meme trading, Bitget Wallet brings the Web3 experience together in one place. With features designed to remove common barriers for beginners, such as gas-free and fee-free transfers, Bitget Wallet makes the first step into self-custody more accessible. Supporting multiple chains, Bitget Wallet aims to become the gateway to Web3 for everyone, from beginners to advanced users. X：https://x.com/BitgetWallet FomoWell FomoWell is a BTCFi platform designed for the Bitcoin ecosystem, providing token issuance and trading services. By executing all processes fully on-chain, FomoWell ensures a high level of transparency and security while creating a smooth trading environment through automatic liquidity injection into AMM pools. FomoWell has received a $1.9 million investment from the DFINITY Foundation, along with strategic support from Waterdrip Capital and Feixiaohao. These milestones reflect industry recognition of its technology and vision while helping drive the further development of the Bitcoin ecosystem. X：https://x.com/FomowellX OceanBase OceanBase is one of the world's leading databases, powering mission-critical systems of all sizes, including financial and payment services. Launched by Ant Group in 2010, it is trusted by more than 4,000 organizations worldwide, including Alipay, Trip. com, and ICBC. With zero data loss, high performance, hyper scalability, cost optimisation, and real-time analytics, OceanBase enables secure and efficient data management for businesses at scale. It serves as a reliable data foundation that enhances system resilience and supports business growth for enterprises around the world. X：https://x.com/oceanbasedb XRPL Japan The XRPL Japan Association is a non-profit organization dedicated to expanding and strengthening the XRP Ledger (XRPL) ecosystem in Japan. Guided by our mission to maximize the value of XRP and XRPL through ecosystem growth and activation, we promote XRPL adoption and real-world use cases through education, community initiatives, events, and collaboration with businesses and developers. Our vision is to create a thriving ecosystem that benefits everyone involved with the XRP Ledger and supports its long-term growth and sustainability. X：https://x.com/XRPLJapan BTSE BTSE is a global fintech and blockchain company that operates a cryptocurrency exchange while providing enterprise financial infrastructure, including exchange and payment solutions. Its enterprise solutions are trusted by more than 100 digital asset platforms worldwide, helping businesses launch and operate cryptocurrency exchanges and payment services. With advanced software and innovative technologies, BTSE empowers businesses and clients to succeed in a competitive, fast-evolving market, and its core technologies have been widely adopted across the industry. X：https://x.com/BTSE_Official ScalingX Labs ScalingX Labs is a global venture and growth partner focused on AI and frontier tech, operating across Singapore, Hong Kong, and San Francisco. It provides strategic capital, execution support, and market access to early-stage startups, working alongside founders to navigate fundraising, talent acquisition, and ecosystem scaling with precision. X：https://x.com/scaling_x Crypto Hiroba Crypto Hiroba is a Web3 community powered by its original token, CHP, and a unique tokenomics system. Members can earn CHP through a wide range of activities, including community interaction, learning, event participation, and contributions to related projects. On top of that, a huge number of gifts rain down on members every month! Whether you are new to Web3 or already experienced, feel free to come and join the community. X：https://x.com/CryptoHiroba",
+      "organizers": [
+        "BGW-Morokitch",
+        "Bitget Wallet",
+        "Crypto Hiroba",
+        "KINTSUBA@にほん電脳横丁",
+        "napori"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/sf/3acd2aa7-94ed-4678-8659-57c1a986589f.png",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/f8/6f7e8dab-4b77-444f-aaee-533d74219e02.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "stablecoin",
+        "ai",
+        "bitcoin",
+        "defi",
+        "security",
+        "enterprise",
+        "payments",
+        "infrastructure",
+        "investment"
+      ],
+      "rawText": "Bitget Wallet - Tokyo Onchain Night WebX2026の開催時期に合わせ、Bitget Walletが東京で完全招待制のイベントを開催！ 登壇セッションと立食パーティーを通じて、プロジェクト、スポンサー、コミュニティ関係者が一堂に会する特別な一夜をお楽しみください🥂 イベント概要 開催日時：7月11日 17:30 ~ 20:30 参加人数：100名程度（完全招待制） 参加費：無料 主催：Bitget Wallet スポンサー：FomoWell OceanBase XRPL Japan BTSE タイムテーブル 17:30 受付開始 オープニング 登壇セッション 立食パーティー・参加者交流 20:30 終了 飲食 ビュッフェ形式のお食事と飲み放題のドリンクをご用意しています。 後半は立食パーティー形式で、参加者同士の交流をお楽しみいただけます。 注意事項 本イベントは完全招待制です。参加には事前登録および主催側の承認が必要です。 定員に達した場合、参加受付を締め切らせていただく場合があります。 イベント内容およびタイムテーブルは、予告なく変更となる場合があります。 会場内では、個人が特定されない範囲で写真・動画撮影を行う場合があります。撮影した写真・動画は、SNS等で使用される可能性がありますので、あらかじめご了承ください。 参加者への迷惑行為や過度な営業・勧誘行為はお控えください。 本イベントに登録することで、登録情報がネットワーキングおよび関連するビジネスフォローアップの目的でスポンサー企業に共有される場合があることに同意したものとします。 Bitget Wallet Bitget Walletは、世界9,000万人以上が利用するセルフカストディ型のWeb3スーパーアプリ。 資産の管理はもちろん、Swap・DeFi運用・Meme取引まで、Web3の体験をこれひとつに集約しています。 ガス代無料や送金無料など、はじめての方がつまずきやすいポイントを徹底的になくした設計で、「自分の資産は自分で持つ」セルフカストディの第一歩を、もっと身近に。 マルチチェーン対応で、Web3初心者から上級者まで、すべての人の入り口になることを目指しています。 X：https://x.com/BitgetWallet FomoWell FomoWellは、Bitcoinエコシステム向けに設計された、トークン発行・取引を支えるBTCFiプラットフォーム。 すべてのプロセスをオンチェーンで実行することで高い透明性と安全性を確保し、AMMプールへの自動流動性供給によって円滑な取引環境を実現しています。 DFINITY Foundationから190万ドルの出資を受けているほか、Waterdrip CapitalやFeixiaohaoからの戦略的支援も受けています。これらの実績は、同社の技術力とビジョンに対する業界からの評価を示すとともに、Bitcoinエコシステムのさらなる発展を後押しするものです。 X：https://x.com/FomowellX OceanBase OceanBaseは、金融・決済サービスなど、高い信頼性が求められるあらゆる規模の重要なシステムを支える、世界トップクラスのデータベース。 Ant Groupによって2010年に開発され、Alipay、Trip. com、ICBCなど、世界4,000社以上の企業に導入されています。 データを安全に守りながら、高速処理、大規模利用への対応、コスト効率のよい運用を実現し、リアルタイム分析にも対応しています。 高いシステム耐障害性とビジネスの成長を支えるデータ基盤として、世界中の企業に活用されているプロジェクトです。 X：https://x.com/oceanbasedb XRPL Japan 一般社団法人XRPL Japanは、XRP Ledger（XRPL）エコシステムの拡大と活性化を目的に活動する非営利団体です。 「XRPLエコシステムを拡大・活性化させ、XRPおよびXRPLの価値を最大化する」というミッションのもと、教育活動やコミュニティ支援、イベント開催、企業との連携を通じて、日本におけるXRPLの普及と実社会での活用を推進しています。 また、「XRP Ledgerに関わるすべての人を幸せにする」というビジョンを掲げ、エコシステムの強化と持続的な成長に取り組んでいます。 X：https://x.com/XRPLJapan BTSE BTSEは、暗号資産取引所の運営に加え、取引所や決済システムなどの金融インフラを企業向けに提供する、グローバルなフィンテック・ブロックチェーン企業。 企業向けソリューションは、世界100以上のデジタルアセット関連プラットフォームで採用され、取引所や決済サービスの立ち上げ・運営に活用されています。 同社の高度なソフトウェアは、急速に変化する市場環境において企業や顧客の成長を支え、その中核技術は業界全体で広く採用されています。 X：https://x.com/BTSE_Official ScalingX Labs ScalingX Labsは、AIおよび最先端テクノロジー分野に特化した、グローバルなベンチャー支援・成長支援パートナー。 シンガポール、香港、サンフランシスコを拠点に、アーリーステージのスタートアップへ戦略的な資金提供、事業実行支援、市場アクセスを提供しています。 また、資金調達、人材採用、エコシステム拡大といった重要なフェーズで、創業者と伴走しながら成長を支援しています。 X：https://x.com/scaling_x Crypto Hiroba Crypto Hirobaは、独自トークンCHPが織りなすトークノミクスを軸にしたWeb3コミュニティ。 コミュニティ内での交流、学習、イベント参加、関連プロジェクトへの貢献など、さまざまな活動を通じてCHPを獲得できます。さらに、毎月大量のプレゼントがメンバーの皆さまへ降り注ぐ！ Web3初心者から上級者の方までお気軽に遊びに来てください。 X：https://x.com/CryptoHiroba -----【 English 】----- Bitget Wallet will host an invite-only event in Tokyo to coincide with WebX2026! Join us for a special evening where projects, sponsors, and community members come together through speaker sessions and a standing-style party. 🥂 Event Overview Date & Time: July 11, 17:30–20:30 (JST) Capacity: Around 100 guests, invite-only Fee: Free Host: Bitget Wallet Sponsors:FomoWell OceanBase XRPL Japan BTSE Timetable 17:30 Reception Opens Opening Speaker Sessions Standing Party & Socializing 20:30 Closing Food & Drinks Buffet-style food and free-flow drinks will be provided. In the second half of the event, guests can enjoy a standing-style party and connect with other participants. Notes This is an invite-only event. Advance registration and approval by the host are required to attend. Registration may close once the event reaches capacity. Event content and timetable are subject to change without prior notice. Photos and videos may be taken at the venue in a way that does not identify individuals. Please note that these photos and videos may be used on social media and other related channels. Please refrain from any behavior that may disturb other participants, as well as excessive sales or solicitation activities. By registering for this event, you agree that your registration information may be shared with event sponsors for networking and relevant business follow-up purposes. Bitget Wallet Bitget Wallet is a self-custody Web3 super app used by more than 90 million people worldwide. From asset management to swaps, DeFi yield opportunities, and meme trading, Bitget Wallet brings the Web3 experience together in one place. With features designed to remove common barriers for beginners, such as gas-free and fee-free transfers, Bitget Wallet makes the first step into self-custody more accessible. Supporting multiple chains, Bitget Wallet aims to become the gateway to Web3 for everyone, from beginners to advanced users. X：https://x.com/BitgetWallet FomoWell FomoWell is a BTCFi platform designed for the Bitcoin ecosystem, providing token issuance and trading services. By executing all processes fully on-chain, FomoWell ensures a high level of transparency and security while creating a smooth trading environment through automatic liquidity injection into AMM pools. FomoWell has received a $1.9 million investment from the DFINITY Foundation, along with strategic support from Waterdrip Capital and Feixiaohao. These milestones reflect industry recognition of its technology and vision while helping drive the further development of the Bitcoin ecosystem. X：https://x.com/FomowellX OceanBase OceanBase is one of the world's leading databases, powering mission-critical systems of all sizes, including financial and payment services. Launched by Ant Group in 2010, it is trusted by more than 4,000 organizations worldwide, including Alipay, Trip. com, and ICBC. With zero data loss, high performance, hyper scalability, cost optimisation, and real-time analytics, OceanBase enables secure and efficient data management for businesses at scale. It serves as a reliable data foundation that enhances system resilience and supports business growth for enterprises around the world. X：https://x.com/oceanbasedb XRPL Japan The XRPL Japan Association is a non-profit organization dedicated to expanding and strengthening the XRP Ledger (XRPL) ecosystem in Japan. Guided by our mission to maximize the value of XRP and XRPL through ecosystem growth and activation, we promote XRPL adoption and real-world use cases through education, community initiatives, events, and collaboration with businesses and developers. Our vision is to create a thriving ecosystem that benefits everyone involved with the XRP Ledger and supports its long-term growth and sustainability. X：https://x.com/XRPLJapan BTSE BTSE is a global fintech and blockchain company that operates a cryptocurrency exchange while providing enterprise financial infrastructure, including exchange and payment solutions. Its enterprise solutions are trusted by more than 100 digital asset platforms worldwide, helping businesses launch and operate cryptocurrency exchanges and payment services. With advanced software and innovative technologies, BTSE empowers businesses and clients to succeed in a competitive, fast-evolving market, and its core technologies have been widely adopted across the industry. X：https://x.com/BTSE_Official ScalingX Labs ScalingX Labs is a global venture and growth partner focused on AI and frontier tech, operating across Singapore, Hong Kong, and San Francisco. It provides strategic capital, execution support, and market access to early-stage startups, working alongside founders to navigate fundraising, talent acquisition, and ecosystem scaling with precision. X：https://x.com/scaling_x Crypto Hiroba Crypto Hiroba is a Web3 community powered by its original token, CHP, and a unique tokenomics system. Members can earn CHP through a wide range of activities, including community interaction, learning, event participation, and contributions to related projects. On top of that, a huge number of gifts rain down on members every month! Whether you are new to Web3 or already experienced, feel free to come and join the community. X：https://x.com/CryptoHiroba BGW-Morokitch Bitget Wallet Crypto Hiroba KINTSUBA@にほん電脳横丁 napori 日本渋谷区 渋谷区, 東京都, JP イベントをさがすログインホストBitget WalletBGW-MorokitchCr",
+      "isOfficial": true
+    },
+    {
+      "id": "side-event-jakz8jz3",
+      "title": "Tokenization & RWA Investors Event",
+      "url": "https://luma.com/jakz8jz3",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-11",
+      "dayLabel": "7/11",
+      "startDateTime": "2026-07-11T09:00:00.000Z",
+      "endDateTime": "2026-07-11T13:00:00.000Z",
+      "startTime": "18:00",
+      "endTime": "22:00",
+      "startMinutes": 1080,
+      "endMinutes": 1320,
+      "venueName": "日本渋谷区",
+      "address": "渋谷区, 東京都, JP",
+      "venueKey": "日本渋谷区-渋谷区-東京都-jp",
+      "latitude": 35.66286038071695,
+      "longitude": 139.70158108268947,
+      "description": "Join us for a private networking event for Tokenization and RWA discussion with Angel, VC, and institutional investors. The event will be co-hosted by global institutional investment companies. Neorigin (KOSDAQ: 094860) is a Korean listed company evolving from game publishing into AI infrastructure and Web3 — connecting compute, capital, and tokenized gaming and data assets across Korea and Asia. Tokenable creates markets for tokenized real-world assets. Tokenable allows users to tokenize and trade RWAs such as collectibles, ownership, and other real assets. More information can be found at: https://tokenable.io トークン化（Tokenization）およびRWA（実物資産）に関する非公開ネットワーキングイベントへのご招待です。エンジェル投資家、ベンチャーキャピタル、機関投資家の皆様とともに議論を交わす場として、グローバルな機関投資企業との共同開催でお届けいたします。 Neorigin（KOSDAQ: 094860）は、ゲームパブリッシングからAIインフラおよびWeb3へと進化を遂げる韓国上場企業です。コンピューティング、資本、そしてトークン化されたゲーム・データ資産を、韓国およびアジア全域でつなぎます。 Tokenableは、トークン化された実物資産（RWA）のための市場を創出します。コレクティブル、所有権、その他の実物資産などのRWAを、ユーザーがトークン化し取引することを可能にします。詳細はこちらをご覧ください：https://tokenable.io",
+      "organizers": [
+        "Luke Shim",
+        "John Yiu",
+        "Thomas Park",
+        "Daniel"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/lj/840deb28-7307-42de-9b74-b1057317f80b.png",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/lq/27317ff9-42d9-4cd9-9ce9-d8e10192af2d.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "rwa",
+        "ai",
+        "enterprise",
+        "infrastructure",
+        "investment"
+      ],
+      "rawText": "Tokenization & RWA Investors Event Join us for a private networking event for Tokenization and RWA discussion with Angel, VC, and institutional investors. The event will be co-hosted by global institutional investment companies. Neorigin (KOSDAQ: 094860) is a Korean listed company evolving from game publishing into AI infrastructure and Web3 — connecting compute, capital, and tokenized gaming and data assets across Korea and Asia. Tokenable creates markets for tokenized real-world assets. Tokenable allows users to tokenize and trade RWAs such as collectibles, ownership, and other real assets. More information can be found at: https://tokenable.io トークン化（Tokenization）およびRWA（実物資産）に関する非公開ネットワーキングイベントへのご招待です。エンジェル投資家、ベンチャーキャピタル、機関投資家の皆様とともに議論を交わす場として、グローバルな機関投資企業との共同開催でお届けいたします。 Neorigin（KOSDAQ: 094860）は、ゲームパブリッシングからAIインフラおよびWeb3へと進化を遂げる韓国上場企業です。コンピューティング、資本、そしてトークン化されたゲーム・データ資産を、韓国およびアジア全域でつなぎます。 Tokenableは、トークン化された実物資産（RWA）のための市場を創出します。コレクティブル、所有権、その他の実物資産などのRWAを、ユーザーがトークン化し取引することを可能にします。詳細はこちらをご覧ください：https://tokenable.io Luke Shim John Yiu Thomas Park Daniel 日本渋谷区 渋谷区, 東京都, JP イベントをさがすログインホストLuke ShimJohn YiuThomas ParkDaniel5人が参加予定Chris Kang、Thomas Park、他3人ホストに連絡イベントを報告クリプトWebX 2026 @Tokyo, Japanでフィーチャー中Tokenization & RWA Investors Eventホスト: Luke Shim、ほか3名参加登録して住所を確認東京都渋谷区参加登録承認が必要参加登録にはホストの承認が必要です。ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加リクエストウォレットを使って、トークンの所有権の確認が求められます。イベントについて​Join us for a private networking event for Tokenization and RWA discussion with Angel, VC, and institutional investors. The event will be co-hosted by global institutional investment companies.​Neorigin (KOSDAQ: 094860) is a Korean listed company evolving from game publishing into AI infrastructure and Web3 — connecting compute, capital, and tokenized gaming and data assets across Korea and Asia.​Tokenable creates markets for tokenized real-world assets. Tokenable allows users to tokenize and trade RWAs such as collectibles, ownership, and other real assets. More information can be found at: https://tokenable.io​トークン化（Tokenization）およびRWA（実物資産）に関する非公開ネットワーキングイベントへのご招待です。エンジェル投資家、ベンチャーキャピタル、機関投資家の皆様とともに議論を交わす場として、グローバルな機関投資企業との共同開催でお届けいたします。​Neorigin（KOSDAQ: 094860）は、ゲームパブリッシングからAIインフラおよびWeb3へと進化を遂げる韓国上場企業です。コンピューティング、資本、そしてトークン化されたゲーム・データ資産を、韓国およびアジア全域でつなぎます。​Tokenableは、トークン化された実物資産（RWA）のための市場を創出します。コレクティブル、所有権、その他の実物資産などのRWAを、ユーザーがトークン化し取引することを可能にします。詳細はこちらをご覧ください：https://tokenable.io場所正確な開催場所を確認するには、参加登録してください。東京都渋谷区ホストLuke ShimJohn YiuThomas ParkDaniel5人が参加予定Chris Kang、Thomas Park、他3人ホストに連絡イベントを報告クリプトさがす料金ヘルプアプリをダウンロード",
+      "isOfficial": false
+    },
+    {
+      "id": "side-event-webx-pubcrawl",
+      "title": "WebX Tokyo Pub Crawl",
+      "url": "https://luma.com/webx-pubcrawl",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-11",
+      "dayLabel": "7/11",
+      "startDateTime": "2026-07-11T10:00:00.000Z",
+      "endDateTime": "2026-07-11T11:00:00.000Z",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "startMinutes": 1140,
+      "endMinutes": 1200,
+      "venueName": "日本港区",
+      "address": "港区, 東京都, JP",
+      "venueKey": "日本港区-港区-東京都-jp",
+      "latitude": 35.66073245787612,
+      "longitude": 139.7354099066226,
+      "description": "Join us for an evening exploring Tokyo’s nightlife with a curated tour of hidden bars and unique venues. This event brings together people from across the Web3 ecosystem for good drinks, good company, and great conversations. What to Expect: 4+ Unique Venues Visit a mix of tucked-away bars and lively late-night spots you won’t find on google maps. We will be hopping around a bunch of new, exciting bars, finishing up at SEL OCTAGON TOKYO with VIP access for all Pub Crawl Attendees. Exclusive Access & Drinks Enjoy curated and complimentary drinks at each stop, and guidance from locals who know the city’s best-kept secrets. Good Times & Easy Connections Break the ice with pub-style games, karaoke challenges and easygoing networking, whether you’re here to meet new faces, unwind, or just enjoy the night. A Social, Relaxed Atmosphere Connect with builders, investors, and creators in Web3, whether you’re here to network or just enjoy the night. 📅 Date: 11th July 2026 📌 Start Location: Provided upon registration ⏳ Time: 7:00 PM (GMT+09:00) Line up (if you join later, this is where we will be): Bar Propaganda 7pm-8.30pm Sheyda Bar 8.45pm -9.40pm IBEX-TOKYO 9.45pm-11pm SEL OCTAGON TOKYO 11pm - late! Spaces are limited. Reserve your spot to experience a different side of Tokyo. Presented by: Hashlock Hashlock is the industry leading blockchain cybersecurity and smart contract auditing firm. They specialise in manual analysis led security research, securing billions of dollars in digital assets, with clients ranging from innovative web3 startups to global blockchain enterprises. TBV TBV (TB Ventures) is a VC fund focused on leading rounds in early-stage web3 companies in Southeast Asia and North America. TBV is supported by TBE (TB Events) and TBA (TB Advisory), creating a network of services that are underpinned by a 100k+ social following and 10k+ active TG community. Powered by: The Best Event. The global series where Web3 comes to life — blending culture, tech, music, and community in iconic venues around the world. We bring together the boldest creators, top brands, and visionaries shaping the future for unforgettable, high-energy experiences.",
+      "organizers": [
+        "The Best Event",
+        "Hashlock",
+        "Tobias Bauer",
+        "Brent Fulfer",
+        "Jock Haslam"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/de/1b63015b-c95f-4f7a-b1ee-345d986e6b19.gif",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/ko/6f688d8b-df1a-42ac-856e-47cdc93db505.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "ai",
+        "security",
+        "enterprise",
+        "infrastructure",
+        "investment"
+      ],
+      "rawText": "WebX Tokyo Pub Crawl Join us for an evening exploring Tokyo’s nightlife with a curated tour of hidden bars and unique venues. This event brings together people from across the Web3 ecosystem for good drinks, good company, and great conversations. What to Expect: 4+ Unique Venues Visit a mix of tucked-away bars and lively late-night spots you won’t find on google maps. We will be hopping around a bunch of new, exciting bars, finishing up at SEL OCTAGON TOKYO with VIP access for all Pub Crawl Attendees. Exclusive Access & Drinks Enjoy curated and complimentary drinks at each stop, and guidance from locals who know the city’s best-kept secrets. Good Times & Easy Connections Break the ice with pub-style games, karaoke challenges and easygoing networking, whether you’re here to meet new faces, unwind, or just enjoy the night. A Social, Relaxed Atmosphere Connect with builders, investors, and creators in Web3, whether you’re here to network or just enjoy the night. 📅 Date: 11th July 2026 📌 Start Location: Provided upon registration ⏳ Time: 7:00 PM (GMT+09:00) Line up (if you join later, this is where we will be): Bar Propaganda 7pm-8.30pm Sheyda Bar 8.45pm -9.40pm IBEX-TOKYO 9.45pm-11pm SEL OCTAGON TOKYO 11pm - late! Spaces are limited. Reserve your spot to experience a different side of Tokyo. Presented by: Hashlock Hashlock is the industry leading blockchain cybersecurity and smart contract auditing firm. They specialise in manual analysis led security research, securing billions of dollars in digital assets, with clients ranging from innovative web3 startups to global blockchain enterprises. TBV TBV (TB Ventures) is a VC fund focused on leading rounds in early-stage web3 companies in Southeast Asia and North America. TBV is supported by TBE (TB Events) and TBA (TB Advisory), creating a network of services that are underpinned by a 100k+ social following and 10k+ active TG community. Powered by: The Best Event. The global series where Web3 comes to life — blending culture, tech, music, and community in iconic venues around the world. We bring together the boldest creators, top brands, and visionaries shaping the future for unforgettable, high-energy experiences. The Best Event Hashlock Tobias Bauer Brent Fulfer Jock Haslam 日本港区 港区, 東京都, JP イベントをさがすログイン東京のおすすめイベント主催The Best EventフォローThe Best Event is a global event series hosted by TBV and key industry partners in the Web3 and Web2 Space.ホストThe Best EventHashlockTobias BauerBrent FulferJock Haslam158人が参加予定Jo Lim、Pramodya De Alwis、他156人ホストに連絡イベントを報告クリプトフード & ドリンク東京でフィーチャー中WebX Tokyo Pub CrawlThe Best Event参加登録して住所を確認東京都港区参加登録ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加登録ウォレットを使って、トークンの所有権の確認が求められます。イベントについて​Join us for an evening exploring Tokyo’s nightlife with a curated tour of hidden bars and unique venues. This event brings together people from across the Web3 ecosystem for good drinks, good company, and great conversations.​​What to Expect:​4+ Unique Venues​Visit a mix of tucked-away bars and lively late-night spots you won’t find on google maps.​We will be hopping around a bunch of new, exciting bars, finishing up at SEL OCTAGON TOKYO with VIP access for all Pub Crawl Attendees.​Exclusive Access & Drinks​Enjoy curated and complimentary drinks at each stop, and guidance from locals who know the city’s best-kept secrets.​Good Times & Easy Connections​Break the ice with pub-style games, karaoke challenges and easygoing networking, whether you’re here to meet new faces, unwind, or just enjoy the night.​A Social, Relaxed Atmosphere​Connect with builders, investors, and creators in Web3, whether you’re here to network or just enjoy the night.​📅 Date: 11th July 2026​📌 Start Location: Provided upon registration​⏳ Time: 7:00 PM (GMT+09:00)​Line up (if you join later, this is where we will be):​Bar Propaganda 7pm-8.30pm​Sheyda Bar 8.45pm -9.40pm​IBEX-TOKYO 9.45pm-11pm​SEL OCTAGON TOKYO 11pm - late!​Spaces are limited. Reserve your spot to experience a different side of Tokyo.​Presented by:​​Hashlock​Hashlock is the industry leading blockchain cybersecurity and smart contract auditing firm. They specialise in manual analysis led security research, securing billions of dollars in digital assets, with clients ranging from innovative web3 startups to global blockchain enterprises.​TBV​TBV (TB Ventures) is a VC fund focused on leading rounds in early-stage web3 companies in Southeast Asia and North America. TBV is supported by TBE (TB Events) and TBA (TB Advisory), creating a network of services that are underpinned by a 100k+ social following and 10k+ active TG community.​Powered by:​The Best Event. The global series where Web3 comes to life — blending culture, tech, music, and community in iconic venues around the world. We bring together the boldest creators, top brands, and visionaries shaping the future for unforgettable, high-energy experiences.場所正確な開催場所を確認するには、参加登録してください。東京都港区主催The Best EventフォローThe Best Event is a global event series hosted by TBV and key industry partners in the Web3 and Web2 Space.ホストThe Best EventHashlockTobias BauerBrent FulferJock Haslam158人が参加予定Jo Lim、Pramodya De Alwis、他156人ホストに連絡イベントを報告クリプトフード & ドリンクさがす料金ヘルプアプリをダウンロード",
+      "isOfficial": false
+    },
+    {
+      "id": "side-event-0d5siqjg",
+      "title": "Market Makers Dinner Meet-up (WebX Tokyo)",
+      "url": "https://luma.com/0d5siqjg",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-12",
+      "dayLabel": "7/12",
+      "startDateTime": "2026-07-12T06:00:00.000Z",
+      "endDateTime": "2026-07-15T09:00:00.000Z",
+      "startTime": "15:00",
+      "endTime": "18:00",
+      "startMinutes": 900,
+      "endMinutes": 1080,
+      "venueName": "日本港区",
+      "address": "港区, 東京都, JP",
+      "venueKey": "日本港区-港区-東京都-jp",
+      "latitude": 35.65435446743829,
+      "longitude": 139.74543387729466,
+      "description": "Join us for an exclusive invite-only dinner bringing together leading crypto market makers in Tokyo for an evening of meaningful conversations and networking. We’ll be discussing opportunities to expand liquidity, explore new market-making partnerships, and collaborate with one of the region’s fastest-growing digital asset platforms. If you’re looking to scale your presence in a high-growth market, this will be an excellent opportunity to connect with the right team. Registration Guidelines This event is exclusively for crypto market makers. Please register only using your official company email address. Registrations made using personal email IDs (Gmail, Yahoo, Outlook, etc.) will not be considered. Due to limited capacity, attendance is subject to confirmation. We look forward to welcoming you for an evening of great conversations over dinner.",
+      "organizers": [
+        "Utkarsh",
+        "Utkarsh Garg"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/ll/f2102244-2409-4863-8eee-2675ca4146d0.jpg",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/rh/5b89d65c-2466-4769-93f2-b484f945fb34.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "rwa",
+        "ai",
+        "defi",
+        "investment"
+      ],
+      "rawText": "Market Makers Dinner Meet-up (WebX Tokyo) Join us for an exclusive invite-only dinner bringing together leading crypto market makers in Tokyo for an evening of meaningful conversations and networking. We’ll be discussing opportunities to expand liquidity, explore new market-making partnerships, and collaborate with one of the region’s fastest-growing digital asset platforms. If you’re looking to scale your presence in a high-growth market, this will be an excellent opportunity to connect with the right team. Registration Guidelines This event is exclusively for crypto market makers. Please register only using your official company email address. Registrations made using personal email IDs (Gmail, Yahoo, Outlook, etc.) will not be considered. Due to limited capacity, attendance is subject to confirmation. We look forward to welcoming you for an evening of great conversations over dinner. Utkarsh Utkarsh Garg 日本港区 港区, 東京都, JP イベントをさがすログイン主催UtkarshフォローホストUtkarsh Gargホストに連絡イベントを報告クリプトWebX 2026 @Tokyo, Japanでフィーチャー中Market Makers Dinner Meet-up (WebX Tokyo)Utkarsh参加登録して住所を確認東京都港区参加登録承認が必要参加登録にはホストの承認が必要です。ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加リクエストウォレットを使って、トークンの所有権の確認が求められます。イベントについて​Join us for an exclusive invite-only dinner bringing together leading crypto market makers in Tokyo for an evening of meaningful conversations and networking.​We’ll be discussing opportunities to expand liquidity, explore new market-making partnerships, and collaborate with one of the region’s fastest-growing digital asset platforms. If you’re looking to scale your presence in a high-growth market, this will be an excellent opportunity to connect with the right team.​Registration Guidelines​This event is exclusively for crypto market makers.​Please register only using your official company email address.​Registrations made using personal email IDs (Gmail, Yahoo, Outlook, etc.) will not be considered.​Due to limited capacity, attendance is subject to confirmation.​We look forward to welcoming you for an evening of great conversations over dinner.場所正確な開催場所を確認するには、参加登録してください。東京都港区主催UtkarshフォローホストUtkarsh Gargホストに連絡イベントを報告クリプトさがす料金ヘルプアプリをダウンロード",
+      "isOfficial": true
+    },
+    {
+      "id": "side-event-cmcdbwj6",
+      "title": "Institutional Onchain, Tokyo 🇯🇵 | During WebX 2026",
+      "url": "https://luma.com/cmcdbwj6",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-12",
+      "dayLabel": "7/12",
+      "startDateTime": "2026-07-12T07:00:00.000Z",
+      "endDateTime": "2026-07-12T10:30:00.000Z",
+      "startTime": "16:00",
+      "endTime": "19:30",
+      "startMinutes": 960,
+      "endMinutes": 1170,
+      "venueName": "日本東京都",
+      "address": "東京都, JP",
+      "venueKey": "日本東京都-東京都-jp",
+      "latitude": 35.67785914340418,
+      "longitude": 139.6490107397017,
+      "description": "Institutional Onchain, Tokyo 🇯🇵 | During WebX Asia 2026 Japan continues to emerge as one of the most serious and regulation-forward markets for crypto and Web3 innovation This is an exclusive networking mixer bringing together founders, builders, operators, investors and institutions shaping the next generation of onchain products and financial infra. From Payments, Digital Asset Treasuries, Stablecoins, RPCs, Infrastructure, RWAs, AI and Consumer Apps. This is a curated room designed for meaningful conversations, high-signal networking, partnerships and business opportunities during one of Asia’s biggest Web3 events, WebX Asia 2026. What to expect? Curated Networking session Keynotes and Panel discussions from attending companies Founders & Builders Introductions Snacks & Soft drinks throughout the event For Sponsorships & Partnerships DM (@YashEkbote) or (@Shawn_Bldfy) on Telegram Previous Events Web3/ACC, HongKong 🇭🇰 : https://luma.com/0okx8p3y Solana RWA Unwind, Malaysia 🇲🇾 : https://luma.com/x07k9one AI Meets Blockchain, Vietnam 🇻🇳 : https://luma.com/aimeetsblockchain Institutional Onchain: Stablecoins, RWAs & AI : https://luma.com/zn02vlx2 Previous Moments",
+      "organizers": [
+        "Buildify"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/dm/759db136-fa89-4917-898b-7b7ec60cd9c8.png",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/0z/a7de12ac-b887-47b2-8c1d-dc6d459d587f.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "stablecoin",
+        "rwa",
+        "ai",
+        "regulation",
+        "defi",
+        "enterprise",
+        "payments",
+        "infrastructure",
+        "investment"
+      ],
+      "rawText": "Institutional Onchain, Tokyo 🇯🇵 | During WebX 2026 Institutional Onchain, Tokyo 🇯🇵 | During WebX Asia 2026 Japan continues to emerge as one of the most serious and regulation-forward markets for crypto and Web3 innovation This is an exclusive networking mixer bringing together founders, builders, operators, investors and institutions shaping the next generation of onchain products and financial infra. From Payments, Digital Asset Treasuries, Stablecoins, RPCs, Infrastructure, RWAs, AI and Consumer Apps. This is a curated room designed for meaningful conversations, high-signal networking, partnerships and business opportunities during one of Asia’s biggest Web3 events, WebX Asia 2026. What to expect? Curated Networking session Keynotes and Panel discussions from attending companies Founders & Builders Introductions Snacks & Soft drinks throughout the event For Sponsorships & Partnerships DM (@YashEkbote) or (@Shawn_Bldfy) on Telegram Previous Events Web3/ACC, HongKong 🇭🇰 : https://luma.com/0okx8p3y Solana RWA Unwind, Malaysia 🇲🇾 : https://luma.com/x07k9one AI Meets Blockchain, Vietnam 🇻🇳 : https://luma.com/aimeetsblockchain Institutional Onchain: Stablecoins, RWAs & AI : https://luma.com/zn02vlx2 Previous Moments Buildify 日本東京都 東京都, JP イベントをさがすログイン主催BuildifyフォローStudio building regional distribution through content and eventsホストBuildifyホストに連絡イベントを報告クリプトWebX 2026 @Tokyo, Japanでフィーチャー中Institutional Onchain, Tokyo 🇯🇵 | During WebX 2026Buildify参加登録して住所を確認東京都参加登録承認が必要参加登録にはホストの承認が必要です。ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加リクエストウォレットを使って、トークンの所有権の確認が求められます。イベントについて​Institutional Onchain, Tokyo 🇯🇵 | During WebX Asia 2026​Japan continues to emerge as one of the most serious and regulation-forward markets for crypto and Web3 innovation​This is an exclusive networking mixer bringing together founders, builders, operators, investors and institutions shaping the next generation of onchain products and financial infra.​From Payments, Digital Asset Treasuries, Stablecoins, RPCs, Infrastructure, RWAs, AI and Consumer Apps.This is a curated room designed for meaningful conversations, high-signal networking, partnerships and business opportunities during one of Asia’s biggest Web3 events, WebX Asia 2026.​What to expect?​Curated Networking session​Keynotes and Panel discussions from attending companies​Founders & Builders Introductions​Snacks & Soft drinks throughout the event​For Sponsorships & Partnerships​DM (@YashEkbote) or (@Shawn_Bldfy) on Telegram​Previous Events​Web3/ACC, HongKong 🇭🇰 : https://luma.com/0okx8p3y​Solana RWA Unwind, Malaysia 🇲🇾 : https://luma.com/x07k9one​AI Meets Blockchain, Vietnam 🇻🇳 :https://luma.com/aimeetsblockchain​Institutional Onchain: Stablecoins, RWAs & AI :https://luma.com/zn02vlx2​Previous Moments場所正確な開催場所を確認するには、参加登録してください。東京都主催BuildifyフォローStudio building regional distribution through content and eventsホストBuildifyホストに連絡イベントを報告クリプトさがす料金ヘルプアプリをダウンロード",
+      "isOfficial": false
+    },
+    {
+      "id": "side-event-115alwb8",
+      "title": "WebX2026 SNPIT📷 サイドイベント🗼",
+      "url": "https://luma.com/115alwb8",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-12",
+      "dayLabel": "7/12",
+      "startDateTime": "2026-07-12T10:00:00.000Z",
+      "endDateTime": "2026-07-12T13:00:00.000Z",
+      "startTime": "19:00",
+      "endTime": "22:00",
+      "startMinutes": 1140,
+      "endMinutes": 1320,
+      "venueName": "The Place of Tokyo ザ プレイス オブ トウキョウ",
+      "address": "The Place of Tokyo ザ プレイス オブ トウキョウ, 港区, 東京都, JP",
+      "venueKey": "the-place-of-tokyo-ザ-プレイス-オブ-トウキョウ-the-place-of-tokyo-ザ-プレイス-オブ-トウキョウ-港区-東京都-jp",
+      "latitude": 35.6591597,
+      "longitude": 139.7458455,
+      "description": "📸 WebX2026 SNPIT サイドイベント開催決定！ 🗼 今回は「SNPIT 2126」をテーマに掲げ、 「100年後の人々は、あなたの写真で“今日”を知る。」 というコンセプトで開催します！ SNPITがお届けする特別な夜を、一緒に楽しみませんか？ ✨ 参加費無料＆飲み放題！ 気軽にご参加いただける、2部構成のスペシャルイベントをご用意しました！ 【開催日時】 📅日付：2026年7月12日（日） ⏰時間：19:00〜22:00 📍場所：Terrace Dining TANGO 〒105-0011 東京都港区芝公園３丁目５−４ 👥 定員：200名 クレカメンバーカード保有者 参加優先 定員超過時は抽選となります 【イベント概要】 🔹 第1部：お食事会（B2F） 美味しいお料理を楽しみながら、SNPITについてご歓談していただけます！ 🔹 第2部： 撮影タイム（6F） 会場を6階に移し、東京タワーを目の前に望む絶景の中で歓談＆撮影タイム！ 写真映え間違いなしのひとときをお楽しみください📷 💥 イベントお馴染み！SNPTを使った「リアルガチャ」が登場！ 毎回大好評のリアルガチャが今回も登場！ ここでしか手に入らない、限定グッズのお披露目も予定しています 【スケジュール】 ーーーーーーーーーーーーーーーーーーーーーーーー 18:30 受付開始 ｜ 19:00 【第１部】開始 ｜ 20:30 【第２部】開始 ｜ 22:00 イベント終了✨ ーーーーーーーーーーーーーーーーーーーーーーーー ※スケジュール・イベント内容は変更される可能性があります。 【参加申し込み・「自慢の1枚」ご提出について（任意）】 今回のテーマにちなみ、イベントへご参加いただくにあたって、皆様がこれまでにSNPITで撮影した写真の中から「100年後に残したい自慢の1枚」を募集いたします！（※提出は任意です） 📝提出方法 参加登録フォームにある「100年後に残したい自慢の１枚のハッシュ」の欄に、ご自身のアルバムの中からSNPITで撮影したお好きな写真を1枚お選びいただき、その写真のハッシュをご記入ください。 皆様が切り取った素敵な「今日」の一枚をお待ちしております！ 【エントリー締切と結果通知】 🗓 エントリー締切 ：6月28日（日）23:59（JST） ✉️ 参加確定のご連絡：6月30日（火）予定 ℹ️ ご案内 クレカメンバーカード保有の方はウォレット接続していただけますと優先的にご案内させていただきます 当日の進行により時間が前後する可能性があります 抽選結果・詳細案内は、申込時の連絡先へ通知します 【注意事項】 1. 撮影について 当日はイベントの様子を撮影し、広報や記録資料として利用する場合があります。 ご了承ください。 2. 持ち物・貴重品について 会場では手荷物のお預かりはできません。 貴重品は各自で管理をお願いいたします。 3.キャンセルについて 参加確定後のキャンセルは、お早めにご連絡ください。 SNPIT運営陣一同、皆さまのご参加を心よりお待ちしております！",
+      "organizers": [
+        "wataru",
+        "Kenichi Yoshida",
+        "Joei Hoshino"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/0f/ab1abd2f-6aa0-4d0a-be0c-49e2ff5b3815.png",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/j8/bd89123f-5281-4b6c-ad16-0ac0b591de48.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [],
+      "rawText": "WebX2026 SNPIT📷 サイドイベント🗼 📸 WebX2026 SNPIT サイドイベント開催決定！ 🗼 今回は「SNPIT 2126」をテーマに掲げ、 「100年後の人々は、あなたの写真で“今日”を知る。」 というコンセプトで開催します！ SNPITがお届けする特別な夜を、一緒に楽しみませんか？ ✨ 参加費無料＆飲み放題！ 気軽にご参加いただける、2部構成のスペシャルイベントをご用意しました！ 【開催日時】 📅日付：2026年7月12日（日） ⏰時間：19:00〜22:00 📍場所：Terrace Dining TANGO 〒105-0011 東京都港区芝公園３丁目５−４ 👥 定員：200名 クレカメンバーカード保有者 参加優先 定員超過時は抽選となります 【イベント概要】 🔹 第1部：お食事会（B2F） 美味しいお料理を楽しみながら、SNPITについてご歓談していただけます！ 🔹 第2部： 撮影タイム（6F） 会場を6階に移し、東京タワーを目の前に望む絶景の中で歓談＆撮影タイム！ 写真映え間違いなしのひとときをお楽しみください📷 💥 イベントお馴染み！SNPTを使った「リアルガチャ」が登場！ 毎回大好評のリアルガチャが今回も登場！ ここでしか手に入らない、限定グッズのお披露目も予定しています 【スケジュール】 ーーーーーーーーーーーーーーーーーーーーーーーー 18:30 受付開始 ｜ 19:00 【第１部】開始 ｜ 20:30 【第２部】開始 ｜ 22:00 イベント終了✨ ーーーーーーーーーーーーーーーーーーーーーーーー ※スケジュール・イベント内容は変更される可能性があります。 【参加申し込み・「自慢の1枚」ご提出について（任意）】 今回のテーマにちなみ、イベントへご参加いただくにあたって、皆様がこれまでにSNPITで撮影した写真の中から「100年後に残したい自慢の1枚」を募集いたします！（※提出は任意です） 📝提出方法 参加登録フォームにある「100年後に残したい自慢の１枚のハッシュ」の欄に、ご自身のアルバムの中からSNPITで撮影したお好きな写真を1枚お選びいただき、その写真のハッシュをご記入ください。 皆様が切り取った素敵な「今日」の一枚をお待ちしております！ 【エントリー締切と結果通知】 🗓 エントリー締切 ：6月28日（日）23:59（JST） ✉️ 参加確定のご連絡：6月30日（火）予定 ℹ️ ご案内 クレカメンバーカード保有の方はウォレット接続していただけますと優先的にご案内させていただきます 当日の進行により時間が前後する可能性があります 抽選結果・詳細案内は、申込時の連絡先へ通知します 【注意事項】 1. 撮影について 当日はイベントの様子を撮影し、広報や記録資料として利用する場合があります。 ご了承ください。 2. 持ち物・貴重品について 会場では手荷物のお預かりはできません。 貴重品は各自で管理をお願いいたします。 3.キャンセルについて 参加確定後のキャンセルは、お早めにご連絡ください。 SNPIT運営陣一同、皆さまのご参加を心よりお待ちしております！ wataru Kenichi Yoshida Joei Hoshino The Place of Tokyo ザ プレイス オブ トウキョウ The Place of Tokyo ザ プレイス オブ トウキョウ, 港区, 東京都, JP イベントをさがすログインホストwataruKenichi YoshidaJoei Hoshino99人が参加予定RL、uta_nft、他97人ホストに連絡イベントを報告クリプトWebX 2026 @Tokyo, Japanでフィーチャー中WebX2026 SNPIT📷 サイドイベント🗼ホスト：wataru、Kenichi Yoshida & Joei HoshinoThe Place of Tokyo ザ プレイス オブ トウキョウ東京都港区参加登録承認が必要参加登録にはホストの承認が必要です。ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加リクエストウォレットを使って、トークンの所有権の確認が求められます。イベントについて​📸 WebX2026 SNPIT サイドイベント開催決定！ 🗼​今回は「SNPIT 2126」をテーマに掲げ、「100年後の人々は、あなたの写真で“今日”を知る。」というコンセプトで開催します！​SNPITがお届けする特別な夜を、一緒に楽しみませんか？​✨ 参加費無料＆飲み放題！気軽にご参加いただける、2部構成のスペシャルイベントをご用意しました！​【開催日時】​📅日付：2026年7月12日（日） ⏰時間：19:00〜22:00 📍場所：Terrace Dining TANGO 〒105-0011 東京都港区芝公園３丁目５−４​👥​定員：200名​クレカメンバーカード保有者 参加優先​定員超過時は抽選となります​【イベント概要】​🔹 第1部：お食事会（B2F）美味しいお料理を楽しみながら、SNPITについてご歓談していただけます！​🔹 第2部： 撮影タイム（6F）会場を6階に移し、東京タワーを目の前に望む絶景の中で歓談＆撮影タイム！写真映え間違いなしのひとときをお楽しみください📷​💥 イベントお馴染み！SNPTを使った「リアルガチャ」が登場！ ​毎回大好評のリアルガチャが今回も登場！ここでしか手に入らない、限定グッズのお披露目も予定しています​【スケジュール】​ーーーーーーーーーーーーーーーーーーーーーーーー​18:30 受付開始​｜​19:00 【第１部】開始​｜​20:30 【第２部】開始​｜​22:00 イベント終了✨​ーーーーーーーーーーーーーーーーーーーーーーーー​※スケジュール・イベント内容は変更される可能性があります。​【参加申し込み・「自慢の1枚」ご提出について（任意）】​今回のテーマにちなみ、イベントへご参加いただくにあたって、皆様がこれまでにSNPITで撮影した写真の中から「100年後に残したい自慢の1枚」を募集いたします！（※提出は任意です）​📝提出方法 参加登録フォームにある「100年後に残したい自慢の１枚のハッシュ」の欄に、ご自身のアルバムの中からSNPITで撮影したお好きな写真を1枚お選びいただき、その写真のハッシュをご記入ください。​皆様が切り取った素敵な「今日」の一枚をお待ちしております！​​【エントリー締切と結果通知】​🗓 エントリー締切 ：6月28日（日）23:59（JST）​✉️ 参加確定のご連絡：6月30日（火）予定​ℹ️ ご案内​クレカメンバーカード保有の方はウォレット接続していただけますと優先的にご案内させていただきます​当日の進行により時間が前後する可能性があります​抽選結果・詳細案内は、申込時の連絡先へ通知します​​【注意事項】​1. 撮影について当日はイベントの様子を撮影し、広報や記録資料として利用する場合があります。 ご了承ください。2. 持ち物・貴重品について会場では手荷物のお預かりはできません。 貴重品は各自で管理をお願いいたします。3.キャンセルについて参加確定後のキャンセルは、お早めにご連絡ください。​SNPIT運営陣一同、皆さまのご参加を心よりお待ちしております！場所The Place of Tokyo ザ プレイス オブ トウキョウ日本、〒105-0011 東京都港区芝公園３丁目５−４ The Place of Tokyo(ザ プレイス オブ トウキョウホストwataruKenichi YoshidaJoei Hoshino99人が参加予定RL、uta_nft、他97人ホストに連絡イベントを報告クリプトさがす料金ヘルプアプリをダウンロード",
+      "isOfficial": false
+    },
+    {
+      "id": "side-event-8tk2hg1c",
+      "title": "【Canton×OKJ】Bringing Quadrillions On-Chain",
+      "url": "https://luma.com/8tk2hg1c",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-13",
+      "dayLabel": "7/13",
+      "startDateTime": "2026-07-13T03:30:00.000Z",
+      "endDateTime": "2026-07-13T05:30:00.000Z",
+      "startTime": "12:30",
+      "endTime": "14:30",
+      "startMinutes": 750,
+      "endMinutes": 870,
+      "venueName": "日本千代田区",
+      "address": "千代田区, 東京都, JP",
+      "venueKey": "日本千代田区-千代田区-東京都-jp",
+      "latitude": 35.67833087836695,
+      "longitude": 139.73832506143913,
+      "description": "Please see below for English Canton Foundation × OKJによるWebXサイドイベント「Bringing Quadrillions On-Chain」を開催いたします。 本イベントは、業界関係者を対象とした招待・承認制のプライベートイベントとなります。お申し込み内容を確認のうえ、参加可否をご案内いたします。 イベント概要 資産のトークン化（Tokenization）とRWAの潮流が加速する中、金融業界とWeb3・デジタルアセットの境界は急速に融合しつつあります。本イベントは、Canton FoundationとOKJの共同主催により、両業界のエグゼクティブおよびリーダーを対象として、機関向けデジタル資産の「実装」と「次なる基準」をテーマに開催いたします。 金融機関・機関投資家の担当者と、Web3・デジタルアセット業界を牽引するリーダーや事業者が一堂に会し、市場や業界の最新動向について意見を交わすとともに、新たなビジネス機会やパートナーシップ創出につながる交流の場を提供いたします。食事を囲みながら交流いただけるネットワーキング形式となっており、両業界を代表するプレイヤーとの価値ある対話や人脈形成の機会をお楽しみいただけます。 イベント詳細 日時 2026年7月13日（月）12:30～14:30 場所 承認後、公開 タイムテーブル 12:15~12:30：開場・受付 12:30~12:40：OKJ挨拶 12:40~12:55：Cantonの事業紹介・日本市場の展開 13:00~14:30：Networking 主催 ・パートナー 主催：Canton Foundation, OKJ ===================================== Canton Foundation and OKJ are proud to present an exclusive side event at WebX 2026. This is a private, invite-only event for industry professionals. Attendance is subject to application review and approval. About the Event As tokenization and RWA adoption accelerate, the boundaries between traditional finance and Web3/digital assets are rapidly converging. Co-hosted by Canton Foundation and OKJ, this event brings together executives and leaders from both industries to explore the practical implementation of institutional digital assets — and what the next standard looks like. Bringing together executives and professionals from financial institutions and institutional investors alongside leaders and builders from the Web3 and digital asset space, this event offers a curated platform to exchange insights on market trends and emerging industry themes — and to forge new business opportunities and partnerships. Event Details Date & Time Monday, July 13, 2026 | 12:30–14:30 Venue To be disclosed upon approval Schedule 12:15–12:30 Arrival & Registration 12:30–12:40 OKJ Opening Remarks 12:40–12:55 Canton Network: Business Overview & Japan Strategy 13:00–14:30 Networking Hosted by Canton Foundation × OKJ ===================================== 注意事項 ・本イベントでは、イベント内で紹介するサービス等のご案内を行う場合があります。暗号資産取引を行う際は、OKJ公式サイトおよび各種交付書面をご確認のうえ、ご自身の判断と責任にて行ってください。 ・本イベントおよび関連資料に含まれる内容の知的財産権は、当社または権利者に帰属します。無断での転載、配布、再利用等は禁止されています。 会場での撮影について 当日は主催者による写真・動画撮影（SNS・YouTube等への掲載）を予定しております。 公開時には一般参加者のお顔が判別できないよう配慮いたします。 参加者による撮影の際も同様のご配慮をお願いいたします。 免責事項 イベント中に発生したトラブルについては、参加者ご自身の責任となります。 リスクをご理解のうえご参加ください。 個人情報の共同利用 1．共同して利用される個人データの項目 氏名、会社名 2．共同利用する者の利用目的 共同開催する本イベントの運営において、参加申込者の氏名及び会社名を確認し、参加者の審査・承認を行うため利用します。 3．個人データの管理について責任を有する者の氏名又は名称 オーケーコイン・ジャパン株式会社 〒105-0001 東京都港区虎ノ門1-2-10 虎ノ門桜田通ビル5階 代表取締役 馮 鐘揚 商号：オーケーコイン・ジャパン株式会社 登録番号：関東財務局長 第00020号（暗号資産交換業） 加入協会：一般社団法人 日本暗号資産等取引業協会",
+      "organizers": [
+        "OKJ",
+        "Thomas | Canton"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/wn/c504fca4-bbf0-459d-b2ea-e0807b7353f0.webp",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/rd/cc42af3a-0c6c-4f88-a0c8-ee4717ef4dd1.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": true,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "rwa",
+        "ai",
+        "defi",
+        "enterprise",
+        "infrastructure",
+        "investment"
+      ],
+      "rawText": "【Canton×OKJ】Bringing Quadrillions On-Chain Please see below for English Canton Foundation × OKJによるWebXサイドイベント「Bringing Quadrillions On-Chain」を開催いたします。 本イベントは、業界関係者を対象とした招待・承認制のプライベートイベントとなります。お申し込み内容を確認のうえ、参加可否をご案内いたします。 イベント概要 資産のトークン化（Tokenization）とRWAの潮流が加速する中、金融業界とWeb3・デジタルアセットの境界は急速に融合しつつあります。本イベントは、Canton FoundationとOKJの共同主催により、両業界のエグゼクティブおよびリーダーを対象として、機関向けデジタル資産の「実装」と「次なる基準」をテーマに開催いたします。 金融機関・機関投資家の担当者と、Web3・デジタルアセット業界を牽引するリーダーや事業者が一堂に会し、市場や業界の最新動向について意見を交わすとともに、新たなビジネス機会やパートナーシップ創出につながる交流の場を提供いたします。食事を囲みながら交流いただけるネットワーキング形式となっており、両業界を代表するプレイヤーとの価値ある対話や人脈形成の機会をお楽しみいただけます。 イベント詳細 日時 2026年7月13日（月）12:30～14:30 場所 承認後、公開 タイムテーブル 12:15~12:30：開場・受付 12:30~12:40：OKJ挨拶 12:40~12:55：Cantonの事業紹介・日本市場の展開 13:00~14:30：Networking 主催 ・パートナー 主催：Canton Foundation, OKJ ===================================== Canton Foundation and OKJ are proud to present an exclusive side event at WebX 2026. This is a private, invite-only event for industry professionals. Attendance is subject to application review and approval. About the Event As tokenization and RWA adoption accelerate, the boundaries between traditional finance and Web3/digital assets are rapidly converging. Co-hosted by Canton Foundation and OKJ, this event brings together executives and leaders from both industries to explore the practical implementation of institutional digital assets — and what the next standard looks like. Bringing together executives and professionals from financial institutions and institutional investors alongside leaders and builders from the Web3 and digital asset space, this event offers a curated platform to exchange insights on market trends and emerging industry themes — and to forge new business opportunities and partnerships. Event Details Date & Time Monday, July 13, 2026 | 12:30–14:30 Venue To be disclosed upon approval Schedule 12:15–12:30 Arrival & Registration 12:30–12:40 OKJ Opening Remarks 12:40–12:55 Canton Network: Business Overview & Japan Strategy 13:00–14:30 Networking Hosted by Canton Foundation × OKJ ===================================== 注意事項 ・本イベントでは、イベント内で紹介するサービス等のご案内を行う場合があります。暗号資産取引を行う際は、OKJ公式サイトおよび各種交付書面をご確認のうえ、ご自身の判断と責任にて行ってください。 ・本イベントおよび関連資料に含まれる内容の知的財産権は、当社または権利者に帰属します。無断での転載、配布、再利用等は禁止されています。 会場での撮影について 当日は主催者による写真・動画撮影（SNS・YouTube等への掲載）を予定しております。 公開時には一般参加者のお顔が判別できないよう配慮いたします。 参加者による撮影の際も同様のご配慮をお願いいたします。 免責事項 イベント中に発生したトラブルについては、参加者ご自身の責任となります。 リスクをご理解のうえご参加ください。 個人情報の共同利用 1．共同して利用される個人データの項目 氏名、会社名 2．共同利用する者の利用目的 共同開催する本イベントの運営において、参加申込者の氏名及び会社名を確認し、参加者の審査・承認を行うため利用します。 3．個人データの管理について責任を有する者の氏名又は名称 オーケーコイン・ジャパン株式会社 〒105-0001 東京都港区虎ノ門1-2-10 虎ノ門桜田通ビル5階 代表取締役 馮 鐘揚 商号：オーケーコイン・ジャパン株式会社 登録番号：関東財務局長 第00020号（暗号資産交換業） 加入協会：一般社団法人 日本暗号資産等取引業協会 OKJ Thomas | Canton 日本千代田区 千代田区, 東京都, JP イベントをさがすログインホストOKJThomas | Cantonホストに連絡イベントを報告クリプトWebX 2026 @Tokyo, Japanでフィーチャー中【Canton×OKJ】Bringing Quadrillions On-Chainホスト：OKJ & Thomas | Canton参加登録して住所を確認東京都千代田区参加登録承認が必要参加登録にはホストの承認が必要です。ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加リクエストウォレットを使って、トークンの所有権の確認が求められます。イベントについて​Please see below for English​Canton Foundation × OKJによるWebXサイドイベント「Bringing Quadrillions On-Chain」を開催いたします。​本イベントは、業界関係者を対象とした招待・承認制のプライベートイベントとなります。お申し込み内容を確認のうえ、参加可否をご案内いたします。​イベント概要​資産のトークン化（Tokenization）とRWAの潮流が加速する中、金融業界とWeb3・デジタルアセットの境界は急速に融合しつつあります。本イベントは、Canton FoundationとOKJの共同主催により、両業界のエグゼクティブおよびリーダーを対象として、機関向けデジタル資産の「実装」と「次なる基準」をテーマに開催いたします。​金融機関・機関投資家の担当者と、Web3・デジタルアセット業界を牽引するリーダーや事業者が一堂に会し、市場や業界の最新動向について意見を交わすとともに、新たなビジネス機会やパートナーシップ創出につながる交流の場を提供いたします。食事を囲みながら交流いただけるネットワーキング形式となっており、両業界を代表するプレイヤーとの価値ある対話や人脈形成の機会をお楽しみいただけます。イベント詳細​日時2026年7月13日（月）12:30～14:30​場所承認後、公開タイムテーブル12:15~12:30：開場・受付​12:30~12:40：OKJ挨拶​12:40~12:55：Cantonの事業紹介・日本市場の展開​13:00~14:30：Networking主催 ・パートナー​主催：Canton Foundation, OKJ​=====================================​Canton Foundation and OKJ are proud to present an exclusive side event at WebX 2026.​This is a private, invite-only event for industry professionals. Attendance is subject to application review and approval.​About the Event​As tokenization and RWA adoption accelerate, the boundaries between traditional finance and Web3/digital assets are rapidly converging. Co-hosted by Canton Foundation and OKJ, this event brings together executives and leaders from both industries to explore the practical implementation of institutional digital assets — and what the next standard looks like.​Bringing together executives and professionals from financial institutions and institutional investors alongside leaders and builders from the Web3 and digital asset space, this event offers a curated platform to exchange insights on market trends and emerging industry themes — and to forge new business opportunities and partnerships.​Event Details​Date & Time Monday, July 13, 2026 | 12:30–14:30​Venue To be disclosed upon approval​Schedule​12:15–12:30 Arrival & Registration​12:30–12:40 OKJ Opening Remarks​12:40–12:55 Canton Network: Business Overview & Japan Strategy​13:00–14:30 Networking​Hosted by​Canton Foundation × OKJ​=====================================​注意事項​・本イベントでは、イベント内で紹介するサービス等のご案内を行う場合があります。暗号資産取引を行う際は、OKJ公式サイトおよび各種交付書面をご確認のうえ、ご自身の判断と責任にて行ってください。​・本イベントおよび関連資料に含まれる内容の知的財産権は、当社または権利者に帰属します。無断での転載、配布、再利用等は禁止されています。​会場での撮影について​当日は主催者による写真・動画撮影（SNS・YouTube等への掲載）を予定しております。公開時には一般参加者のお顔が判別できないよう配慮いたします。参加者による撮影の際も同様のご配慮をお願いいたします。​免責事項​イベント中に発生したトラブルについては、参加者ご自身の責任となります。リスクをご理解のうえご参加ください。​個人情報の共同利用​1．共同して利用される個人データの項目氏名、会社名2．共同利用する者の利用目的共同開催する本イベントの運営において、参加申込者の氏名及び会社名を確認し、参加者の審査・承認を行うため利用します。3．個人データの管理について責任を有する者の氏名又は名称オーケーコイン・ジャパン株式会社 〒105-0001 東京都港区虎ノ門1-2-10 虎ノ門桜田通ビル5階 代表取締役 馮 鐘揚​商号：オーケーコイン・ジャパン株式会社登録番号：関東財務局長 第00020号（暗号資産交換業）加入協会：一般社団法人 日本暗号資産等取引業協会場所正確な開催場所を確認するには、参加登録してください。東京都千代田区ホストOKJThomas | Cantonホストに連絡イベントを報告クリプトさがす料金ヘルプアプリをダウンロード",
+      "isOfficial": false
+    },
+    {
+      "id": "side-event-eg7k64cz",
+      "title": "Executive Leadership Discussion on the Digital Economy",
+      "url": "https://luma.com/eg7k64cz",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-13",
+      "dayLabel": "7/13",
+      "startDateTime": "2026-07-13T05:00:00.000Z",
+      "endDateTime": "2026-07-13T08:00:00.000Z",
+      "startTime": "14:00",
+      "endTime": "17:00",
+      "startMinutes": 840,
+      "endMinutes": 1020,
+      "venueName": "ザ・プリンス パークタワー東京",
+      "address": "ザ・プリンス パークタワー東京, 港区, 東京都, JP",
+      "venueKey": "ザ-プリンス-パークタワー東京-ザ-プリンス-パークタワー東京-港区-東京都-jp",
+      "latitude": 35.655449,
+      "longitude": 139.7470914,
+      "description": "Executive Leadership Dialogue on the Digital Economy Private | Invitation Only An exclusive closed-door discussion bringing together selected speakers and VIP guests to exchange insights on the future of the global digital economy. The session provides a private environment for executive-level conversations, strategic networking, and collaboration among government leaders, industry executives, investors, founders, and innovation leaders. Attendance Access is strictly limited to: Speakers VIP Pass Holders Invite Only Attendance is by invitation only. Seating is limited to maintain a focused and high-level executive discussion to encourage meaningful conversations and valuable networking among participants. About AWAJ Asia Web3 Alliance Japan (AWAJ) is a non-profit industry association dedicated to connecting startups, investors, corporations, and government organizations across Japan and the global innovation ecosystem. AWAJ promotes international collaboration, supports emerging technologies including AI and Web3, and creates opportunities for cross-border investment, business expansion, and ecosystem development. About TET Capital TET Capital is a venture capital and strategic investment firm focused on supporting high-growth technology companies. The firm works closely with founders, investors, and industry leaders to accelerate innovation, facilitate strategic partnerships, and help promising startups scale in global markets. Venue : Venue: WebX Area , Web3 Salon | AWAJ Room",
+      "organizers": [
+        "AWAJ TEAM",
+        "Hinza Asif",
+        "Yuhong"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/xr/c481bac2-5f4d-4fd2-b8be-c3d52f94bee0.png",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/x0/3aad1ecb-80ee-4a3c-a7d0-7729392cdcc9.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "ai",
+        "enterprise",
+        "investment",
+        "policy"
+      ],
+      "rawText": "Executive Leadership Discussion on the Digital Economy Executive Leadership Dialogue on the Digital Economy Private | Invitation Only An exclusive closed-door discussion bringing together selected speakers and VIP guests to exchange insights on the future of the global digital economy. The session provides a private environment for executive-level conversations, strategic networking, and collaboration among government leaders, industry executives, investors, founders, and innovation leaders. Attendance Access is strictly limited to: Speakers VIP Pass Holders Invite Only Attendance is by invitation only. Seating is limited to maintain a focused and high-level executive discussion to encourage meaningful conversations and valuable networking among participants. About AWAJ Asia Web3 Alliance Japan (AWAJ) is a non-profit industry association dedicated to connecting startups, investors, corporations, and government organizations across Japan and the global innovation ecosystem. AWAJ promotes international collaboration, supports emerging technologies including AI and Web3, and creates opportunities for cross-border investment, business expansion, and ecosystem development. About TET Capital TET Capital is a venture capital and strategic investment firm focused on supporting high-growth technology companies. The firm works closely with founders, investors, and industry leaders to accelerate innovation, facilitate strategic partnerships, and help promising startups scale in global markets. Venue : Venue: WebX Area , Web3 Salon | AWAJ Room AWAJ TEAM Hinza Asif Yuhong ザ・プリンス パークタワー東京 ザ・プリンス パークタワー東京, 港区, 東京都, JP イベントをさがすログインホストAWAJ TEAMHinza AsifYuhongホストに連絡イベントを報告テックWebX 2026 @Tokyo, Japanでフィーチャー中Executive Leadership Discussion on the Digital Economyホスト：AWAJ TEAM、Hinza Asif & Yuhongザ・プリンス パークタワー東京東京都港区参加登録承認が必要参加登録にはホストの承認が必要です。ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加リクエストウォレットを使って、トークンの所有権の確認が求められます。イベントについて​Executive Leadership Dialogue on the Digital Economy​Private | Invitation Only​An exclusive closed-door discussion bringing together selected speakers and VIP guests to exchange insights on the future of the global digital economy. The session provides a private environment for executive-level conversations, strategic networking, and collaboration among government leaders, industry executives, investors, founders, and innovation leaders.​Attendance​Access is strictly limited to:​Speakers​VIP Pass Holders​Invite Only​Attendance is by invitation only. Seating is limited to maintain a focused and high-level executive discussion to encourage meaningful conversations and valuable networking among participants.​​About AWAJ​Asia Web3 Alliance Japan (AWAJ) is a non-profit industry association dedicated to connecting startups, investors, corporations, and government organizations across Japan and the global innovation ecosystem. AWAJ promotes international collaboration, supports emerging technologies including AI and Web3, and creates opportunities for cross-border investment, business expansion, and ecosystem development.​About TET Capital​TET Capital is a venture capital and strategic investment firm focused on supporting high-growth technology companies. The firm works closely with founders, investors, and industry leaders to accelerate innovation, facilitate strategic partnerships, and help promising startups scale in global markets.​Venue :​Venue: WebX Area , Web3 Salon | AWAJ Room場所ザ・プリンス パークタワー東京日本、〒105-8563 東京都港区芝公園４丁目８−１ ザ・プリンス パークタワー東京Invitation Only Access is restricted to invited Speakers and VIP Pass holders.ホストAWAJ TEAMHinza AsifYuhongホストに連絡イベントを報告テックさがす料金ヘルプアプリをダウンロード",
+      "isOfficial": false
+    },
+    {
+      "id": "side-event-4f4zkaj2",
+      "title": "VC Connect @ WebX 2026 - Invite Only",
+      "url": "https://luma.com/4f4zkaj2",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-13",
+      "dayLabel": "7/13",
+      "startDateTime": "2026-07-13T06:00:00.000Z",
+      "endDateTime": "2026-07-14T08:00:00.000Z",
+      "startTime": "15:00",
+      "endTime": "17:00",
+      "startMinutes": 900,
+      "endMinutes": 1020,
+      "venueName": "ザ・プリンス パークタワー東京",
+      "address": "ザ・プリンス パークタワー東京, 港区, 東京都, JP",
+      "venueKey": "ザ-プリンス-パークタワー東京-ザ-プリンス-パークタワー東京-港区-東京都-jp",
+      "latitude": 35.655449,
+      "longitude": 139.7470914,
+      "description": "VC Connect @ WebX 2026 Web3 Salon & Asia Web3 Alliance Japan (AWAJ) 主催 日本語 VC Connectは、WebX 2026内で開催されるベンチャーキャピタルおよびスタートアップ向けのネットワーキングステージです。日本および海外のベンチャーキャピタル、エンジェル投資家、CVC（コーポレートベンチャーキャピタル）、スタートアップ創業者、アクセラレーター、エコシステムリーダーが集結します。 本プログラムでは、資金調達、ベンチャー投資、スタートアップ成長戦略、海外展開、先端技術、国際連携などをテーマに、VCパネル、投資家セッション、ネットワーキング機会を提供します。VC Connectは、起業家、投資家、企業、そしてイノベーションリーダーをつなぐ交流プラットフォームとして機能します。 VC Connectは、JETRO（日本貿易振興機構）が立ち上げたWeb3 Salonプロジェクトのもとで開催されます。Web3 Salonは、政府機関、業界団体、企業、投資家、エコシステムパートナーと連携しながら、日本のスタートアップ・イノベーションエコシステムの発展と国際協力の促進を目的として運営されています。 プログラム内容 ベンチャーキャピタル・リーダーシップパネル 投資家・起業家ディスカッション スタートアップ資金調達セッション クロスボーダー投資機会 CVC（コーポレートベンチャーキャピタル）セッション AI・Web3・Fintech・先端技術トレンド 投資家・起業家ネットワーキング 主催 Web3 Salon Asia Web3 Alliance Japan（AWAJ） 会場 WebX 2026（東京） イベントポリシー VC Connect Stageへの参加には、有効なWebX 2026チケットが必要です。 VC Connectへの登録のみでは、WebXへの入場はできません。 以下のリンクより、割引価格のWebXチケットをご購入ください。 🎟️ WebX割引チケット購入はこちら：https://webx-asia.com/ja/ticket/?promo=WebX2026_AWAJ -------------------------------- VC Connect @ WebX 2026 Powered by Web3 Salon & Asia Web3 Alliance Japan (AWAJ) English VC Connect is a dedicated venture capital and startup networking stage at WebX 2026, bringing together venture capital firms, angel investors, corporate venture capital teams, startup founders, accelerators, and ecosystem leaders from Japan and around the world. The program is designed to facilitate meaningful discussions on fundraising, venture investment, startup growth, market expansion, emerging technologies, and cross-border collaboration. Through curated VC panels, investor discussions, and networking opportunities, VC Connect serves as a bridge connecting founders, investors, corporations, and innovation leaders. VC Connect is organized under Web3 Salon, an ecosystem-building initiative launched by JETRO (Japan External Trade Organization) in collaboration with public and private sector partners. The initiative is supported by various government agencies, industry organizations, corporations, investors, and ecosystem stakeholders to strengthen Japan's startup and innovation ecosystem and promote international collaboration. Event Highlights Venture Capital Leadership Panels Investor & Founder Discussions Startup Fundraising Insights Cross-Border Investment Opportunities Corporate Venture Capital Perspectives AI, Web3, Fintech & Emerging Technology Trends Investor & Founder Networking Organized By Web3 Salon Asia Web3 Alliance Japan (AWAJ) Venue WebX 2026, Tokyo, Japan Event Policy A valid WebX 2026 ticket is required to access the VC Connect Stage. Registration for VC Connect does not include admission to WebX. Please purchase your discounted WebX ticket using the link below. 🎟️ Discounted WebX Ticket: https://webx-asia.com/ja/ticket/?promo=WebX2026_AWAJ",
+      "organizers": [
+        "AWAJ TEAM",
+        "Hinza Asif"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/58/96278ad7-d637-4cbe-a879-1adfd162ce17.png",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/wr/185ae410-d820-43e6-9cd4-00e447eee270.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "ai",
+        "regulation",
+        "enterprise",
+        "investment",
+        "policy"
+      ],
+      "rawText": "VC Connect @ WebX 2026 - Invite Only VC Connect @ WebX 2026 Web3 Salon & Asia Web3 Alliance Japan (AWAJ) 主催 日本語 VC Connectは、WebX 2026内で開催されるベンチャーキャピタルおよびスタートアップ向けのネットワーキングステージです。日本および海外のベンチャーキャピタル、エンジェル投資家、CVC（コーポレートベンチャーキャピタル）、スタートアップ創業者、アクセラレーター、エコシステムリーダーが集結します。 本プログラムでは、資金調達、ベンチャー投資、スタートアップ成長戦略、海外展開、先端技術、国際連携などをテーマに、VCパネル、投資家セッション、ネットワーキング機会を提供します。VC Connectは、起業家、投資家、企業、そしてイノベーションリーダーをつなぐ交流プラットフォームとして機能します。 VC Connectは、JETRO（日本貿易振興機構）が立ち上げたWeb3 Salonプロジェクトのもとで開催されます。Web3 Salonは、政府機関、業界団体、企業、投資家、エコシステムパートナーと連携しながら、日本のスタートアップ・イノベーションエコシステムの発展と国際協力の促進を目的として運営されています。 プログラム内容 ベンチャーキャピタル・リーダーシップパネル 投資家・起業家ディスカッション スタートアップ資金調達セッション クロスボーダー投資機会 CVC（コーポレートベンチャーキャピタル）セッション AI・Web3・Fintech・先端技術トレンド 投資家・起業家ネットワーキング 主催 Web3 Salon Asia Web3 Alliance Japan（AWAJ） 会場 WebX 2026（東京） イベントポリシー VC Connect Stageへの参加には、有効なWebX 2026チケットが必要です。 VC Connectへの登録のみでは、WebXへの入場はできません。 以下のリンクより、割引価格のWebXチケットをご購入ください。 🎟️ WebX割引チケット購入はこちら：https://webx-asia.com/ja/ticket/?promo=WebX2026_AWAJ -------------------------------- VC Connect @ WebX 2026 Powered by Web3 Salon & Asia Web3 Alliance Japan (AWAJ) English VC Connect is a dedicated venture capital and startup networking stage at WebX 2026, bringing together venture capital firms, angel investors, corporate venture capital teams, startup founders, accelerators, and ecosystem leaders from Japan and around the world. The program is designed to facilitate meaningful discussions on fundraising, venture investment, startup growth, market expansion, emerging technologies, and cross-border collaboration. Through curated VC panels, investor discussions, and networking opportunities, VC Connect serves as a bridge connecting founders, investors, corporations, and innovation leaders. VC Connect is organized under Web3 Salon, an ecosystem-building initiative launched by JETRO (Japan External Trade Organization) in collaboration with public and private sector partners. The initiative is supported by various government agencies, industry organizations, corporations, investors, and ecosystem stakeholders to strengthen Japan's startup and innovation ecosystem and promote international collaboration. Event Highlights Venture Capital Leadership Panels Investor & Founder Discussions Startup Fundraising Insights Cross-Border Investment Opportunities Corporate Venture Capital Perspectives AI, Web3, Fintech & Emerging Technology Trends Investor & Founder Networking Organized By Web3 Salon Asia Web3 Alliance Japan (AWAJ) Venue WebX 2026, Tokyo, Japan Event Policy A valid WebX 2026 ticket is required to access the VC Connect Stage. Registration for VC Connect does not include admission to WebX. Please purchase your discounted WebX ticket using the link below. 🎟️ Discounted WebX Ticket: https://webx-asia.com/ja/ticket/?promo=WebX2026_AWAJ AWAJ TEAM Hinza Asif ザ・プリンス パークタワー東京 ザ・プリンス パークタワー東京, 港区, 東京都, JP イベントをさがすログインホストAWAJ TEAMHinza Asifホストに連絡イベントを報告WebX 2026 @Tokyo, Japanでフィーチャー中VC Connect @ WebX 2026 - Invite Onlyホスト：AWAJ TEAM & Hinza Asifザ・プリンス パークタワー東京東京都港区参加登録承認が必要参加登録にはホストの承認が必要です。ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加リクエストウォレットを使って、トークンの所有権の確認が求められます。イベントについて​VC Connect @ WebX 2026​Web3 Salon & Asia Web3 Alliance Japan (AWAJ) 主催​日本語​VC Connectは、WebX 2026内で開催されるベンチャーキャピタルおよびスタートアップ向けのネットワーキングステージです。日本および海外のベンチャーキャピタル、エンジェル投資家、CVC（コーポレートベンチャーキャピタル）、スタートアップ創業者、アクセラレーター、エコシステムリーダーが集結します。​本プログラムでは、資金調達、ベンチャー投資、スタートアップ成長戦略、海外展開、先端技術、国際連携などをテーマに、VCパネル、投資家セッション、ネットワーキング機会を提供します。VC Connectは、起業家、投資家、企業、そしてイノベーションリーダーをつなぐ交流プラットフォームとして機能します。​VC Connectは、JETRO（日本貿易振興機構）が立ち上げたWeb3 Salonプロジェクトのもとで開催されます。Web3 Salonは、政府機関、業界団体、企業、投資家、エコシステムパートナーと連携しながら、日本のスタートアップ・イノベーションエコシステムの発展と国際協力の促進を目的として運営されています。​プログラム内容​ベンチャーキャピタル・リーダーシップパネル​投資家・起業家ディスカッション​スタートアップ資金調達セッション​クロスボーダー投資機会​CVC（コーポレートベンチャーキャピタル）セッション​AI・Web3・Fintech・先端技術トレンド​投資家・起業家ネットワーキング​主催​Web3 Salon​Asia Web3 Alliance Japan（AWAJ）​会場​WebX 2026（東京）​イベントポリシー​VC Connect Stageへの参加には、有効なWebX 2026チケットが必要です。​VC Connectへの登録のみでは、WebXへの入場はできません。​以下のリンクより、割引価格のWebXチケットをご購入ください。​🎟️ WebX割引チケット購入はこちら：https://webx-asia.com/ja/ticket/?promo=WebX2026_AWAJ--------------------------------VC Connect @ WebX 2026​Powered by Web3 Salon & Asia Web3 Alliance Japan (AWAJ)​English​VC Connect is a dedicated venture capital and startup networking stage at WebX 2026, bringing together venture capital firms, angel investors, corporate venture capital teams, startup founders, accelerators, and ecosystem leaders from Japan and around the world.​The program is designed to facilitate meaningful discussions on fundraising, venture investment, startup growth, market expansion, emerging technologies, and cross-border collaboration. Through curated VC panels, investor discussions, and networking opportunities, VC Connect serves as a bridge connecting founders, investors, corporations, and innovation leaders.​VC Connect is organized under Web3 Salon, an ecosystem-building initiative launched by JETRO (Japan External Trade Organization) in collaboration with public and private sector partners. The initiative is supported by various government agencies, industry organizations, corporations, investors, and ecosystem stakeholders to strengthen Japan's startup and innovation ecosystem and promote international collaboration.​Event Highlights​Venture Capital Leadership Panels​Investor & Founder Discussions​Startup Fundraising Insights​Cross-Border Investment Opportunities​Corporate Venture Capital Perspectives​AI, Web3, Fintech & Emerging Technology Trends​Investor & Founder Networking​Organized By​Web3 Salon​Asia Web3 Alliance Japan (AWAJ)​Venue​WebX 2026, Tokyo, Japan​Event Policy​A valid WebX 2026 ticket is required to access the VC Connect Stage.​Registration for VC Connect does not include admission to WebX.​Please purchase your discounted WebX ticket using the link below.​🎟️ Discounted WebX Ticket: https://webx-asia.com/ja/ticket/?promo=WebX2026_AWAJ場所ザ・プリンス パークタワー東京日本、〒105-8563 東京都港区芝公園４丁目８−１ ザ・プリンス パークタワー東京WebX ticket is required to access the VC Connect Stage. 🎟️ Purchase your discounted ticket here: https://webx-asia.com/ja/ticket/?promo=WebX2026_AW…ホストAWAJ TEAMHinza Asifホストに連絡イベントを報告さがす料金ヘルプアプリをダウンロード",
+      "isOfficial": false
+    },
+    {
+      "id": "side-event-m666yi0u",
+      "title": "Injective Ecosystem Meetup",
+      "url": "https://luma.com/m666yi0u",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-13",
+      "dayLabel": "7/13",
+      "startDateTime": "2026-07-13T08:00:00.000Z",
+      "endDateTime": "2026-07-13T11:30:00.000Z",
+      "startTime": "17:00",
+      "endTime": "20:30",
+      "startMinutes": 1020,
+      "endMinutes": 1230,
+      "venueName": "アークヒルズカフェ",
+      "address": "アークヒルズカフェ, 港区, 東京都, JP",
+      "venueKey": "アークヒルズカフェ-アークヒルズカフェ-港区-東京都-jp",
+      "latitude": 35.666236,
+      "longitude": 139.74022,
+      "description": "日本と世界をつなぐ、オンチェーンイノベーションの最前線 Injectiveと0x Consulting Groupは、WebX 2026のサイドイベントとして、国内外の金融機関、大手企業、投資家、そして世界をリードするWeb3プロジェクトが集う招待制イベント「Injective Ecosystem Meetup」を開催します。 ステーブルコイン、RWA（Real World Assets）、AI、デジタルアセットなどを中心に、オンチェーン金融は世界規模で急速な進化を続けています。一方で、その最前線のトレンドや実践事例に触れる機会は、日本国内ではまだ限られています。 本イベントでは、日本企業とグローバルWeb3エコシステムをつなぎ、世界で生まれている最先端のユースケースやビジネス機会を共有します。金融・エンターテインメント・デジタルインフラなど、さまざまな業界におけるWeb3活用の可能性について、国内外のキーパーソンとともに議論します。 また、パネルディスカッションやエコシステムショーケース、ネットワーキングを通じて、新たなパートナーシップの創出や情報交換の場を提供します。ブロックチェーン活用の可能性を探っている方、グローバル市場の最新動向に触れたい方、Web3領域で新たなつながりや事業機会を見つけたい方にとって、有意義な時間となれば幸いです。 イベント概要 日 時：2026年7月13日（月）17:00〜20:30（JST） 場 所：Ark Hills Cafe 〒106-0032 東京都港区六本木1-3-40 アクセス：WebX会場より車で10分 地下鉄南北線 六本木1丁目駅（3番出口）徒歩2分 タイムテーブル 5:00–5:30 PM | 受付・開場 5:30–6:00 PM | 開会挨拶（Injective・0x Consulting Group） 6:00–6:30 PM | パネルディスカッション 6:30–7:00 PM | グローバルWeb3最新事例・プロダクト紹介 7:00–7:15 PM | 景品抽選会 7:15–8:30 PM | お食事 & ネットワーキング 特別セッション 日本で初めて、国内を代表する企業が集い、日本市場におけるWeb3の成長をどのように実現していくかについて議論します。さらに、エコシステムパートナーによるショーケースを通じて、各社がオンチェーン金融の未来をどのように形づくっているのかをご紹介します。 パネルセッション（日本語）：大手企業とWeb3が生み出す次世代ビジネス 登壇者： Yoshiki Kawaguchi, Chief Growth Officer, 0x Consulting Group (Moderator) Yu Watanabe, Producer, Square Enix Tatsuaki Tsukuda, BD Lead, Startale Yusuke Nakamura, SMBC Nikko エコシステムショーケース Morokitch, Japan Lead, Bitget Wallet BitGo Joseph Choi, Head of Business, Arco hiro, APAC Growth Lead, Nansen … and more! 参加登録 本イベントは招待制・承認制です。 参加をご希望の方は、Lumaよりお申し込みください。 定員に達し次第、受付を締め切らせていただく場合がございます。 皆さまのご参加を心よりお待ちしております。 イベントの最新情報は、Injective Japan公式Telegramでご確認いただけます👉 https://t.me/InjectiveJPN Injectiveについて Injectiveは、次世代のWeb3金融アプリケーションの構築に最適化された、高速かつ相互運用性に優れたレイヤー1ブロックチェーンです。 開発者向けに強力なプラグアンドプレイ型モジュールを提供し、優れたdAppsの構築を可能にします。 InjectiveはBinanceによってインキュベートされ、Jump Crypto、Pantera Capital、Mark Cubanなど著名な投資家から支援を受けています。 https://injective.com/ https://x.com/injective 0x Consulting Groupについて 0x Consulting Group（0xC）は、Web3ビジネス開発を包括的に支援するコンサルティングファームです。 国内外のプロジェクトに対し、FT/NFT事業設計、トークン発行・上場支援、トークノミクス設計、マーケティング、コミュニティ運営など、幅広いサービスを提供しています。 https://zero-x.com/ https://x.com/0xC_Web3 Connecting Japan with Global Onchain Innovation Join Injective and 0x Consulting Group for an exclusive WebX side event bringing together leaders from financial institutions, major enterprises, investors, and top Web3 projects from Japan and around the world. As digital assets and onchain finance rapidly evolve through stablecoins, tokenized real-world assets (RWA), AI, and new forms of digital ownership, many of the most transformative trends are emerging beyond Japan. This meetup is designed to bridge that gap by connecting Japanese industry leaders with global Web3 innovation. Through high-level discussions, ecosystem showcases, and curated networking, participants will gain access to cutting-edge trends, real-world use cases, and new opportunities at the intersection of finance, entertainment, and digital infrastructure. Whether you're exploring blockchain applications, seeking strategic partnerships, or looking to stay ahead of global trends, this event offers a unique opportunity to connect with the builders and institutions shaping the next generation of digital business. Event Details Date: July 13, 2026 (Monday) Time: 5 PM - 8:30 PM JST Location: Ark Hills Cafe (1 Chome-3-40 Roppongi, Minato City, Tokyo 106-0032, Japan) Schedule 5:00–5:30 PM | Welcome & Registration 5:30–6:00 PM | Opening Remarks by Injective and 0x Consulting Group 6:00–6:30 PM | Panel Discussion 6:30–7:00 PM | Institutions Showcase 7:00–7:15 PM | Lucky Draw! 7:15–8:30 PM | Food, Drinks & Networking Special Speaker Session For the first time in Japan, we’re bringing together leading Japanese enterprises in an exclusive session to share insights on driving Web3 growth in the region. Plus, enjoy an ecosystem showcase featuring ecosystem partners, and how they're shaping the future of onchain finance together. Panel Session (Japanese): Bridging Traditional Giants with Onchain Innovation Panelists: Yoshiki Kawaguchi, Chief Growth Officer, 0x Consulting Group (Moderator) Yu Watanabe, Producer, Square Enix Tatsuaki Tsukuda, BD Lead, Startale Yusuke Nakamura, SMBC Nikko Ecosystem Showcase Morokitch, Japan Lead, Bitget Wallet BitGo Joseph Choi, Head of Business, Arco hiro, APAC Growth Lead, Nansen … and more! Registration RSVP now to secure your spot. Looking forward to seeing you there! Join our TG group for the latest update 👉 https://t.me/InjectiveJPN About Injective Injective is a lightning fast interoperable layer one blockchain optimized for building premier Web3 finance applications. Injective provides developers with powerful plug-and-play modules for creating unmatched dApps. Injective is incubated by Binance and is backed by prominent investors such as Jump Crypto, Pantera and Mark Cuban. https://injective.com/ https://x.com/injective About 0x Consulting Group 0x Consulting Group (0xC) is a consulting firm that provides comprehensive support for Web3 business development. They offer a wide range of services to both domestic and international projects, including FT/NFT business design, token issuance and listing support, tokenomics, marketing, and community management. https://zero-x.com/ https://x.com/0xC_Web3",
+      "organizers": [
+        "Injective Foundation",
+        "0x Consulting Group"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/02/2772dfbb-0af9-4f0e-a407-5e5425288aef.png",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/9a/7136a1f2-f0b8-4f69-9671-c7efa114fbf4.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": true,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "stablecoin",
+        "rwa",
+        "ai",
+        "defi",
+        "security",
+        "enterprise",
+        "payments",
+        "infrastructure",
+        "investment"
+      ],
+      "rawText": "Injective Ecosystem Meetup 日本と世界をつなぐ、オンチェーンイノベーションの最前線 Injectiveと0x Consulting Groupは、WebX 2026のサイドイベントとして、国内外の金融機関、大手企業、投資家、そして世界をリードするWeb3プロジェクトが集う招待制イベント「Injective Ecosystem Meetup」を開催します。 ステーブルコイン、RWA（Real World Assets）、AI、デジタルアセットなどを中心に、オンチェーン金融は世界規模で急速な進化を続けています。一方で、その最前線のトレンドや実践事例に触れる機会は、日本国内ではまだ限られています。 本イベントでは、日本企業とグローバルWeb3エコシステムをつなぎ、世界で生まれている最先端のユースケースやビジネス機会を共有します。金融・エンターテインメント・デジタルインフラなど、さまざまな業界におけるWeb3活用の可能性について、国内外のキーパーソンとともに議論します。 また、パネルディスカッションやエコシステムショーケース、ネットワーキングを通じて、新たなパートナーシップの創出や情報交換の場を提供します。ブロックチェーン活用の可能性を探っている方、グローバル市場の最新動向に触れたい方、Web3領域で新たなつながりや事業機会を見つけたい方にとって、有意義な時間となれば幸いです。 イベント概要 日 時：2026年7月13日（月）17:00〜20:30（JST） 場 所：Ark Hills Cafe 〒106-0032 東京都港区六本木1-3-40 アクセス：WebX会場より車で10分 地下鉄南北線 六本木1丁目駅（3番出口）徒歩2分 タイムテーブル 5:00–5:30 PM | 受付・開場 5:30–6:00 PM | 開会挨拶（Injective・0x Consulting Group） 6:00–6:30 PM | パネルディスカッション 6:30–7:00 PM | グローバルWeb3最新事例・プロダクト紹介 7:00–7:15 PM | 景品抽選会 7:15–8:30 PM | お食事 & ネットワーキング 特別セッション 日本で初めて、国内を代表する企業が集い、日本市場におけるWeb3の成長をどのように実現していくかについて議論します。さらに、エコシステムパートナーによるショーケースを通じて、各社がオンチェーン金融の未来をどのように形づくっているのかをご紹介します。 パネルセッション（日本語）：大手企業とWeb3が生み出す次世代ビジネス 登壇者： Yoshiki Kawaguchi, Chief Growth Officer, 0x Consulting Group (Moderator) Yu Watanabe, Producer, Square Enix Tatsuaki Tsukuda, BD Lead, Startale Yusuke Nakamura, SMBC Nikko エコシステムショーケース Morokitch, Japan Lead, Bitget Wallet BitGo Joseph Choi, Head of Business, Arco hiro, APAC Growth Lead, Nansen … and more! 参加登録 本イベントは招待制・承認制です。 参加をご希望の方は、Lumaよりお申し込みください。 定員に達し次第、受付を締め切らせていただく場合がございます。 皆さまのご参加を心よりお待ちしております。 イベントの最新情報は、Injective Japan公式Telegramでご確認いただけます👉 https://t.me/InjectiveJPN Injectiveについて Injectiveは、次世代のWeb3金融アプリケーションの構築に最適化された、高速かつ相互運用性に優れたレイヤー1ブロックチェーンです。 開発者向けに強力なプラグアンドプレイ型モジュールを提供し、優れたdAppsの構築を可能にします。 InjectiveはBinanceによってインキュベートされ、Jump Crypto、Pantera Capital、Mark Cubanなど著名な投資家から支援を受けています。 https://injective.com/ https://x.com/injective 0x Consulting Groupについて 0x Consulting Group（0xC）は、Web3ビジネス開発を包括的に支援するコンサルティングファームです。 国内外のプロジェクトに対し、FT/NFT事業設計、トークン発行・上場支援、トークノミクス設計、マーケティング、コミュニティ運営など、幅広いサービスを提供しています。 https://zero-x.com/ https://x.com/0xC_Web3 Connecting Japan with Global Onchain Innovation Join Injective and 0x Consulting Group for an exclusive WebX side event bringing together leaders from financial institutions, major enterprises, investors, and top Web3 projects from Japan and around the world. As digital assets and onchain finance rapidly evolve through stablecoins, tokenized real-world assets (RWA), AI, and new forms of digital ownership, many of the most transformative trends are emerging beyond Japan. This meetup is designed to bridge that gap by connecting Japanese industry leaders with global Web3 innovation. Through high-level discussions, ecosystem showcases, and curated networking, participants will gain access to cutting-edge trends, real-world use cases, and new opportunities at the intersection of finance, entertainment, and digital infrastructure. Whether you're exploring blockchain applications, seeking strategic partnerships, or looking to stay ahead of global trends, this event offers a unique opportunity to connect with the builders and institutions shaping the next generation of digital business. Event Details Date: July 13, 2026 (Monday) Time: 5 PM - 8:30 PM JST Location: Ark Hills Cafe (1 Chome-3-40 Roppongi, Minato City, Tokyo 106-0032, Japan) Schedule 5:00–5:30 PM | Welcome & Registration 5:30–6:00 PM | Opening Remarks by Injective and 0x Consulting Group 6:00–6:30 PM | Panel Discussion 6:30–7:00 PM | Institutions Showcase 7:00–7:15 PM | Lucky Draw! 7:15–8:30 PM | Food, Drinks & Networking Special Speaker Session For the first time in Japan, we’re bringing together leading Japanese enterprises in an exclusive session to share insights on driving Web3 growth in the region. Plus, enjoy an ecosystem showcase featuring ecosystem partners, and how they're shaping the future of onchain finance together. Panel Session (Japanese): Bridging Traditional Giants with Onchain Innovation Panelists: Yoshiki Kawaguchi, Chief Growth Officer, 0x Consulting Group (Moderator) Yu Watanabe, Producer, Square Enix Tatsuaki Tsukuda, BD Lead, Startale Yusuke Nakamura, SMBC Nikko Ecosystem Showcase Morokitch, Japan Lead, Bitget Wallet BitGo Joseph Choi, Head of Business, Arco hiro, APAC Growth Lead, Nansen … and more! Registration RSVP now to secure your spot. Looking forward to seeing you there! Join our TG group for the latest update 👉 https://t.me/InjectiveJPN About Injective Injective is a lightning fast interoperable layer one blockchain optimized for building premier Web3 finance applications. Injective provides developers with powerful plug-and-play modules for creating unmatched dApps. Injective is incubated by Binance and is backed by prominent investors such as Jump Crypto, Pantera and Mark Cuban. https://injective.com/ https://x.com/injective About 0x Consulting Group 0x Consulting Group (0xC) is a consulting firm that provides comprehensive support for Web3 business development. They offer a wide range of services to both domestic and international projects, including FT/NFT business design, token issuance and listing support, tokenomics, marketing, and community management. https://zero-x.com/ https://x.com/0xC_Web3 Injective Foundation 0x Consulting Group アークヒルズカフェ アークヒルズカフェ, 港区, 東京都, JP イベントをさがすログイン主催Injective FoundationフォローThe future of finance starts here. Unlock limitless on-chain real world assets, markets & freedom on the only chain built for finance. Powered by $INJホストInjective Foundation0x Consulting Groupホストに連絡イベントを報告クリプトWebX 2026 @Tokyo, Japanでフィーチャー中Injective Ecosystem MeetupInjective Foundationアークヒルズカフェ東京都港区参加登録承認が必要参加登録にはホストの承認が必要です。ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加リクエストウォレットを使って、トークンの所有権の確認が求められます。イベントについて​日本と世界をつなぐ、オンチェーンイノベーションの最前線​Injectiveと0x Consulting Groupは、WebX 2026のサイドイベントとして、国内外の金融機関、大手企業、投資家、そして世界をリードするWeb3プロジェクトが集う招待制イベント「Injective Ecosystem Meetup」を開催します。​ステーブルコイン、RWA（Real World Assets）、AI、デジタルアセットなどを中心に、オンチェーン金融は世界規模で急速な進化を続けています。一方で、その最前線のトレンドや実践事例に触れる機会は、日本国内ではまだ限られています。​本イベントでは、日本企業とグローバルWeb3エコシステムをつなぎ、世界で生まれている最先端のユースケースやビジネス機会を共有します。金融・エンターテインメント・デジタルインフラなど、さまざまな業界におけるWeb3活用の可能性について、国内外のキーパーソンとともに議論します。​また、パネルディスカッションやエコシステムショーケース、ネットワーキングを通じて、新たなパートナーシップの創出や情報交換の場を提供します。ブロックチェーン活用の可能性を探っている方、グローバル市場の最新動向に触れたい方、Web3領域で新たなつながりや事業機会を見つけたい方にとって、有意義な時間となれば幸いです。​イベント概要 ​日 時：2026年7月13日（月）17:00〜20:30（JST）​場 所：Ark Hills Cafe 〒106-0032 東京都港区六本木1-3-40​アクセス：WebX会場より車で10分 地下鉄南北線 六本木1丁目駅（3番出口）徒歩2分​​タイムテーブル ​5:00–5:30 PM | 受付・開場​5:30–6:00 PM | 開会挨拶（Injective・0x Consulting Group）​6:00–6:30 PM | パネルディスカッション​6:30–7:00 PM | グローバルWeb3最新事例・プロダクト紹介​7:00–7:15 PM | 景品抽選会​7:15–8:30 PM | お食事 & ネットワーキング​特別セッション​日本で初めて、国内を代表する企業が集い、日本市場におけるWeb3の成長をどのように実現していくかについて議論します。さらに、エコシステムパートナーによるショーケースを通じて、各社がオンチェーン金融の未来をどのように形づくっているのかをご紹介します。​パネルセッション（日本語）：大手企業とWeb3が生み出す次世代ビジネス​登壇者：​Yoshiki Kawaguchi, Chief Growth Officer, 0x Consulting Group (Moderator)​Yu Watanabe, Producer, Square Enix​Tatsuaki Tsukuda, BD Lead, Startale​Yusuke Nakamura, SMBC Nikko​エコシステムショーケース​Morokitch, Japan Lead, Bitget Wallet​BitGo​Joseph Choi, Head of Business, Arco​hiro, APAC Growth Lead, Nansen​… and more!​参加登録​本イベントは招待制・承認制です。 参加をご希望の方は、Lumaよりお申し込みください。​定員に達し次第、受付を締め切らせていただく場合がございます。 皆さまのご参加を心よりお待ちしております。​イベントの最新情報は、Injective Japan公式Telegramでご確認いただけます👉​https://t.me/InjectiveJPN​Injectiveについて​Injectiveは、次世代のWeb3金融アプリケーションの構築に最適化された、高速かつ相互運用性に優れたレイヤー1ブロックチェーンです。​開発者向けに強力なプラグアンドプレイ型モジュールを提供し、優れたdAppsの構築を可能にします。​InjectiveはBinanceによってインキュベートされ、Jump Crypto、Pantera Capital、Mark Cubanなど著名な投資家から支援を受けています。​https://injective.com/​https://x.com/injective​0x Consulting Groupについて​0x Consulting Group（0xC）は、Web3ビジネス開発を包括的に支援するコンサルティングファームです。​国内外のプロジェクトに対し、FT/NFT事業設計、トークン発行・上場支援、トークノミクス設計、マーケティング、コミュニティ運営など、幅広いサービスを提供しています。​https://zero-x.com/​https://x.com/0xC_Web3​​​Connecting Japan with Global Onchain Innovation​Join Injective and 0x Consulting Group for an exclusive WebX side event bringing together leaders from financial institutions, major enterprises, investors, and top Web",
+      "isOfficial": false
+    },
+    {
+      "id": "side-event-cl5o486k",
+      "title": "On-Chain Finance Forum Tokyo 2026",
+      "url": "https://luma.com/cl5o486k",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-13",
+      "dayLabel": "7/13",
+      "startDateTime": "2026-07-13T08:00:00.000Z",
+      "endDateTime": "2026-07-13T12:00:00.000Z",
+      "startTime": "17:00",
+      "endTime": "21:00",
+      "startMinutes": 1020,
+      "endMinutes": 1260,
+      "venueName": "東京都",
+      "address": "東京都, 東京都, JP",
+      "venueKey": "東京都-東京都-東京都-jp",
+      "latitude": 35.6764225,
+      "longitude": 139.650027,
+      "description": "On-Chain Finance Forum Tokyo - WebX 2026 Side Event Join us for an exclusive Invite-Only evening dedicated to the future of on-chain finance in Japan and Asia. 📅Date: Monday, July 13, 2026 ⏰Time: 5:00 PM – 9:00 PM JST 📍Venue: Tokyo, Japan HashKey On-Chain proudly presents the On-Chain Finance Forum Tokyo 2026 as WebX Side Event, which would brings together leading institutions, industry pioneers, and innovators to explore the next generation of on-chain financial infrastructure. Highlights Include: HSK 2.0 Whitepaper: Strategy and Ecosystem Vision Opportunities and Regulatory Trends in Japan's Web3 Market Building On-Chain Financial Infrastructure and Ecosystem Collaboration Beyond RWA: Connecting Traditional Finance and Web3 Through New Value Networks Institutional Staking and Yield Solutions HashKey's Japan Strategy and Ecosystem Partnerships The event will be conducted in Japanese and English with real-time subtitles. This forum is designed to foster meaningful connections and drive real business collaboration in Japan’s growing on-chain finance ecosystem. We look forward to welcoming you for an insightful and productive evening.",
+      "organizers": [
+        "HashKey Chain"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/m6/6c6fcaff-0115-43c5-8c91-046cbe644400.jpg",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/gx/d5b4bdec-4fcf-4a72-a720-085d3bd27293.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "rwa",
+        "ai",
+        "regulation",
+        "defi",
+        "enterprise",
+        "infrastructure",
+        "policy"
+      ],
+      "rawText": "On-Chain Finance Forum Tokyo 2026 On-Chain Finance Forum Tokyo - WebX 2026 Side Event Join us for an exclusive Invite-Only evening dedicated to the future of on-chain finance in Japan and Asia. 📅Date: Monday, July 13, 2026 ⏰Time: 5:00 PM – 9:00 PM JST 📍Venue: Tokyo, Japan HashKey On-Chain proudly presents the On-Chain Finance Forum Tokyo 2026 as WebX Side Event, which would brings together leading institutions, industry pioneers, and innovators to explore the next generation of on-chain financial infrastructure. Highlights Include: HSK 2.0 Whitepaper: Strategy and Ecosystem Vision Opportunities and Regulatory Trends in Japan's Web3 Market Building On-Chain Financial Infrastructure and Ecosystem Collaboration Beyond RWA: Connecting Traditional Finance and Web3 Through New Value Networks Institutional Staking and Yield Solutions HashKey's Japan Strategy and Ecosystem Partnerships The event will be conducted in Japanese and English with real-time subtitles. This forum is designed to foster meaningful connections and drive real business collaboration in Japan’s growing on-chain finance ecosystem. We look forward to welcoming you for an insightful and productive evening. HashKey Chain 東京都 東京都, 東京都, JP イベントをさがすログイン♥★♪♥★♪♥★ホストHashKey Chain52人が参加予定moto、Jock Haslam、他50人ホストに連絡イベントを報告クリプトWebX 2026 @Tokyo, Japanでフィーチャー中On-Chain Finance Forum Tokyo 2026HashKey Chainがホスト東京都参加登録ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加登録ウォレットを使って、トークンの所有権の確認が求められます。イベントについて​On-Chain Finance Forum Tokyo - WebX 2026 Side Event​Join us for an exclusive Invite-Only evening dedicated to the future of on-chain finance in Japan and Asia.​📅Date: Monday, July 13, 2026 ⏰Time: 5:00 PM – 9:00 PM JST 📍Venue: Tokyo, Japan​HashKey On-Chain proudly presents the On-Chain Finance Forum Tokyo 2026 as WebX Side Event, which would brings together leading institutions, industry pioneers, and innovators to explore the next generation of on-chain financial infrastructure.​Highlights Include:​HSK 2.0 Whitepaper: Strategy and Ecosystem Vision​Opportunities and Regulatory Trends in Japan's Web3 Market​Building On-Chain Financial Infrastructure and Ecosystem Collaboration​Beyond RWA: Connecting Traditional Finance and Web3 Through New Value Networks​Institutional Staking and Yield Solutions​HashKey's Japan Strategy and Ecosystem Partnerships​The event will be conducted in Japanese and English with real-time subtitles.​This forum is designed to foster meaningful connections and drive real business collaboration in Japan’s growing on-chain finance ecosystem.​We look forward to welcoming you for an insightful and productive evening.場所東京都日本、東京都ホストHashKey Chain52人が参加予定moto、Jock Haslam、他50人ホストに連絡イベントを報告クリプトさがす料金ヘルプアプリをダウンロード",
+      "isOfficial": false
+    },
+    {
+      "id": "side-event-gaoytadc",
+      "title": "VIP Networking Night",
+      "url": "https://luma.com/gaoytadc",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-13",
+      "dayLabel": "7/13",
+      "startDateTime": "2026-07-13T08:30:00.000Z",
+      "endDateTime": "2026-07-13T11:00:00.000Z",
+      "startTime": "17:30",
+      "endTime": "20:00",
+      "startMinutes": 1050,
+      "endMinutes": 1200,
+      "venueName": "日本港区",
+      "address": "港区, 東京都, JP",
+      "venueKey": "日本港区-港区-東京都-jp",
+      "latitude": 35.66070983264848,
+      "longitude": 139.7364646655492,
+      "description": "VIP Networking Night Hosted by SBI VC Trade × B2C2 An invitation-only evening where global liquidity meets Japan's crypto market. VIP Networking Night is an official side event of WebX 2026, co-hosted by SBI VC Trade — a fully licensed Japanese crypto exchange backed by the SBI Group — and B2C2, one of the world's leading institutional digital-asset liquidity providers. High above the city on a Roppongi rooftop, this is a closed, business-first gathering for a curated circle of leaders building the next phase of the digital-asset industry. Over an evening of considered conversation, fine food, and premium drinks, you'll connect with Web3 operators, institutional players, and the companies bringing digital assets onto their balance sheets (Digital Asset Treasury companies). We look forward to welcoming you. EVENT DETAILS Date — Monday, 13 July 2026 Time — 17:30–20:00 Venue — Shared upon approval Admission — By invitation only For — Web3 business leaders, institutional players, and DAT companies Capacity — Up to 200 guests PROGRAMME 17:30–18:00 — Reception 18:00–18:30 — Host & sponsor introductions 18:30–19:00 — Panel discussion 19:00–20:00 — Networking ABOUT THE HOSTS SBI VC Trade — Japanese Crypto Exchange Operating under the slogan \"Crypto, also by SBI,\" SBI VC Trade provides crypto trading, asset-management, and corporate services. Backed by the combined strength of the SBI Group, it delivers customer-first services built on institutional-grade security. sbivc.co.jp · X: @sbivc_official B2C2 — Global Liquidity Provider Founded in 2015, B2C2 is an institutional digital-asset liquidity provider operating within the SBI Group. Headquartered in the UK with offices across the US, Japan, and Singapore, B2C2 delivers deep, reliable liquidity and pricing 24/7/365 to hedge funds, asset managers, brokers, and crypto exchanges worldwide. b2c2.com · X: @B2C2Group SPONSORS & SPEAKERS Participating sponsors and panel speakers will be announced in the run-up to the event. Stay tuned. ============================================ VIP Networking Night Hosted by SBI VC Trade × B2C2 グローバルの流動性と、日本のクリプト市場が出会う、招待制の一夜。 VIP Networking Night は、WebX 2026 の公式サイドイベントとして、SBIグループが運営する暗号資産交換業者 SBI VCトレード と、世界有数の機関投資家向けデジタルアセット流動性プロバイダー B2C2 の共催で開催されます。 東京を一望する六本木のルーフトップを舞台に、デジタルアセット業界の次のフェーズを担うリーダーたちが集う、完全招待制・ToB向けのクローズドな一夜。上質な料理とドリンクとともに、暗号資産事業関係者や機関投資家、DAT企業（Digital Asset Treasury企業）などと、深いつながりを育む場をご用意します。 皆さまのご参加を心よりお待ちしております。 開催概要 日時 ―― 2026年7月13日（月）17:30–20:00 会場 ―― 承認後に確認可能 参加 ―― 完全招待制 対象 ―― 暗号資産事業関係者、機関投資家、DAT企業 など 定員 ―― 最大200名 プログラム 17:30–18:00 受付 18:00–18:30 ホスト・協賛企業紹介 18:30–19:00 パネルディスカッション 19:00–20:00 ネットワーキング 詳細なタイムテーブルは追ってご案内いたします。 主催者紹介 SBI VCトレード ―― 国内暗号資産交換業者 SBI VCトレードは、「暗号資産も SBI」のスローガンのもと、暗号資産の売買や運用サービス、法人向けサービス等を提供しております。SBIグループの総合力を生かし、高いセキュリティ体制のもと、顧客中心主義に基づいたサービスの提供に取り組んでおります。 sbivc.co.jp ／ X: @sbivc_official B2C2 ―― グローバル・リクイディティ・プロバイダー B2C2は、2015年設立の機関投資家向けデジタルアセット流動性プロバイダー。SBIグループの傘下で、英国を本拠に米国・日本・シンガポールなど各地に拠点を展開し、ヘッジファンドや資産運用会社、ブローカー、暗号資産取引所などに対して24時間365日、深く信頼性の高い流動性と価格提示を提供しています。 b2c2.com ／ X: @B2C2Group スポンサー・登壇者 参加スポンサーおよびパネル登壇者は、開催に向けて順次公開いたします。",
+      "organizers": [
+        "Hyu",
+        "井本 卓男",
+        "AMEYUMI",
+        "Eri",
+        "Joerg Schmidt",
+        "Takuro",
+        "Nozomi Tada"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/7m/ce732db5-3d47-4e10-b7f3-cdde50256f31.png",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/vn/0b5774fe-1774-4bf1-9cc8-3ef9363f5906.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "rwa",
+        "ai",
+        "defi",
+        "security",
+        "enterprise",
+        "infrastructure",
+        "investment"
+      ],
+      "rawText": "VIP Networking Night VIP Networking Night Hosted by SBI VC Trade × B2C2 An invitation-only evening where global liquidity meets Japan's crypto market. VIP Networking Night is an official side event of WebX 2026, co-hosted by SBI VC Trade — a fully licensed Japanese crypto exchange backed by the SBI Group — and B2C2, one of the world's leading institutional digital-asset liquidity providers. High above the city on a Roppongi rooftop, this is a closed, business-first gathering for a curated circle of leaders building the next phase of the digital-asset industry. Over an evening of considered conversation, fine food, and premium drinks, you'll connect with Web3 operators, institutional players, and the companies bringing digital assets onto their balance sheets (Digital Asset Treasury companies). We look forward to welcoming you. EVENT DETAILS Date — Monday, 13 July 2026 Time — 17:30–20:00 Venue — Shared upon approval Admission — By invitation only For — Web3 business leaders, institutional players, and DAT companies Capacity — Up to 200 guests PROGRAMME 17:30–18:00 — Reception 18:00–18:30 — Host & sponsor introductions 18:30–19:00 — Panel discussion 19:00–20:00 — Networking ABOUT THE HOSTS SBI VC Trade — Japanese Crypto Exchange Operating under the slogan \"Crypto, also by SBI,\" SBI VC Trade provides crypto trading, asset-management, and corporate services. Backed by the combined strength of the SBI Group, it delivers customer-first services built on institutional-grade security. sbivc.co.jp · X: @sbivc_official B2C2 — Global Liquidity Provider Founded in 2015, B2C2 is an institutional digital-asset liquidity provider operating within the SBI Group. Headquartered in the UK with offices across the US, Japan, and Singapore, B2C2 delivers deep, reliable liquidity and pricing 24/7/365 to hedge funds, asset managers, brokers, and crypto exchanges worldwide. b2c2.com · X: @B2C2Group SPONSORS & SPEAKERS Participating sponsors and panel speakers will be announced in the run-up to the event. Stay tuned. ============================================ VIP Networking Night Hosted by SBI VC Trade × B2C2 グローバルの流動性と、日本のクリプト市場が出会う、招待制の一夜。 VIP Networking Night は、WebX 2026 の公式サイドイベントとして、SBIグループが運営する暗号資産交換業者 SBI VCトレード と、世界有数の機関投資家向けデジタルアセット流動性プロバイダー B2C2 の共催で開催されます。 東京を一望する六本木のルーフトップを舞台に、デジタルアセット業界の次のフェーズを担うリーダーたちが集う、完全招待制・ToB向けのクローズドな一夜。上質な料理とドリンクとともに、暗号資産事業関係者や機関投資家、DAT企業（Digital Asset Treasury企業）などと、深いつながりを育む場をご用意します。 皆さまのご参加を心よりお待ちしております。 開催概要 日時 ―― 2026年7月13日（月）17:30–20:00 会場 ―― 承認後に確認可能 参加 ―― 完全招待制 対象 ―― 暗号資産事業関係者、機関投資家、DAT企業 など 定員 ―― 最大200名 プログラム 17:30–18:00 受付 18:00–18:30 ホスト・協賛企業紹介 18:30–19:00 パネルディスカッション 19:00–20:00 ネットワーキング 詳細なタイムテーブルは追ってご案内いたします。 主催者紹介 SBI VCトレード ―― 国内暗号資産交換業者 SBI VCトレードは、「暗号資産も SBI」のスローガンのもと、暗号資産の売買や運用サービス、法人向けサービス等を提供しております。SBIグループの総合力を生かし、高いセキュリティ体制のもと、顧客中心主義に基づいたサービスの提供に取り組んでおります。 sbivc.co.jp ／ X: @sbivc_official B2C2 ―― グローバル・リクイディティ・プロバイダー B2C2は、2015年設立の機関投資家向けデジタルアセット流動性プロバイダー。SBIグループの傘下で、英国を本拠に米国・日本・シンガポールなど各地に拠点を展開し、ヘッジファンドや資産運用会社、ブローカー、暗号資産取引所などに対して24時間365日、深く信頼性の高い流動性と価格提示を提供しています。 b2c2.com ／ X: @B2C2Group スポンサー・登壇者 参加スポンサーおよびパネル登壇者は、開催に向けて順次公開いたします。 Hyu 井本 卓男 AMEYUMI Eri Joerg Schmidt Takuro Nozomi Tada 日本港区 港区, 東京都, JP イベントをさがすログインホストHyu井本 卓男AMEYUMIEriJoerg SchmidtTakuroNozomi Tadaホストに連絡イベントを報告クリプトWebX 2026 @Tokyo, Japanでフィーチャー中VIP Networking Nightホスト: Hyu、ほか6名参加登録して住所を確認東京都港区参加登録承認が必要参加登録にはホストの承認が必要です。ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加リクエストウォレットを使って、トークンの所有権の確認が求められます。イベントについて​VIP Networking Night Hosted by SBI VC Trade × B2C2​An invitation-only evening where global liquidity meets Japan's crypto market.​VIP Networking Night is an official side event of WebX 2026, co-hosted by SBI VC Trade — a fully licensed Japanese crypto exchange backed by the SBI Group — and B2C2, one of the world's leading institutional digital-asset liquidity providers.​High above the city on a Roppongi rooftop, this is a closed, business-first gathering for a curated circle of leaders building the next phase of the digital-asset industry. Over an evening of considered conversation, fine food, and premium drinks, you'll connect with Web3 operators, institutional players, and the companies bringing digital assets onto their balance sheets (Digital Asset Treasury companies).​We look forward to welcoming you.​EVENT DETAILS​Date — Monday, 13 July 2026​Time — 17:30–20:00​Venue — Shared upon approval​Admission — By invitation only​For — Web3 business leaders, institutional players, and DAT companies​Capacity — Up to 200 guests​PROGRAMME​17:30–18:00 — Reception​18:00–18:30 — Host & sponsor introductions​18:30–19:00 — Panel discussion​19:00–20:00 — Networking​ABOUT THE HOSTS​SBI VC Trade — Japanese Crypto Exchange Operating under the slogan \"Crypto, also by SBI,\" SBI VC Trade provides crypto trading, asset-management, and corporate services. Backed by the combined strength of the SBI Group, it delivers customer-first services built on institutional-grade security. sbivc.co.jp · X: @sbivc_official​​B2C2 — Global Liquidity Provider Founded in 2015, B2C2 is an institutional digital-asset liquidity provider operating within the SBI Group. Headquartered in the UK with offices across the US, Japan, and Singapore, B2C2 delivers deep, reliable liquidity and pricing 24/7/365 to hedge funds, asset managers, brokers, and crypto exchanges worldwide. b2c2.com · X: @B2C2Group​SPONSORS & SPEAKERS Participating sponsors and panel speakers will be announced in the run-up to the event. Stay tuned.​============================================​VIP Networking Night Hosted by SBI VC Trade × B2C2​グローバルの流動性と、日本のクリプト市場が出会う、招待制の一夜。​VIP Networking Night は、WebX 2026 の公式サイドイベントとして、SBIグループが運営する暗号資産交換業者 SBI VCトレード と、世界有数の機関投資家向けデジタルアセット流動性プロバイダー B2C2 の共催で開催されます。​東京を一望する六本木のルーフトップを舞台に、デジタルアセット業界の次のフェーズを担うリーダーたちが集う、完全招待制・ToB向けのクローズドな一夜。上質な料理とドリンクとともに、暗号資産事業関係者や機関投資家、DAT企業（Digital Asset Treasury企業）などと、深いつながりを育む場をご用意します。​皆さまのご参加を心よりお待ちしております。​開催概要​日時 ―― 2026年7月13日（月）17:30–20:00​会場 ―― 承認後に確認可能​参加 ―― 完全招待制​対象 ―― 暗号資産事業関係者、機関投資家、DAT企業 など​定員 ―― 最大200名​プログラム​17:30–18:00 受付​18:00–18:30 ホスト・協賛企業紹介​18:30–19:00 パネルディスカッション​19:00–20:00 ネットワーキング​詳細なタイムテーブルは追ってご案内いたします。​主催者紹介​​SBI VCトレード ―― 国内暗号資産交換業者 SBI VCトレードは、「暗号資産も SBI」のスローガンのもと、暗号資産の売買や運用サービス、法人向けサービス等を提供しております。SBIグループの総合力を生かし、高いセキュリティ体制のもと、顧客中心主義に基づいたサービスの提供に取り組んでおります。 sbivc.co.jp ／ X: @sbivc_official​​B2C2 ―― グローバル・リクイディティ・プロバイダー B2C2は、2015年設立の機関投資家向けデジタルアセット流動性プロバイダー。SBIグループの傘下で、英国を本拠に米国・日本・シンガポールなど各地に拠点を展開し、ヘッジファンドや資産運用会社、ブローカー、暗号資産取引所などに対して24時間365日、深く信頼性の高い流動性と価格提示を提供しています。 b2c2.com ／ X: @B2C2Group​スポンサー・登壇者 参加スポンサーおよびパネル登壇者は、開催に向けて順次公開いたします。場所正確な開催場所を確認するには、参加登録してください。東京都港区ホストHyu井本 卓男AMEYUMIEriJoerg SchmidtTakuroNozomi Tadaホストに連絡イベントを報告クリプトさがす料金ヘルプアプリをダウンロード",
+      "isOfficial": true
+    },
+    {
+      "id": "side-event-4c5i0qcy",
+      "title": "Blockchain NEXUS#2 by NTT DOCOMO GLOBAL",
+      "url": "https://luma.com/4c5i0qcy",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-13",
+      "dayLabel": "7/13",
+      "startDateTime": "2026-07-13T09:00:00.000Z",
+      "endDateTime": "2026-07-13T12:00:00.000Z",
+      "startTime": "18:00",
+      "endTime": "21:00",
+      "startMinutes": 1080,
+      "endMinutes": 1260,
+      "venueName": "LAUREL TOKYO",
+      "address": "LAUREL TOKYO, 渋谷区, 東京都, JP",
+      "venueKey": "laurel-tokyo-laurel-tokyo-渋谷区-東京都-jp",
+      "latitude": 35.6569107,
+      "longitude": 139.696871,
+      "description": "Blockchain NEXUS #2 Official WebX 2026 Side Event Hosted by NTT DOCOMO GLOBAL 📅 July 13, 2026 (Mon) 🕕 6:00 PM – 9:00 PM 📍 LAUREL TOKYO, Shibuya About Blockchain NEXUS #2 is a networking-focused side event during WebX week, bringing together Japanese enterprises, blockchain foundations, validators, developers, infrastructure providers, ecosystem leaders, and members of the broader Web3 community. Hosted by NTT DOCOMO GLOBAL, Blockchain NEXUS is designed to create meaningful connections between Japan's enterprise sector and leading global blockchain ecosystems. Unlike traditional conference events, the focus is on networking, relationship building, business development, ecosystem collaboration, and technology exchange in a relaxed environment. Who You'll Meet • Japanese enterprises and innovation teams • Blockchain foundations and ecosystem leaders • Validators and infrastructure providers • Developers and builders • Investors and strategic partners • Web3 professionals visiting Tokyo during WebX Highlights • 200+ expected attendees • 20+ blockchain ecosystems • Exclusive venue takeover in Shibuya • Food & drinks provided • Networking and business development opportunities Host NTT DOCOMO GLOBAL NTT DOCOMO GLOBAL leverages decentralized technologies to unlock new digital value, enabling real-world adoption through its Universal Wallet Infrastructure (UWI), blockchain infrastructure, and Web3 initiatives. Supporting Partner XDC Network @SaitoNTT in case you need this. @Namita_K7 @ashwinishindeofficial About XDC Network XDC Network is an open-source, EVM-compatible Layer-1 blockchain built for payments, trade finance and real-world assets, offering high throughput, low fees and enterprise-grade security, while being ISO 20022–compliant to support interoperability with global financial messaging and payment systems. XDC Network underpins a growing ecosystem of regulated digital money, trade, and settlement solutions across the globe. About stakeFi by BCW stakeFi is the institutional-grade infrastructure layer for the digital asset economy, dedicated to providing secure validator services and yield optimization for the world’s leading corporations and financial institutions. As part of the BCW Technologies vertical of BCW Group focusing exclusively on institutional needs, stakeFi combines 6+ years of crypto infrastructure experience with SOC 2-compliant security, comprehensive reporting, and seamless execution. Our platform enables enterprises, custodians, exchanges, and asset managers to securely stake, earn, and monitor assets across multiple protocols with confidence. Learn more at stakefi.network and connect with us on X & LinkedIn. About Figment Figment is the leading independent provider of institutional staking infrastructure, supporting over 1,000 institutional clients across asset managers, exchanges, custodians, wallets, foundations, and token holders. As one of the world's largest non-custodial staking providers, Figment enables secure participation across 40+ Proof-of-Stake networks through enterprise-grade infrastructure, rewards optimization, and comprehensive staking solutions. Blockchain NEXUS #2 WebX 2026 Official Side Event 主催：NTT DOCOMO GLOBAL 📅 2026年7月13日（月） 🕕 18:00〜21:00 📍 LAUREL TOKYO（渋谷） イベント概要 Blockchain NEXUS #2は、WebX開催期間中に実施されるネットワーキング特化型イベントです。 日本企業、ブロックチェーン財団、バリデータ、開発者、インフラ事業者、エコシステム関係者などが集まり、新たなビジネス機会やパートナーシップ創出を目指します。 NTT DOCOMO GLOBALが主催し、日本企業とグローバルなブロックチェーンエコシステムをつなぐ場を提供します。 本イベントはパネルディスカッションやプロダクト発表を中心としたカンファレンスではなく、ネットワーキング、関係構築、事業開発、エコシステム連携、技術交流を目的とした交流イベントです。 参加者 • 日本企業・新規事業担当者 • ブロックチェーン財団・エコシステム関係者 • バリデータ・インフラ事業者 • 開発者・ビルダー • 投資家・戦略パートナー • WebX参加者 イベント概要 • 参加者200名以上予定 • 20以上のブロックチェーンエコシステムが参加予定 • 渋谷クラブ貸切開催 • 飲食提供 • ネットワーキング・事業開発機会 主催 株式会社NTT DOCOMO GLOBAL NTT DOCOMO GLOBALは、Universal Wallet Infrastructure（UWI）、ブロックチェーンインフラ、およびWeb3事業を通じて、分散型技術の社会実装と新たなデジタル価値の創出を推進しています。 Supporting Partner XDC Network XDC Networkは、決済、貿易金融（Trade Finance）、そしてリアルワールドアセット（RWA）の活用に最適化された、オープンソースのEVM互換レイヤー1ブロックチェーンです。高いスループット、低コストな取引手数料、エンタープライズレベルのセキュリティを備えるとともに、国際金融メッセージング・決済標準であるISO 20022に準拠しており、グローバルな金融システムとの高い相互運用性を実現しています。現在、XDC Networkは、規制に準拠したデジタルマネー、貿易、決済・清算ソリューションを支える基盤として、世界各国で拡大するエコシステムを支えています。 stakeFi by BCW stakeFiは、デジタルアセット経済を支える機関投資家向けインフラストラクチャプラットフォームであり、世界有数の企業や金融機関に対して、安全性の高いバリデータ運用サービスおよびステーキング収益の最適化ソリューションを提供しています。stakeFiは、機関投資家向け事業に特化したBCW Groupのテクノロジー部門「BCW Technologies」の一員として、6年以上にわたる暗号資産インフラ運用の実績を有しています。SOC 2準拠のセキュリティ体制に加え、詳細なレポーティング機能や円滑な運用サポートを提供し、企業、カストディアン、取引所、資産運用会社が複数のブロックチェーンプロトコル上で安全かつ効率的にステーキングを行い、資産状況を管理できる環境を実現しています。詳細はstakefi.networkをご覧いただくか、X（旧Twitter）およびLinkedInにて最新情報をご確認ください。 Figment Figmentは、機関投資家向けステーキングインフラを提供する世界有数の独立系ステーキング事業者です。アセットマネージャー、取引所、カストディアン、ウォレット事業者、財団など1,000以上の機関顧客を支援しており、40以上のProof-of-Stakeネットワークに対応しています。エンタープライズグレードのインフラ、報酬最適化、包括的なステーキングソリューションを通じて、安全かつ効率的なオンチェーン運用を実現しています。",
+      "organizers": [
+        "NTT DOCOMO GLOBAL"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/yq/d1b68e03-92ba-4376-8d5b-0305d98ec910.png",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/w6/4adf799e-2976-4c71-9ee9-41ce3fb226b8.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "stablecoin",
+        "rwa",
+        "ai",
+        "regulation",
+        "security",
+        "enterprise",
+        "payments",
+        "infrastructure",
+        "investment"
+      ],
+      "rawText": "Blockchain NEXUS#2 by NTT DOCOMO GLOBAL Blockchain NEXUS #2 Official WebX 2026 Side Event Hosted by NTT DOCOMO GLOBAL 📅 July 13, 2026 (Mon) 🕕 6:00 PM – 9:00 PM 📍 LAUREL TOKYO, Shibuya About Blockchain NEXUS #2 is a networking-focused side event during WebX week, bringing together Japanese enterprises, blockchain foundations, validators, developers, infrastructure providers, ecosystem leaders, and members of the broader Web3 community. Hosted by NTT DOCOMO GLOBAL, Blockchain NEXUS is designed to create meaningful connections between Japan's enterprise sector and leading global blockchain ecosystems. Unlike traditional conference events, the focus is on networking, relationship building, business development, ecosystem collaboration, and technology exchange in a relaxed environment. Who You'll Meet • Japanese enterprises and innovation teams • Blockchain foundations and ecosystem leaders • Validators and infrastructure providers • Developers and builders • Investors and strategic partners • Web3 professionals visiting Tokyo during WebX Highlights • 200+ expected attendees • 20+ blockchain ecosystems • Exclusive venue takeover in Shibuya • Food & drinks provided • Networking and business development opportunities Host NTT DOCOMO GLOBAL NTT DOCOMO GLOBAL leverages decentralized technologies to unlock new digital value, enabling real-world adoption through its Universal Wallet Infrastructure (UWI), blockchain infrastructure, and Web3 initiatives. Supporting Partner XDC Network @SaitoNTT in case you need this. @Namita_K7 @ashwinishindeofficial About XDC Network XDC Network is an open-source, EVM-compatible Layer-1 blockchain built for payments, trade finance and real-world assets, offering high throughput, low fees and enterprise-grade security, while being ISO 20022–compliant to support interoperability with global financial messaging and payment systems. XDC Network underpins a growing ecosystem of regulated digital money, trade, and settlement solutions across the globe. About stakeFi by BCW stakeFi is the institutional-grade infrastructure layer for the digital asset economy, dedicated to providing secure validator services and yield optimization for the world’s leading corporations and financial institutions. As part of the BCW Technologies vertical of BCW Group focusing exclusively on institutional needs, stakeFi combines 6+ years of crypto infrastructure experience with SOC 2-compliant security, comprehensive reporting, and seamless execution. Our platform enables enterprises, custodians, exchanges, and asset managers to securely stake, earn, and monitor assets across multiple protocols with confidence. Learn more at stakefi.network and connect with us on X & LinkedIn. About Figment Figment is the leading independent provider of institutional staking infrastructure, supporting over 1,000 institutional clients across asset managers, exchanges, custodians, wallets, foundations, and token holders. As one of the world's largest non-custodial staking providers, Figment enables secure participation across 40+ Proof-of-Stake networks through enterprise-grade infrastructure, rewards optimization, and comprehensive staking solutions. Blockchain NEXUS #2 WebX 2026 Official Side Event 主催：NTT DOCOMO GLOBAL 📅 2026年7月13日（月） 🕕 18:00〜21:00 📍 LAUREL TOKYO（渋谷） イベント概要 Blockchain NEXUS #2は、WebX開催期間中に実施されるネットワーキング特化型イベントです。 日本企業、ブロックチェーン財団、バリデータ、開発者、インフラ事業者、エコシステム関係者などが集まり、新たなビジネス機会やパートナーシップ創出を目指します。 NTT DOCOMO GLOBALが主催し、日本企業とグローバルなブロックチェーンエコシステムをつなぐ場を提供します。 本イベントはパネルディスカッションやプロダクト発表を中心としたカンファレンスではなく、ネットワーキング、関係構築、事業開発、エコシステム連携、技術交流を目的とした交流イベントです。 参加者 • 日本企業・新規事業担当者 • ブロックチェーン財団・エコシステム関係者 • バリデータ・インフラ事業者 • 開発者・ビルダー • 投資家・戦略パートナー • WebX参加者 イベント概要 • 参加者200名以上予定 • 20以上のブロックチェーンエコシステムが参加予定 • 渋谷クラブ貸切開催 • 飲食提供 • ネットワーキング・事業開発機会 主催 株式会社NTT DOCOMO GLOBAL NTT DOCOMO GLOBALは、Universal Wallet Infrastructure（UWI）、ブロックチェーンインフラ、およびWeb3事業を通じて、分散型技術の社会実装と新たなデジタル価値の創出を推進しています。 Supporting Partner XDC Network XDC Networkは、決済、貿易金融（Trade Finance）、そしてリアルワールドアセット（RWA）の活用に最適化された、オープンソースのEVM互換レイヤー1ブロックチェーンです。高いスループット、低コストな取引手数料、エンタープライズレベルのセキュリティを備えるとともに、国際金融メッセージング・決済標準であるISO 20022に準拠しており、グローバルな金融システムとの高い相互運用性を実現しています。現在、XDC Networkは、規制に準拠したデジタルマネー、貿易、決済・清算ソリューションを支える基盤として、世界各国で拡大するエコシステムを支えています。 stakeFi by BCW stakeFiは、デジタルアセット経済を支える機関投資家向けインフラストラクチャプラットフォームであり、世界有数の企業や金融機関に対して、安全性の高いバリデータ運用サービスおよびステーキング収益の最適化ソリューションを提供しています。stakeFiは、機関投資家向け事業に特化したBCW Groupのテクノロジー部門「BCW Technologies」の一員として、6年以上にわたる暗号資産インフラ運用の実績を有しています。SOC 2準拠のセキュリティ体制に加え、詳細なレポーティング機能や円滑な運用サポートを提供し、企業、カストディアン、取引所、資産運用会社が複数のブロックチェーンプロトコル上で安全かつ効率的にステーキングを行い、資産状況を管理できる環境を実現しています。詳細はstakefi.networkをご覧いただくか、X（旧Twitter）およびLinkedInにて最新情報をご確認ください。 Figment Figmentは、機関投資家向けステーキングインフラを提供する世界有数の独立系ステーキング事業者です。アセットマネージャー、取引所、カストディアン、ウォレット事業者、財団など1,000以上の機関顧客を支援しており、40以上のProof-of-Stakeネットワークに対応しています。エンタープライズグレードのインフラ、報酬最適化、包括的なステーキングソリューションを通じて、安全かつ効率的なオンチェーン運用を実現しています。 NTT DOCOMO GLOBAL LAUREL TOKYO LAUREL TOKYO, 渋谷区, 東京都, JP イベントをさがすログイン東京のおすすめイベントホストNTT DOCOMO GLOBAL252人が参加予定jake stolarski、Yuki Sato、他250人ホストに連絡イベントを報告クリプト東京でフィーチャー中Blockchain NEXUS#2 by NTT DOCOMO GLOBALNTT DOCOMO GLOBALがホストLAUREL TOKYO東京都渋谷区参加登録承認が必要参加登録にはホストの承認が必要です。ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加リクエストウォレットを使って、トークンの所有権の確認が求められます。イベントについて​Blockchain NEXUS #2​Official WebX 2026 Side Event​Hosted by NTT DOCOMO GLOBAL​📅 July 13, 2026 (Mon)🕕 6:00 PM – 9:00 PM📍 LAUREL TOKYO, Shibuya​About​Blockchain NEXUS #2 is a networking-focused side event during WebX week, bringing together Japanese enterprises, blockchain foundations, validators, developers, infrastructure providers, ecosystem leaders, and members of the broader Web3 community.​Hosted by NTT DOCOMO GLOBAL, Blockchain NEXUS is designed to create meaningful connections between Japan's enterprise sector and leading global blockchain ecosystems.​Unlike traditional conference events, the focus is on networking, relationship building, business development, ecosystem collaboration, and technology exchange in a relaxed environment.​Who You'll Meet​• Japanese enterprises and innovation teams• Blockchain foundations and ecosystem leaders• Validators and infrastructure providers• Developers and builders• Investors and strategic partners• Web3 professionals visiting Tokyo during WebX​Highlights​• 200+ expected attendees• 20+ blockchain ecosystems• Exclusive venue takeover in Shibuya• Food & drinks provided• Networking and business development opportunities​Host​NTT DOCOMO GLOBAL​NTT DOCOMO GLOBAL leverages decentralized technologies to unlock new digital value, enabling real-world adoption through its Universal Wallet Infrastructure (UWI), blockchain infrastructure, and Web3 initiatives.​Supporting Partner​​XDC Network​​@SaitoNTT in case you need this. @Namita_K7 @ashwinishindeofficial​​About XDC Network​XDC Network is an open-source, EVM-compatible Layer-1 blockchain built for payments, trade finance and real-world assets, offering high throughput, low fees and enterprise-grade security, while being ISO 20022–compliant to support interoperability with global financial messaging and payment systems. XDC Network underpins a growing ecosystem of regulated digital money, trade, and settlement solutions across the globe.​About stakeFi by BCW​stakeFi is the institutional-grade infrastructure layer for the digital asset economy, dedicated to providing secure validator services and yield optimization for the world’s leading corporations and financial institutions. As part of the BCW Technologies vertical of BCW Group focusing exclusively on institutional needs, stakeFi combines 6+ years of crypto infrastructure experience with SOC 2-compliant security, comprehensive reporting, and seamless execution. Our platform enables enterprises, custodians, exchanges, and asset managers to securely stake, earn, and monitor assets across multiple protocols with confidence. Learn more at stakefi.network and connect with us on X & LinkedIn.​About Figment​Figment is the leading independent provider of institutional staking infrastructure,",
+      "isOfficial": true
+    },
+    {
+      "id": "side-event-28tsgnr5",
+      "title": "PICH DAO WebX2026 SIDE EVENT",
+      "url": "https://luma.com/28tsgnr5",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-13",
+      "dayLabel": "7/13",
+      "startDateTime": "2026-07-13T09:00:00.000Z",
+      "endDateTime": "2026-07-13T12:00:00.000Z",
+      "startTime": "18:00",
+      "endTime": "21:00",
+      "startMinutes": 1080,
+      "endMinutes": 1260,
+      "venueName": "六本木４丁目１０−４",
+      "address": "六本木４丁目１０−４, 港区, 東京都, JP",
+      "venueKey": "六本木4丁目10-4-六本木4丁目10-4-港区-東京都-jp",
+      "latitude": 35.663975300000004,
+      "longitude": 139.7322572,
+      "description": "イベント名：PICH DAO WebX2026 SIDE EVENT 開催日時：7月13日 会場名・住所：BRICKSPARLOR六本木 東京都港区六本木4-10-4 主催者名：PICH DAO 内容・コンセプト：軽食食べ放題、飲み放題（アルコールあり）グッズプレゼントあり、Web3好きの皆で集まってワイワイしましょう！ 参加対象者：Web3に魅力を感じている方orSNSコミュニティに興味のある方 参加費：無料 店員：25名 協賛：にほん電脳横丁、SOLDAIMYOJIN 言語：日本語のみ 雰囲気：オシャレなBar風カウンターとダーツが楽しめるスペース",
+      "organizers": [
+        "PICH DAO"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/js/da87af08-f844-4b9c-8b2b-34e1aeaff55b.png",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/lc/1078aa86-7333-4926-8727-61dfadf56794.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "ai"
+      ],
+      "rawText": "PICH DAO WebX2026 SIDE EVENT イベント名：PICH DAO WebX2026 SIDE EVENT 開催日時：7月13日 会場名・住所：BRICKSPARLOR六本木 東京都港区六本木4-10-4 主催者名：PICH DAO 内容・コンセプト：軽食食べ放題、飲み放題（アルコールあり）グッズプレゼントあり、Web3好きの皆で集まってワイワイしましょう！ 参加対象者：Web3に魅力を感じている方orSNSコミュニティに興味のある方 参加費：無料 店員：25名 協賛：にほん電脳横丁、SOLDAIMYOJIN 言語：日本語のみ 雰囲気：オシャレなBar風カウンターとダーツが楽しめるスペース PICH DAO 六本木４丁目１０−４ 六本木４丁目１０−４, 港区, 東京都, JP イベントをさがすログインホストPICH DAO24人が参加予定Kohtaro、滝条 孝、他22人ホストに連絡イベントを報告クリプトWebXでフィーチャー中PICH DAO WebX2026 SIDE EVENTPICH DAOがホスト六本木４丁目１０−４東京都港区参加登録残り1席満員になる前に急いで参加登録を！承認が必要参加登録にはホストの承認が必要です。ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加リクエストウォレットを使って、トークンの所有権の確認が求められます。イベントについて​イベント名：PICH DAO WebX2026 SIDE EVENT​開催日時：7月13日​会場名・住所：BRICKSPARLOR六本木 東京都港区六本木4-10-4​主催者名：PICH DAO​内容・コンセプト：軽食食べ放題、飲み放題（アルコールあり）グッズプレゼントあり、Web3好きの皆で集まってワイワイしましょう！​参加対象者：Web3に魅力を感じている方orSNSコミュニティに興味のある方​参加費：無料​店員：25名​協賛：にほん電脳横丁、SOLDAIMYOJIN​言語：日本語のみ​雰囲気：オシャレなBar風カウンターとダーツが楽しめるスペース場所六本木４丁目１０−４日本、〒106-0032 東京都港区六本木４丁目１０−４ホストPICH DAO24人が参加予定Kohtaro、滝条 孝、他22人ホストに連絡イベントを報告クリプトさがす料金ヘルプアプリをダウンロード",
+      "isOfficial": false
+    },
+    {
+      "id": "side-event-vip-speaker-night",
+      "title": "WebX2026 VIP / Speaker Night",
+      "url": "https://webx-asia.com/ja/vip-speaker-night/",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-13",
+      "dayLabel": "7/13",
+      "startDateTime": "2026-07-13T09:00:00.000Z",
+      "endDateTime": "2026-07-13T11:30:00.000Z",
+      "startTime": "18:00",
+      "endTime": "20:30",
+      "startMinutes": 1080,
+      "endMinutes": 1230,
+      "venueName": "ザ・プリンス パークタワー東京",
+      "address": "ザ・プリンス パークタワー東京, 港区, 東京都, JP",
+      "venueKey": "ザ-プリンス-パークタワー東京-ザ-プリンス-パークタワー東京-港区-東京都-jp",
+      "latitude": 35.655449,
+      "longitude": 139.7470914,
+      "description": "",
+      "organizers": [
+        "WebX"
+      ],
+      "images": [],
+      "offers": [],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": false
+      },
+      "language": "JA",
+      "tags": [],
+      "rawText": "WebX2026 VIP / Speaker Night WebX ザ・プリンス パークタワー東京 ザ・プリンス パークタワー東京, 港区, 東京都, JP",
+      "isOfficial": true
+    },
+    {
+      "id": "side-event-b8b1esh7",
+      "title": "RESERVE: A Stablecoin & Digital Asset Treasury Social @ WebX 2026, Co-hosted by Comma3 Ventures and TAAS",
+      "url": "https://luma.com/b8b1esh7",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-13",
+      "dayLabel": "7/13",
+      "startDateTime": "2026-07-13T09:30:00.000Z",
+      "endDateTime": "2026-07-13T12:30:00.000Z",
+      "startTime": "18:30",
+      "endTime": "21:30",
+      "startMinutes": 1110,
+      "endMinutes": 1290,
+      "venueName": "日本港区",
+      "address": "港区, 東京都, JP",
+      "venueKey": "日本港区-港区-東京都-jp",
+      "latitude": 35.658313590995625,
+      "longitude": 139.73326974851332,
+      "description": "About Event Join us for an evening of signature cocktails and high-signal networking during WebX 2026 in Tokyo. We've taken over an intimate, warmly-lit private venue in the heart of Tokyo for one night — a relaxed space built for real conversation, away from the conference floor. The theme is simple: where stablecoin capital meets digital asset treasury. Born on-chain and now moving real value across the global economy, stablecoins and digital asset treasuries (DAT) are redefining how capital lives in Web3. This is the room where the founders, funds, and builders driving that shift raise a glass together. What to Expect A curated room: Connect with Web3 founders, crypto fund managers, on-chain treasurers, and the builders defining stablecoin and DAT infrastructure across Asia. Real conversations: A deliberately intimate guest list, so every introduction is worth your time. An intimate setting: Signature cocktails in a warm, private venue in the heart of Tokyo — relaxed enough for real conversation, away from the conference noise. The right timing: During WebX, when the people shaping the on-chain economy are all in one city. Note: This is a private, invite-only social. The venue is kept under wraps — specific details will be revealed to approved guests only. The Hosts Comma3 Ventures: A blockchain-focused venture platform connecting investors and operators through curated industry gatherings. Website | X | LinkedIn | Instagram | Threads | YouTube TAAS (Treasury as a Service): Digital asset treasury infrastructure built for institutions and Web3 projects to optimize liquidity. Website | X | LinkedIn | Instagram Green Monster: Green Monster Inc. is guided by its mission to “change people’s awareness and behavior toward money.” The company operates experiential investment learning services with over 10 million cumulative installs. In addition, Green Monster is expanding into new areas of finance, including blockchain infrastructure, stablecoins, and AI agent payments. CryptoMiles: A premium Web3 marketing and event consulting agency dedicated to delivering immersive industry experiences. X | Instagram Agenda 6:30 PM | Doors Open & Welcome Drinks 7:15 PM | A Brief Hello from the Hosts 7:30 PM – 9:30 PM | Open Networking & Signature Cocktails Registration By invite only. To keep the room high-quality for conversation, registration is subject to approval. A confirmed Luma QR code is required for entry; the venue location will be revealed upon approval.",
+      "organizers": [
+        "Comma3 Ventures",
+        "TAAS 踏實數位",
+        "CryptoMiles",
+        "Corrina Lee",
+        "Ivan Li",
+        "Denny Yang",
+        "よんくろう"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/wj/2daeb0dd-851c-4000-b587-8d93511880d6.png",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/8i/3cfb0281-0568-40fa-b878-dd8f6ffbb131.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "stablecoin",
+        "rwa",
+        "ai",
+        "defi",
+        "payments",
+        "infrastructure",
+        "investment"
+      ],
+      "rawText": "RESERVE: A Stablecoin & Digital Asset Treasury Social @ WebX 2026, Co-hosted by Comma3 Ventures and TAAS About Event Join us for an evening of signature cocktails and high-signal networking during WebX 2026 in Tokyo. We've taken over an intimate, warmly-lit private venue in the heart of Tokyo for one night — a relaxed space built for real conversation, away from the conference floor. The theme is simple: where stablecoin capital meets digital asset treasury. Born on-chain and now moving real value across the global economy, stablecoins and digital asset treasuries (DAT) are redefining how capital lives in Web3. This is the room where the founders, funds, and builders driving that shift raise a glass together. What to Expect A curated room: Connect with Web3 founders, crypto fund managers, on-chain treasurers, and the builders defining stablecoin and DAT infrastructure across Asia. Real conversations: A deliberately intimate guest list, so every introduction is worth your time. An intimate setting: Signature cocktails in a warm, private venue in the heart of Tokyo — relaxed enough for real conversation, away from the conference noise. The right timing: During WebX, when the people shaping the on-chain economy are all in one city. Note: This is a private, invite-only social. The venue is kept under wraps — specific details will be revealed to approved guests only. The Hosts Comma3 Ventures: A blockchain-focused venture platform connecting investors and operators through curated industry gatherings. Website | X | LinkedIn | Instagram | Threads | YouTube TAAS (Treasury as a Service): Digital asset treasury infrastructure built for institutions and Web3 projects to optimize liquidity. Website | X | LinkedIn | Instagram Green Monster: Green Monster Inc. is guided by its mission to “change people’s awareness and behavior toward money.” The company operates experiential investment learning services with over 10 million cumulative installs. In addition, Green Monster is expanding into new areas of finance, including blockchain infrastructure, stablecoins, and AI agent payments. CryptoMiles: A premium Web3 marketing and event consulting agency dedicated to delivering immersive industry experiences. X | Instagram Agenda 6:30 PM | Doors Open & Welcome Drinks 7:15 PM | A Brief Hello from the Hosts 7:30 PM – 9:30 PM | Open Networking & Signature Cocktails Registration By invite only. To keep the room high-quality for conversation, registration is subject to approval. A confirmed Luma QR code is required for entry; the venue location will be revealed upon approval. Comma3 Ventures TAAS 踏實數位 CryptoMiles Corrina Lee Ivan Li Denny Yang よんくろう 日本港区 港区, 東京都, JP イベントをさがすログイン東京のおすすめイベント主催Comma3 VenturesフォローFocusing on Web3 and empowering your project to become the next 3 comma unicorn.ホストComma3 VenturesTAAS 踏實數位CryptoMilesCorrina LeeIvan LiDenny Yangよんくろう53人が参加予定Henry Chin Yee Ying、Joanna Z、他51人ホストに連絡イベントを報告クリプト東京でフィーチャー中RESERVE: A Stablecoin & Digital Asset Treasury Social @ WebX 2026, Co-hosted by Comma3 Ventures and TAASComma3 Ventures参加登録して住所を確認東京都港区参加登録承認が必要参加登録にはホストの承認が必要です。ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加リクエストウォレットを使って、トークンの所有権の確認が求められます。イベントについて​About Event​Join us for an evening of signature cocktails and high-signal networking during WebX 2026 in Tokyo.​We've taken over an intimate, warmly-lit private venue in the heart of Tokyo for one night — a relaxed space built for real conversation, away from the conference floor.​The theme is simple: where stablecoin capital meets digital asset treasury. Born on-chain and now moving real value across the global economy, stablecoins and digital asset treasuries (DAT) are redefining how capital lives in Web3. This is the room where the founders, funds, and builders driving that shift raise a glass together.​What to Expect​A curated room: Connect with Web3 founders, crypto fund managers, on-chain treasurers, and the builders defining stablecoin and DAT infrastructure across Asia.​Real conversations: A deliberately intimate guest list, so every introduction is worth your time.​An intimate setting: Signature cocktails in a warm, private venue in the heart of Tokyo — relaxed enough for real conversation, away from the conference noise.​The right timing: During WebX, when the people shaping the on-chain economy are all in one city.​Note: This is a private, invite-only social. The venue is kept under wraps — specific details will be revealed to approved guests only.​The Hosts​Comma3 Ventures: A blockchain-focused venture platform connecting investors and operators through curated industry gatherings.Website | X | LinkedIn | Instagram | Threads | YouTube​TAAS (Treasury as a Service): Digital asset treasury infrastructure built for institutions and Web3 projects to optimize liquidity.Website | X | LinkedIn | Instagram​Green Monster: Green Monster Inc. is guided by its mission to “change people’s awareness and behavior toward money.” The company operates experiential investment learning services with over 10 million cumulative installs. In addition, Green Monster is expanding into new areas of finance, including blockchain infrastructure, stablecoins, and AI agent payments.​CryptoMiles: A premium Web3 marketing and event consulting agency dedicated to delivering immersive industry experiences.X | Instagram​Agenda​6:30 PM | Doors Open & Welcome Drinks​7:15 PM | A Brief Hello from the Hosts​7:30 PM – 9:30 PM | Open Networking & Signature Cocktails​Registration​By invite only. To keep the room high-quality for conversation, registration is subject to approval. A confirmed Luma QR code is required for entry; the venue location will be revealed upon approval.場所正確な開催場所を確認するには、参加登録してください。東京都港区主催Comma3 VenturesフォローFocusing on Web3 and empowering your project to become the next 3 comma unicorn.ホストComma3 VenturesTAAS 踏實數位CryptoMilesCorrina LeeIvan LiDenny Yangよんくろう53人が参加予定Henry Chin Yee Ying、Joanna Z、他51人ホストに連絡イベントを報告クリプトさがす料金ヘルプアプリをダウンロード",
+      "isOfficial": false
+    },
+    {
+      "id": "side-event-magtetxf",
+      "title": "Amigoo Ventures - OTC Dealmakers: Coffee & Capital (WebX_Tokyo_2026)",
+      "url": "https://luma.com/magtetxf",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-14",
+      "dayLabel": "7/14",
+      "startDateTime": "2026-07-14T01:00:00.000Z",
+      "endDateTime": "2026-07-14T03:00:00.000Z",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "startMinutes": 600,
+      "endMinutes": 720,
+      "venueName": "日本東京都",
+      "address": "東京都, JP",
+      "venueKey": "日本東京都-東京都-jp",
+      "latitude": 35.67448469563791,
+      "longitude": 139.65042433705318,
+      "description": "こんにちは、日本！ Amigoo Venturesは、WebX 2026開催に合わせて、東京で初となる「OTC Coffee Meet up」を開催できることを大変嬉しく思います。 本イベントは、セカンダリー／OTC／流動性市場で活動されている方々を対象とした、少人数のプライベートイベントです。普段は、プロジェクトのリーダーシップチーム、財団、ヘッジファンド、VC、流動性ファンド、ファミリーオフィス、ディールフローパートナーの皆様にご参加いただいております。ぜひコーヒーを片手に、ネットワーキングや案件の相談をいたしましょう。 ✅ 対象者: 上場済みプロジェクト、セカンダリー・トークン投資家、OTCブローカー ❌ 対象外: TGE前のプロジェクト、中央集権型取引所（CEX）、マーケティングエージェンシー、マーケットメイカー、開発会社、その他のサービスプロバイダー ※開催場所は、承認された参加者にのみ個別にお知らせいたします。 Amigoo Venturesについて: Amigoo Venturesは、流動性トークン投資を行う企業であり、セカンダリー市場およびOTCプライベート取引のリーディングカンパニーです。買い手と売り手の双方と連携し、希少なオフマーケット案件を発掘し、プライベートおよび流動性トークン市場における独占的なOTC取引の仲介・促進を行っています。 フォローはこちら: [X] / [LinkedIn] | ウェブサイト: Amigoo.xyz ___________________________________________________ Konnichiwa Japan! Amigoo Ventures is thrilled to brew our morning OTC Coffee Meet up for the first time in Tokyo for WebX, 2026. Our small pax private event is exclusively for those active in the Secondary/ OTC/ Liquid markets. Usually our event attracts leadership teams from the projects, foundations, hedge funds, VCs, liquid funds, family offices, and deal flow partners. So, come have a coffee with us and let’s do some networking and deals. ✅Who is this event for: Token Listed Projects, Secondary Token Investors, OTC Brokers. ❌Who this event not for: Pre TGE Projects, CEXs, Marketing Agencies, Market Makers, Dev Shops, and other service providers. The event location will be revealed only to the approved participants. About Us:- Amigoo Ventures is a liquid token investment firm, and a leader in secondary and OTC private market deals. We work with both buyers, and sellers to unlock rare, off-market opportunities, curating, and facilitating exclusive OTC trades across private, and liquid token markets. Follow us: X / LinkedIn| Website: Amigoo.xyz",
+      "organizers": [
+        "Amigoo Ventures"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/4h/3876cd53-bc1e-45f2-9594-44754b8e822d.png",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/d3/f44694b9-7fe7-4215-9d7c-338590fb8adc.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "enterprise",
+        "investment"
+      ],
+      "rawText": "Amigoo Ventures - OTC Dealmakers: Coffee & Capital (WebX_Tokyo_2026) こんにちは、日本！ Amigoo Venturesは、WebX 2026開催に合わせて、東京で初となる「OTC Coffee Meet up」を開催できることを大変嬉しく思います。 本イベントは、セカンダリー／OTC／流動性市場で活動されている方々を対象とした、少人数のプライベートイベントです。普段は、プロジェクトのリーダーシップチーム、財団、ヘッジファンド、VC、流動性ファンド、ファミリーオフィス、ディールフローパートナーの皆様にご参加いただいております。ぜひコーヒーを片手に、ネットワーキングや案件の相談をいたしましょう。 ✅ 対象者: 上場済みプロジェクト、セカンダリー・トークン投資家、OTCブローカー ❌ 対象外: TGE前のプロジェクト、中央集権型取引所（CEX）、マーケティングエージェンシー、マーケットメイカー、開発会社、その他のサービスプロバイダー ※開催場所は、承認された参加者にのみ個別にお知らせいたします。 Amigoo Venturesについて: Amigoo Venturesは、流動性トークン投資を行う企業であり、セカンダリー市場およびOTCプライベート取引のリーディングカンパニーです。買い手と売り手の双方と連携し、希少なオフマーケット案件を発掘し、プライベートおよび流動性トークン市場における独占的なOTC取引の仲介・促進を行っています。 フォローはこちら: [X] / [LinkedIn] | ウェブサイト: Amigoo.xyz ___________________________________________________ Konnichiwa Japan! Amigoo Ventures is thrilled to brew our morning OTC Coffee Meet up for the first time in Tokyo for WebX, 2026. Our small pax private event is exclusively for those active in the Secondary/ OTC/ Liquid markets. Usually our event attracts leadership teams from the projects, foundations, hedge funds, VCs, liquid funds, family offices, and deal flow partners. So, come have a coffee with us and let’s do some networking and deals. ✅Who is this event for: Token Listed Projects, Secondary Token Investors, OTC Brokers. ❌Who this event not for: Pre TGE Projects, CEXs, Marketing Agencies, Market Makers, Dev Shops, and other service providers. The event location will be revealed only to the approved participants. About Us:- Amigoo Ventures is a liquid token investment firm, and a leader in secondary and OTC private market deals. We work with both buyers, and sellers to unlock rare, off-market opportunities, curating, and facilitating exclusive OTC trades across private, and liquid token markets. Follow us: X / LinkedIn| Website: Amigoo.xyz Amigoo Ventures 日本東京都 東京都, JP イベントをさがすログインホストAmigoo Venturesホストに連絡イベントを報告クリプトWebX 2026 @Tokyo, Japanでフィーチャー中Amigoo Ventures - OTC Dealmakers: Coffee & Capital (WebX_Tokyo_2026)Amigoo Venturesがホスト参加登録して住所を確認東京都参加登録承認が必要参加登録にはホストの承認が必要です。ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加リクエストウォレットを使って、トークンの所有権の確認が求められます。イベントについて​こんにちは、日本！​Amigoo Venturesは、WebX 2026開催に合わせて、東京で初となる「OTC Coffee Meet up」を開催できることを大変嬉しく思います。​本イベントは、セカンダリー／OTC／流動性市場で活動されている方々を対象とした、少人数のプライベートイベントです。普段は、プロジェクトのリーダーシップチーム、財団、ヘッジファンド、VC、流動性ファンド、ファミリーオフィス、ディールフローパートナーの皆様にご参加いただいております。ぜひコーヒーを片手に、ネットワーキングや案件の相談をいたしましょう。​✅ 対象者: 上場済みプロジェクト、セカンダリー・トークン投資家、OTCブローカー​❌ 対象外: TGE前のプロジェクト、中央集権型取引所（CEX）、マーケティングエージェンシー、マーケットメイカー、開発会社、その他のサービスプロバイダー​※開催場所は、承認された参加者にのみ個別にお知らせいたします。​Amigoo Venturesについて: Amigoo Venturesは、流動性トークン投資を行う企業であり、セカンダリー市場およびOTCプライベート取引のリーディングカンパニーです。買い手と売り手の双方と連携し、希少なオフマーケット案件を発掘し、プライベートおよび流動性トークン市場における独占的なOTC取引の仲介・促進を行っています。​フォローはこちら: [X] / [LinkedIn] | ウェブサイト: Amigoo.xyz___________________________________________________Konnichiwa Japan!Amigoo Ventures is thrilled to brew our morning OTC Coffee Meet up for the first time in Tokyo for WebX, 2026.​Our small pax private event is exclusively for those active in the Secondary/ OTC/ Liquid markets. Usually our event attracts leadership teams from the projects, foundations, hedge funds, VCs, liquid funds, family offices, and deal flow partners. So, come have a coffee with us and let’s do some networking and deals.​✅Who is this event for: Token Listed Projects, Secondary Token Investors, OTC Brokers.​❌Who this event not for: Pre TGE Projects, CEXs, Marketing Agencies, Market Makers, Dev Shops, and other service providers.​The event location will be revealed only to the approved participants.​​About Us:-​Amigoo Ventures is a liquid token investment firm, and a leader in secondary and OTC private market deals. We work with both buyers, and sellers to unlock rare, off-market opportunities, curating, and facilitating exclusive OTC trades across private, and liquid token markets.​Follow us: X / LinkedIn| Website: Amigoo.xyz場所正確な開催場所を確認するには、参加登録してください。東京都ホストAmigoo Venturesホストに連絡イベントを報告クリプトさがす料金ヘルプアプリをダウンロード",
+      "isOfficial": false
+    },
+    {
+      "id": "side-event-5md56wcz",
+      "title": "Webx Pitchx AUTON — Agentic Economy Accelerator Program 2026",
+      "url": "https://luma.com/5md56wcz",
+      "sourceUrl": "https://luma.com/webx.sideevents",
+      "date": "2026-07-14",
+      "dayLabel": "7/14",
+      "startDateTime": "2026-07-14T05:00:00.000Z",
+      "endDateTime": "2026-07-14T06:30:00.000Z",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "startMinutes": 840,
+      "endMinutes": 930,
+      "venueName": "ザ・プリンス パークタワー東京",
+      "address": "ザ・プリンス パークタワー東京, 港区, 東京都, JP",
+      "venueKey": "ザ-プリンス-パークタワー東京-ザ-プリンス-パークタワー東京-港区-東京都-jp",
+      "latitude": 35.655449,
+      "longitude": 139.7470914,
+      "description": "WebX PitchX AUTON — Agentic Economy Accelerator Program 2026 📅 Date: Tuesday, 14 July 2026 🕒 Time: 14:30 – 15:30 📍 Venue: The Prince Park Tower Tokyo, Minato City, Tokyo About the Event Japanese follows English AUTON — Agentic Economy Accelerator Program 2026 is a DeFi-focused acceleration program designed to connect exceptional AI/ML talent with the rapidly evolving world of decentralized finance. The program supports innovators by providing DeFi domain knowledge, expert mentorship, and access to the global Web3 ecosystem — while participants bring their AI expertise to build the next generation of intelligent financial solutions. Select Pitch Series A select number of teams from the AUTON program will be pitching at this event. Hear from emerging innovators and builders entering the DeFi from the AI space, offering fresh insights into the ideas, technologies, and opportunities shaping the next generation of the Agentic Economy. Event Highlights 14:30〜14:40 Introduction 14:40〜15:20 Select Pitches 15:20〜15:30 Wrap-up Discover new ideas from the future of AI-powered decentralized finance Connect with AI/ML innovators, Web3 builders, investors, and ecosystem leaders Explore collaboration opportunities within the Web3 and DeFi ecosystem Join WebX PitchX AUTON and explore how AI and blockchain are shaping the future of finance and innovation. ーーー AUTON — Agentic Economy Accelerator Program 2026 は、急速に進化する分散型金融（DeFi）と優れた AI/ML 人材をつなぐことを目的とした、DeFi 特化型のアクセラレーションプログラムです。 本プログラムでは、DeFi に関する知識、専門家によるメンタリング、そしてグローバルな Web3 エコシステムへのアクセスを提供し、参加者は AI の専門性を活かして、次世代のインテリジェントな金融ソリューションの創出に挑みます。 Select Pitch Series AUTON プログラム参加チームの中から選抜された一部のチームが、本イベントでピッチを行います。 AI 領域から DeFi に参入する新進気鋭のイノベーターやビルダーたちの声を通じて、次世代の Agentic Economy を形づくるアイデア、技術、そして可能性について、最新の視点をお届けします。 Event Highlights 14:30〜14:40 イントロダクション 14:40〜15:20 ピッチ発表 15:20〜15:30 クロージング AI を活用した次世代の分散型金融に関する新しいアイデアを発見 AI/ML 人材、Web3 ビルダー、投資家、エコシステムリーダーと交流 Agentic Economy における新たな機会を学ぶ Web3 および DeFi エコシステムにおける協業の可能性を探る WebX PitchX AUTON に参加し、AI とブロックチェーンが金融とイノベーションの未来をどのように切り拓くのか、その最前線をご体感ください。 You need a WebX pass to attend. Please register here: https://webx-asia.com/ticket/?promo=WebX2026_AWAJ",
+      "organizers": [
+        "AWAJ TEAM",
+        "Hinza Asif",
+        "ビニール",
+        "Mikihiro Ono",
+        "渋谷竜響",
+        "Hiroki Matsuda",
+        "高岡淳二",
+        "Taisuke Isono",
+        "Sarah"
+      ],
+      "images": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1920,height=1920/uploads/lv/d11075cb-b932-4219-a2b6-638f70eb188a.gif",
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/event-social/7i/7650936b-f63a-4de7-8f96-4b3b78c50ba0.png"
+      ],
+      "offers": [
+        {
+          "name": "General Admission",
+          "price": 0,
+          "currency": "usd",
+          "availability": "InStock"
+        }
+      ],
+      "registration": {
+        "approvalRequired": false,
+        "registrationRequired": true,
+        "free": true
+      },
+      "language": "BILINGUAL",
+      "tags": [
+        "ai",
+        "defi",
+        "infrastructure",
+        "investment"
+      ],
+      "rawText": "Webx Pitchx AUTON — Agentic Economy Accelerator Program 2026 WebX PitchX AUTON — Agentic Economy Accelerator Program 2026 📅 Date: Tuesday, 14 July 2026 🕒 Time: 14:30 – 15:30 📍 Venue: The Prince Park Tower Tokyo, Minato City, Tokyo About the Event Japanese follows English AUTON — Agentic Economy Accelerator Program 2026 is a DeFi-focused acceleration program designed to connect exceptional AI/ML talent with the rapidly evolving world of decentralized finance. The program supports innovators by providing DeFi domain knowledge, expert mentorship, and access to the global Web3 ecosystem — while participants bring their AI expertise to build the next generation of intelligent financial solutions. Select Pitch Series A select number of teams from the AUTON program will be pitching at this event. Hear from emerging innovators and builders entering the DeFi from the AI space, offering fresh insights into the ideas, technologies, and opportunities shaping the next generation of the Agentic Economy. Event Highlights 14:30〜14:40 Introduction 14:40〜15:20 Select Pitches 15:20〜15:30 Wrap-up Discover new ideas from the future of AI-powered decentralized finance Connect with AI/ML innovators, Web3 builders, investors, and ecosystem leaders Explore collaboration opportunities within the Web3 and DeFi ecosystem Join WebX PitchX AUTON and explore how AI and blockchain are shaping the future of finance and innovation. ーーー AUTON — Agentic Economy Accelerator Program 2026 は、急速に進化する分散型金融（DeFi）と優れた AI/ML 人材をつなぐことを目的とした、DeFi 特化型のアクセラレーションプログラムです。 本プログラムでは、DeFi に関する知識、専門家によるメンタリング、そしてグローバルな Web3 エコシステムへのアクセスを提供し、参加者は AI の専門性を活かして、次世代のインテリジェントな金融ソリューションの創出に挑みます。 Select Pitch Series AUTON プログラム参加チームの中から選抜された一部のチームが、本イベントでピッチを行います。 AI 領域から DeFi に参入する新進気鋭のイノベーターやビルダーたちの声を通じて、次世代の Agentic Economy を形づくるアイデア、技術、そして可能性について、最新の視点をお届けします。 Event Highlights 14:30〜14:40 イントロダクション 14:40〜15:20 ピッチ発表 15:20〜15:30 クロージング AI を活用した次世代の分散型金融に関する新しいアイデアを発見 AI/ML 人材、Web3 ビルダー、投資家、エコシステムリーダーと交流 Agentic Economy における新たな機会を学ぶ Web3 および DeFi エコシステムにおける協業の可能性を探る WebX PitchX AUTON に参加し、AI とブロックチェーンが金融とイノベーションの未来をどのように切り拓くのか、その最前線をご体感ください。 You need a WebX pass to attend. Please register here: https://webx-asia.com/ticket/?promo=WebX2026_AWAJ AWAJ TEAM Hinza Asif ビニール Mikihiro Ono 渋谷竜響 Hiroki Matsuda 高岡淳二 Taisuke Isono Sarah ザ・プリンス パークタワー東京 ザ・プリンス パークタワー東京, 港区, 東京都, JP イベントをさがすログインホストAWAJ TEAMHinza AsifビニールMikihiro Ono渋谷竜響Hiroki Matsuda高岡淳二Taisuke IsonoSarah20人が参加予定Jock Haslam、Ksenia Bulygina、他18人ホストに連絡イベントを報告WebX 2026 @Tokyo, Japanでフィーチャー中Webx Pitchx AUTON — Agentic Economy Accelerator Program 2026ホスト: AWAJ TEAM、ほか8名ザ・プリンス パークタワー東京東京都港区参加登録ようこそ！イベントへ参加するには、以下から参加登録をお願いします。参加登録ウォレットを使って、トークンの所有権の確認が求められます。イベントについて​WebX PitchX AUTON — Agentic Economy Accelerator Program 2026​📅 Date: Tuesday, 14 July 2026🕒 Time: 14:30 – 15:30📍 Venue: The Prince Park Tower Tokyo, Minato City, Tokyo​About the Event​Japanese follows English​AUTON — Agentic Economy Accelerator Program 2026 is a DeFi-focused acceleration program designed to connect exceptional AI/ML talent with the rapidly evolving world of decentralized finance.​The program supports innovators by providing DeFi domain knowledge, expert mentorship, and access to the global Web3 ecosystem — while participants bring their AI expertise to build the next generation of intelligent financial solutions.​Select Pitch Series​A select number of teams from the AUTON program will be pitching at this event. Hear from emerging innovators and builders entering the DeFi from the AI space, offering fresh insights into the ideas, technologies, and opportunities shaping the next generation of the Agentic Economy.​Event Highlights​14:30〜14:40 Introduction​14:40〜15:20 Select Pitches​15:20〜15:30 Wrap-up​Discover new ideas from the future of AI-powered decentralized finance​Connect with AI/ML innovators, Web3 builders, investors, and ecosystem leaders​Explore collaboration opportunities within the Web3 and DeFi ecosystem​Join WebX PitchX AUTON and explore how AI and blockchain are shaping the future of finance and innovation.​ーーー​AUTON — Agentic Economy Accelerator Program 2026 は、急速に進化する分散型金融（DeFi）と優れた AI/ML 人材をつなぐことを目的とした、DeFi 特化型のアクセラレーションプログラムです。​本プログラムでは、DeFi に関する知識、専門家によるメンタリング、そしてグローバルな Web3 エコシステムへのアクセスを提供し、参加者は AI の専門性を活かして、次世代のインテリジェントな金融ソリューションの創出に挑みます。​Select Pitch Series​AUTON プログラム参加チームの中から選抜された一部のチームが、本イベントでピッチを行います。AI 領域から DeFi に参入する新進気鋭のイノベーターやビルダーたちの声を通じて、次世代の Agentic Economy を形づくるアイデア、技術、そして可能性について、最新の視点をお届けします。​Event Highlights​14:30〜14:40 イントロダクション​14:40〜15:20 ピッチ発表​15:20〜15:30 クロージング​AI を活用した次世代の分散型金融に関する新しいアイデアを発見​AI/ML 人材、Web3 ビルダー、投資家、エコシステムリーダーと交流​Agentic Economy における新たな機会を学ぶ​Web3 および DeFi エコシステムにおける協業の可能性を探る​WebX PitchX AUTON に参加し、AI とブロックチェーンが金融とイノベーションの未来をどのように切り拓くのか、その最前線をご体感ください。​You need a WebX pass to attend. Please register here:https://webx-asia.com/ticket/?promo=WebX2026_AWAJ場所ザ・プリンス パークタワー東京日本、〒105-8563 東京都港区芝公園４丁目８−１ ザ・プリンス パークタワー東京At the Webx - AWAJ | Web3 Salon RoomホストAWAJ TEAMHinza AsifビニールMikihiro Ono渋谷竜響Hiroki Matsuda高岡淳二Taisuke IsonoSarah20人が参加予定Jock Haslam、Ksenia Bulygina、他18人ホストに連絡イベントを報告さがす料金ヘルプアプリをダウンロード",
+      "isOfficial": false
+    }
+  ]
+}

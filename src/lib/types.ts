@@ -31,10 +31,13 @@ const dayIds = ["2026-07-13", "2026-07-14"] as const;
 const languageIds = ["both", "ja", "en"] as const;
 const densityIds = ["balanced", "relaxed", "packed"] as const;
 const localeIds = ["ja", "en"] as const;
+const sideEventLanguageIds = ["JA", "EN", "BILINGUAL", "UNKNOWN"] as const;
 
 const compactText = z.string().max(120);
 const mediumText = z.string().max(500);
 const longText = z.string().max(2000);
+const extraLongText = z.string().max(8000);
+const isoDateText = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 
 export const stageSchema = z.enum(STAGES);
 export const sessionLanguageSchema = z.enum(["JA", "EN", "UNKNOWN"]);
@@ -156,6 +159,149 @@ export const recommendationResultSchema = z.object({
   notes: z.array(mediumText).max(10),
 });
 
+export const sideEventLanguageSchema = z.enum(sideEventLanguageIds);
+
+export const sideEventOfferSchema = z.object({
+  name: compactText.default("General Admission"),
+  price: z.number().finite().min(0).nullable().optional(),
+  currency: compactText.optional(),
+  availability: compactText.optional(),
+});
+
+export const sideEventRegistrationSchema = z.object({
+  approvalRequired: z.boolean().default(false),
+  registrationRequired: z.boolean().default(true),
+  free: z.boolean().optional(),
+});
+
+export const sideEventSchema = z.object({
+  id: compactText,
+  title: mediumText,
+  url: z.string().url(),
+  sourceUrl: z.string().url(),
+  date: isoDateText,
+  dayLabel: compactText,
+  startDateTime: compactText,
+  endDateTime: compactText,
+  startTime: compactText,
+  endTime: compactText,
+  startMinutes: z.number().int().min(0).max(24 * 60),
+  endMinutes: z.number().int().min(0).max(24 * 60),
+  venueName: mediumText,
+  address: mediumText.optional().default(""),
+  venueKey: compactText,
+  latitude: z.number().finite().optional(),
+  longitude: z.number().finite().optional(),
+  description: extraLongText.default(""),
+  organizers: z.array(z.string().max(200)).max(16).default([]),
+  images: z.array(z.string().url()).max(6).default([]),
+  offers: z.array(sideEventOfferSchema).max(12).default([]),
+  registration: sideEventRegistrationSchema.default({ approvalRequired: false, registrationRequired: true }),
+  language: sideEventLanguageSchema,
+  tags: z.array(compactText).max(32).default([]),
+  rawText: extraLongText,
+  isOfficial: z.boolean().default(false),
+});
+
+export const sideEventDataSchema = z.object({
+  event: z.literal("WebX 2026 Side Events"),
+  sourceUrl: z.string().url(),
+  lastUpdated: compactText,
+  events: z.array(sideEventSchema).max(300),
+});
+
+export const sideEventBasicsSchema = z.object({
+  days: z.array(isoDateText).min(1).max(31),
+  language: z.enum(languageIds),
+  density: z.enum(densityIds),
+});
+
+export const sideEventDiagnosticProfileSchema = z.object({
+  topics: z.array(z.enum(topicIds)).min(1).max(topicIds.length),
+  role: z.enum(roleIds),
+  goals: z.array(z.enum(goalIds)).min(1).max(goalIds.length),
+});
+
+export const sideEventRecommendRequestSchema = z.object({
+  mode: z.enum(["diagnostic", "freeText"]),
+  locale: z.enum(localeIds).optional().default("ja"),
+  basics: sideEventBasicsSchema,
+  diagnostic: sideEventDiagnosticProfileSchema.optional(),
+  freeText: z.string().trim().max(2000).optional(),
+}).superRefine((value, ctx) => {
+  if (value.mode === "diagnostic" && !value.diagnostic) {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      path: ["diagnostic"],
+      message: value.locale === "en" ? "Quick diagnosis input is incomplete." : "かんたん診断の入力内容が不足しています。",
+    });
+  }
+
+  if (value.mode === "freeText" && (!value.freeText || value.freeText.length < 1)) {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      path: ["freeText"],
+      message: value.locale === "en" ? "Please enter your free text goal." : "自由入力を入力してください。",
+    });
+  }
+});
+
+export const sideEventGeminiScoreSchema = z.object({
+  eventId: compactText,
+  score: z.number().min(0).max(100),
+  reason: mediumText.min(1),
+  note: mediumText.optional().default(""),
+  matchedThemes: z.array(compactText).max(24).default([]),
+});
+
+export const sideEventGeminiRecommendationSchema = z.object({
+  profileTags: z.array(compactText).max(24).default([]),
+  summary: longText.default(""),
+  eventScores: z.array(sideEventGeminiScoreSchema).max(300),
+});
+
+export const sideEventRecommendationItemSchema = sideEventSchema.extend({
+  score: z.number().finite().min(0).max(120),
+  reason: mediumText,
+  note: mediumText,
+  matchedThemes: z.array(compactText).max(24),
+});
+
+export const scheduledSideEventSchema = sideEventRecommendationItemSchema.extend({
+  moveFromPrevious: z.object({
+    fromVenue: compactText,
+    minutes: z.number().int().min(0).max(24 * 60),
+  }).optional(),
+});
+
+export const sideEventRecommendationResultSchema = z.object({
+  requestSummary: z.object({
+    mode: z.enum(["diagnostic", "freeText"]),
+    locale: z.enum(localeIds).default("ja"),
+    topics: z.array(compactText).max(24),
+    role: compactText.optional(),
+    goals: z.array(compactText).max(24),
+    days: z.array(compactText).max(31),
+    language: compactText,
+    density: compactText,
+    generatedAt: compactText,
+  }),
+  sideEventsUpdatedAt: compactText,
+  model: z.object({
+    name: compactText,
+    source: z.enum(["gemini", "local-fallback"]),
+    latencyMs: z.number().finite().min(0).max(300_000),
+  }),
+  profileTags: z.array(compactText).max(24),
+  summary: longText,
+  route: z.array(scheduledSideEventSchema).max(20),
+  recommendations: z.array(sideEventRecommendationItemSchema).max(30),
+  alternatives: z.array(sideEventRecommendationItemSchema.extend({
+    conflictWith: mediumText.optional(),
+  })).max(20),
+  notes: z.array(mediumText).max(10),
+});
+
 export type AgendaSession = z.infer<typeof agendaSessionSchema>;
 export type AgendaData = z.infer<typeof agendaDataSchema>;
 export type RecommendRequest = z.infer<typeof recommendRequestSchema>;
@@ -164,3 +310,11 @@ export type GeminiScore = z.infer<typeof geminiScoreSchema>;
 export type RecommendationItem = z.infer<typeof recommendationItemSchema>;
 export type ScheduledSession = z.infer<typeof scheduledSessionSchema>;
 export type RecommendationResult = z.infer<typeof recommendationResultSchema>;
+export type SideEvent = z.infer<typeof sideEventSchema>;
+export type SideEventData = z.infer<typeof sideEventDataSchema>;
+export type SideEventRecommendRequest = z.infer<typeof sideEventRecommendRequestSchema>;
+export type SideEventGeminiRecommendation = z.infer<typeof sideEventGeminiRecommendationSchema>;
+export type SideEventGeminiScore = z.infer<typeof sideEventGeminiScoreSchema>;
+export type SideEventRecommendationItem = z.infer<typeof sideEventRecommendationItemSchema>;
+export type ScheduledSideEvent = z.infer<typeof scheduledSideEventSchema>;
+export type SideEventRecommendationResult = z.infer<typeof sideEventRecommendationResultSchema>;

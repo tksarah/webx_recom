@@ -1,4 +1,5 @@
 export const WEBX_AGENDA_URL = "https://webx-asia.com/agenda/";
+export const LUMA_SIDE_EVENTS_URL = "https://luma.com/webx.sideevents";
 
 export const STAGES = [
   "CRYL Stage",

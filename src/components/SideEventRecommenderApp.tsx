@@ -1,27 +1,44 @@
 "use client";
 
 import { useEffect, useMemo, useState, type ReactNode } from "react";
-import { CalendarDays, Check, Download, ExternalLink, Home, Languages, Loader2, MapPinned, Moon, Route, Sparkles, Sun } from "lucide-react";
+import {
+  CalendarDays,
+  Check,
+  Download,
+  ExternalLink,
+  Home,
+  Languages,
+  Loader2,
+  MapPinned,
+  Moon,
+  Route,
+  Sparkles,
+  Sun,
+  Ticket,
+  Users,
+} from "lucide-react";
 import {
   DENSITY_OPTIONS,
-  EVENT_DAYS,
   GOAL_OPTIONS,
   LANGUAGE_OPTIONS,
+  LUMA_SIDE_EVENTS_URL,
   ROLE_OPTIONS,
-  STAGES,
   TOPIC_OPTIONS,
-  WEBX_AGENDA_URL,
 } from "@/lib/constants";
-import type { RecommendationResult } from "@/lib/types";
+import type { SideEventRecommendationResult } from "@/lib/types";
 
 type Mode = "diagnostic" | "freeText";
 type Locale = "ja" | "en";
 type Theme = "light" | "dark";
-type SelectionMode = "single" | "multi";
 type Basics = {
-  days: Array<"2026-07-13" | "2026-07-14">;
+  days: string[];
   language: "both" | "ja" | "en";
   density: "balanced" | "relaxed" | "packed";
+};
+type SideEventInfo = {
+  eventCount: number;
+  lastUpdated: string;
+  availableDays: Array<{ date: string; count: number }>;
 };
 
 type LocalizedChoice = {
@@ -35,21 +52,21 @@ type LocalizedChoice = {
 };
 
 const initialBasics: Basics = {
-  days: ["2026-07-13", "2026-07-14"],
+  days: [],
   language: "both",
   density: "balanced",
 };
 
 const UI_COPY = {
   ja: {
-    title: "WebX 2026 おすすめセッションルート",
-    agendaLoading: "Agenda読込中",
-    agendaCount: (count: number) => `${count}件のセッション`,
-    agendaUpdateNote: "元のサイトのAgendaは更新が断続的なため、本サイトは1日に1、2回更新されます。",
-    agendaUpdatedAt: (value: string) => `最新の更新日時: ${value}`,
-    agendaUpdatedAtPending: "最新の更新日時: 読込中",
-    inputPanelAria: "推薦条件入力",
-    resultPanelAria: "推薦結果",
+    title: "WebX 2026 おすすめサイドイベントルート",
+    sourceLoading: "サイドイベント読み込み中",
+    eventCount: (count: number) => `${count}件のサイドイベント`,
+    updateNote: "Lumaのサイドイベント一覧をもとに、目的に合うイベントと回り方を提案します。",
+    updatedAt: (value: string) => `最終更新: ${value}`,
+    updatedAtPending: "最終更新: 読み込み中",
+    inputPanelAria: "サイドイベント推薦入力",
+    resultPanelAria: "サイドイベント推薦結果",
     modeTabsAria: "入力モード",
     diagnostic: "かんたん診断",
     freeText: "自由入力",
@@ -57,27 +74,23 @@ const UI_COPY = {
       topics: "興味テーマ",
       role: "あなたの立場",
       goals: "参加目的",
-      freeTextGoal: "参加目的",
+      freeTextGoal: "探したいサイドイベント",
       days: "参加日",
       language: "希望言語",
       density: "回り方",
     },
-    selectionMode: {
-      single: "1つ選択",
-      multi: "複数選択可",
-    },
-    freeTextPlaceholder: "例: AIエージェントとステーブルコイン決済の事業機会を中心に、投資家や大企業の登壇を優先したい",
-    generate: "おすすめルートを作成",
-    recommendError: "おすすめルートの作成に失敗しました",
+    freeTextPlaceholder: "例: ステーブルコインやRWAに関心があり、投資家や事業会社と話せる夜のネットワーキングを探したい",
+    generate: "サイドイベントルートを作成",
+    recommendError: "サイドイベントルートの作成に失敗しました",
     pdfError: "PDFの生成に失敗しました",
-    home: "ホーム",
-    sideEvents: "サイドイベント",
+    sessions: "公式セッション",
+    source: "Luma一覧",
     localeSwitch: "表示言語",
-    emptyTitle: "7月13日-14日",
-    emptyVenue: "ザ・プリンス パークタワー東京",
+    emptyTitle: "Luma Side Events",
+    emptyVenue: "日付と目的を選んで、会場外の予定を組み立てます",
     localScoring: "ローカル評価",
     routeCount: (count: number) => `${count}件のルート`,
-    route: "参加ルート",
+    route: "サイドイベントルート",
     topPicks: "おすすめ上位",
     alternatives: "時間が重なる代替候補",
     pdfDownload: "PDFをダウンロード",
@@ -86,20 +99,24 @@ const UI_COPY = {
     lightMode: "ライト",
     darkMode: "ダーク",
     score: "スコア",
-    speakers: "登壇者",
-    moveNote: (stage: string, minutes: number) => `${stage} から移動 ${minutes}分`,
+    organizers: "主催",
+    venue: "会場",
+    moveNote: (venue: string, minutes: number) => `${venue} から移動 ${minutes}分`,
     conflict: (title: string) => `時間重複: ${title}`,
-    sessionLink: "公式Agendaで確認",
+    eventLink: "Lumaで確認",
+    approval: "承認制",
+    free: "無料",
+    official: "Official",
   },
   en: {
-    title: "WebX 2026 Recommended Session Route",
-    agendaLoading: "Loading agenda",
-    agendaCount: (count: number) => `${count} sessions`,
-    agendaUpdateNote: "The original Agenda is updated intermittently, so this site is refreshed once or twice a day.",
-    agendaUpdatedAt: (value: string) => `Last updated: ${value}`,
-    agendaUpdatedAtPending: "Last updated: loading",
-    inputPanelAria: "Recommendation input",
-    resultPanelAria: "Recommendation result",
+    title: "WebX 2026 Recommended Side-Event Route",
+    sourceLoading: "Loading side events",
+    eventCount: (count: number) => `${count} side events`,
+    updateNote: "Based on the Luma side-event calendar, this page recommends events and a workable route.",
+    updatedAt: (value: string) => `Last updated: ${value}`,
+    updatedAtPending: "Last updated: loading",
+    inputPanelAria: "Side-event recommendation input",
+    resultPanelAria: "Side-event recommendation result",
     modeTabsAria: "Input mode",
     diagnostic: "Quick diagnosis",
     freeText: "Free text",
@@ -107,27 +124,23 @@ const UI_COPY = {
       topics: "Topics",
       role: "Role",
       goals: "Goals",
-      freeTextGoal: "Participation goal",
+      freeTextGoal: "Side-event goal",
       days: "Days",
       language: "Preferred language",
       density: "Route density",
     },
-    selectionMode: {
-      single: "Select one",
-      multi: "Select multiple",
-    },
-    freeTextPlaceholder: "Example: I want to focus on business opportunities around AI agents and stablecoin payments, prioritizing investors and enterprise speakers.",
-    generate: "Generate route",
-    recommendError: "Failed to generate a recommended route",
+    freeTextPlaceholder: "Example: I want evening networking around stablecoins and RWA where I can meet investors and enterprise operators.",
+    generate: "Generate side-event route",
+    recommendError: "Failed to generate a side-event route",
     pdfError: "Failed to generate PDF",
-    home: "Home",
-    sideEvents: "Side events",
+    sessions: "Main sessions",
+    source: "Luma calendar",
     localeSwitch: "Display language",
-    emptyTitle: "July 13-14",
-    emptyVenue: "The Prince Park Tower Tokyo",
+    emptyTitle: "Luma Side Events",
+    emptyVenue: "Pick your days and goals to plan the off-agenda route.",
     localScoring: "Local scoring",
     routeCount: (count: number) => `${count} route stop${count === 1 ? "" : "s"}`,
-    route: "Route",
+    route: "Side-event route",
     topPicks: "Top Picks",
     alternatives: "Alternatives with conflicts",
     pdfDownload: "Download PDF",
@@ -136,24 +149,28 @@ const UI_COPY = {
     lightMode: "Light",
     darkMode: "Dark",
     score: "Score",
-    speakers: "Speakers",
-    moveNote: (stage: string, minutes: number) => `Move from ${stage}: ${minutes} min`,
+    organizers: "Organizers",
+    venue: "Venue",
+    moveNote: (venue: string, minutes: number) => `Move from ${venue}: ${minutes} min`,
     conflict: (title: string) => `Conflict: ${title}`,
-    sessionLink: "View on official Agenda",
+    eventLink: "View on Luma",
+    approval: "Approval required",
+    free: "Free",
+    official: "Official",
   },
 } as const;
 
-export function RecommenderApp() {
+export function SideEventRecommenderApp() {
   const [mode, setMode] = useState<Mode>("diagnostic");
   const [locale, setLocale] = useState<Locale>("ja");
   const [theme, setTheme] = useState<Theme | null>(null);
-  const [topics, setTopics] = useState<string[]>(["stablecoin", "ai", "rwa"]);
+  const [topics, setTopics] = useState<string[]>(["stablecoin", "ai", "investment"]);
   const [role, setRole] = useState("business");
-  const [goals, setGoals] = useState<string[]>(["market_trends", "partnerships"]);
+  const [goals, setGoals] = useState<string[]>(["partnerships", "market_trends"]);
   const [freeText, setFreeText] = useState("");
   const [basics, setBasics] = useState<Basics>(initialBasics);
-  const [agendaInfo, setAgendaInfo] = useState<{ sessionCount: number; lastUpdated: string } | null>(null);
-  const [result, setResult] = useState<RecommendationResult | null>(null);
+  const [sideEventInfo, setSideEventInfo] = useState<SideEventInfo | null>(null);
+  const [result, setResult] = useState<SideEventRecommendationResult | null>(null);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const [pdfLoading, setPdfLoading] = useState(false);
@@ -174,7 +191,6 @@ export function RecommenderApp() {
       setTheme(storedTheme);
       return;
     }
-
     setTheme(window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
   }, []);
 
@@ -193,11 +209,24 @@ export function RecommenderApp() {
   }, [theme]);
 
   useEffect(() => {
-    fetch("/api/agenda")
+    fetch("/api/side-events")
       .then((response) => response.json())
-      .then((json) => setAgendaInfo({ sessionCount: json.sessionCount, lastUpdated: json.lastUpdated }))
-      .catch(() => setAgendaInfo(null));
+      .then((json: SideEventInfo) => {
+        setSideEventInfo(json);
+        setBasics((current) => current.days.length > 0 ? current : { ...current, days: json.availableDays.map((day) => day.date) });
+      })
+      .catch(() => setSideEventInfo(null));
   }, []);
+
+  const dayChoices = useMemo(() => {
+    return (sideEventInfo?.availableDays ?? []).map((day) => ({
+      id: day.date,
+      label: formatDay(day.date, "ja"),
+      labelEn: formatDay(day.date, "en"),
+      description: `${day.count}件`,
+      descriptionEn: `${day.count} event${day.count === 1 ? "" : "s"}`,
+    }));
+  }, [sideEventInfo?.availableDays]);
 
   const canSubmit = useMemo(() => {
     if (basics.days.length === 0) {
@@ -219,7 +248,7 @@ export function RecommenderApp() {
       : { mode, locale, basics, freeText };
 
     try {
-      const response = await fetch("/api/recommend", {
+      const response = await fetch("/api/side-events/recommend", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
@@ -244,7 +273,7 @@ export function RecommenderApp() {
     setPdfLoading(true);
     setError("");
     try {
-      const response = await fetch("/api/pdf", {
+      const response = await fetch("/api/side-events/pdf", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(result),
@@ -256,7 +285,7 @@ export function RecommenderApp() {
       const url = URL.createObjectURL(blob);
       const link = document.createElement("a");
       link.href = url;
-      link.download = "webx-2026-route.pdf";
+      link.download = "webx-2026-side-events-route.pdf";
       link.click();
       URL.revokeObjectURL(url);
     } catch (pdfError) {
@@ -274,18 +303,18 @@ export function RecommenderApp() {
             <p className="eyebrow">WebX 2026</p>
             <h1>{t.title}</h1>
             <p className="agenda-update-note">
-              {t.agendaUpdateNote}
-              <span>{agendaInfo ? t.agendaUpdatedAt(formatAgendaUpdatedAt(agendaInfo.lastUpdated, locale)) : t.agendaUpdatedAtPending}</span>
+              {t.updateNote}
+              <span>{sideEventInfo ? t.updatedAt(formatUpdatedAt(sideEventInfo.lastUpdated, locale)) : t.updatedAtPending}</span>
             </p>
           </div>
           <div className="topbar-actions">
-            <a className="home-link" href="/" aria-label={t.home} title={t.home}>
+            <a className="home-link" href="/" aria-label={t.sessions} title={t.sessions}>
               <Home size={16} aria-hidden />
-              <span>{t.home}</span>
+              <span>{t.sessions}</span>
             </a>
-            <a className="home-link" href="/side-events" aria-label={t.sideEvents} title={t.sideEvents}>
-              <CalendarDays size={16} aria-hidden />
-              <span>{t.sideEvents}</span>
+            <a className="home-link" href={LUMA_SIDE_EVENTS_URL} target="_blank" rel="noopener noreferrer" aria-label={t.source} title={t.source}>
+              <ExternalLink size={16} aria-hidden />
+              <span>{t.source}</span>
             </a>
             <button
               className="theme-toggle"
@@ -308,7 +337,7 @@ export function RecommenderApp() {
             </div>
             <div className="agenda-pill">
               <CalendarDays size={16} aria-hidden />
-              <span>{agendaInfo ? t.agendaCount(agendaInfo.sessionCount) : t.agendaLoading}</span>
+              <span>{sideEventInfo ? t.eventCount(sideEventInfo.eventCount) : t.sourceLoading}</span>
             </div>
           </div>
         </header>
@@ -328,33 +357,31 @@ export function RecommenderApp() {
 
             {mode === "diagnostic" ? (
               <div className="form-stack">
-                <Fieldset title={t.fields.topics} fieldId="topics" locale={locale} selectionMode="multi">
-                  <ChipGrid items={TOPIC_OPTIONS} locale={locale} selected={topics} selectionMode="multi" onToggle={(id) => setTopics(toggle(topics, id))} />
+                <Fieldset title={t.fields.topics}>
+                  <ChipGrid items={TOPIC_OPTIONS} locale={locale} selected={topics} onToggle={(id) => setTopics(toggle(topics, id))} />
                 </Fieldset>
-                <Fieldset title={t.fields.role} fieldId="role" locale={locale} selectionMode="single">
-                  <div className="option-row" data-selection-mode="single">
+                <Fieldset title={t.fields.role}>
+                  <div className="option-row">
                     {ROLE_OPTIONS.map((item) => (
                       <ChoiceButton
-                        baseClass="option"
+                        className={role === item.id ? "option selected" : "option"}
                         item={item}
                         key={item.id}
                         locale={locale}
                         onClick={() => setRole(item.id)}
-                        selected={role === item.id}
-                        selectionMode="single"
                       />
                     ))}
                   </div>
                 </Fieldset>
-                <Fieldset title={t.fields.goals} fieldId="goals" locale={locale} selectionMode="multi">
-                  <ChipGrid items={GOAL_OPTIONS} locale={locale} selected={goals} selectionMode="multi" onToggle={(id) => setGoals(toggle(goals, id))} />
+                <Fieldset title={t.fields.goals}>
+                  <ChipGrid items={GOAL_OPTIONS} locale={locale} selected={goals} onToggle={(id) => setGoals(toggle(goals, id))} />
                 </Fieldset>
               </div>
             ) : (
               <div className="form-stack">
-                <label className="textarea-label" htmlFor="freeText">{t.fields.freeTextGoal}</label>
+                <label className="textarea-label" htmlFor="sideEventFreeText">{t.fields.freeTextGoal}</label>
                 <textarea
-                  id="freeText"
+                  id="sideEventFreeText"
                   value={freeText}
                   onChange={(event) => setFreeText(event.target.value)}
                   placeholder={t.freeTextPlaceholder}
@@ -363,49 +390,43 @@ export function RecommenderApp() {
             )}
 
             <div className="form-stack compact">
-              <Fieldset title={t.fields.days} fieldId="days" locale={locale} selectionMode="multi">
-                <div className="option-row" data-selection-mode="multi">
-                  {EVENT_DAYS.map((item) => (
+              <Fieldset title={t.fields.days}>
+                <div className="option-row">
+                  {dayChoices.map((item) => (
                     <ChoiceButton
-                      baseClass="option"
+                      className={basics.days.includes(item.id) ? "option selected" : "option"}
                       item={item}
                       key={item.id}
                       locale={locale}
-                      onClick={() => setBasics({ ...basics, days: toggle(basics.days, item.id) as Basics["days"] })}
-                      selected={basics.days.includes(item.id)}
-                      selectionMode="multi"
+                      onClick={() => setBasics({ ...basics, days: toggle(basics.days, item.id) })}
                     />
                   ))}
                 </div>
               </Fieldset>
 
-              <Fieldset title={t.fields.language} fieldId="language" locale={locale} selectionMode="single">
-                <div className="option-row" data-selection-mode="single">
+              <Fieldset title={t.fields.language}>
+                <div className="option-row">
                   {LANGUAGE_OPTIONS.map((item) => (
                     <ChoiceButton
-                      baseClass="option"
+                      className={basics.language === item.id ? "option selected" : "option"}
                       item={item}
                       key={item.id}
                       locale={locale}
                       onClick={() => setBasics({ ...basics, language: item.id as Basics["language"] })}
-                      selected={basics.language === item.id}
-                      selectionMode="single"
                     />
                   ))}
                 </div>
               </Fieldset>
 
-              <Fieldset title={t.fields.density} fieldId="density" locale={locale} selectionMode="single">
-                <div className="option-row" data-selection-mode="single">
+              <Fieldset title={t.fields.density}>
+                <div className="option-row">
                   {DENSITY_OPTIONS.map((item) => (
                     <ChoiceButton
-                      baseClass="option"
+                      className={basics.density === item.id ? "option selected" : "option"}
                       item={item}
                       key={item.id}
                       locale={locale}
                       onClick={() => setBasics({ ...basics, density: item.id as Basics["density"] })}
-                      selected={basics.density === item.id}
-                      selectionMode="single"
                     />
                   ))}
                 </div>
@@ -432,26 +453,10 @@ export function RecommenderApp() {
   );
 }
 
-function Fieldset({
-  title,
-  children,
-  fieldId,
-  locale,
-  selectionMode,
-}: {
-  title: string;
-  children: ReactNode;
-  fieldId: string;
-  locale: Locale;
-  selectionMode: SelectionMode;
-}) {
-  const t = UI_COPY[locale];
+function Fieldset({ title, children }: { title: string; children: ReactNode }) {
   return (
-    <fieldset data-field={fieldId} data-selection-mode={selectionMode}>
-      <legend>
-        <span className="legend-text">{title}</span>
-        <span className={`selection-hint selection-hint-${selectionMode}`}>{t.selectionMode[selectionMode]}</span>
-      </legend>
+    <fieldset>
+      <legend>{title}</legend>
       {children}
     </fieldset>
   );
@@ -461,62 +466,30 @@ function ChipGrid({
   items,
   locale,
   selected,
-  selectionMode,
   onToggle,
 }: {
   items: readonly LocalizedChoice[];
   locale: Locale;
   selected: string[];
-  selectionMode: SelectionMode;
   onToggle: (id: string) => void;
 }) {
   return (
-    <div className="chip-grid" data-selection-mode={selectionMode}>
+    <div className="chip-grid">
       {items.map((item) => (
-        <ChoiceButton
-          baseClass="chip"
-          item={item}
-          key={item.id}
-          locale={locale}
-          onClick={() => onToggle(item.id)}
-          selected={selected.includes(item.id)}
-          selectionMode={selectionMode}
-        />
+        <button className={selected.includes(item.id) ? "chip selected" : "chip"} key={item.id} onClick={() => onToggle(item.id)} type="button">
+          <span className="choice-label">{choiceLabel(item, locale)}</span>
+          {choiceDescription(item, locale) ? <span className="choice-description">{choiceDescription(item, locale)}</span> : null}
+        </button>
       ))}
     </div>
   );
 }
 
-function ChoiceButton({
-  baseClass,
-  item,
-  locale,
-  onClick,
-  selected,
-  selectionMode,
-}: {
-  baseClass: "chip" | "option";
-  item: LocalizedChoice;
-  locale: Locale;
-  onClick: () => void;
-  selected: boolean;
-  selectionMode: SelectionMode;
-}) {
-  const description = choiceDescription(item, locale);
+function ChoiceButton({ className, item, locale, onClick }: { className: string; item: LocalizedChoice; locale: Locale; onClick: () => void }) {
   return (
-    <button
-      aria-pressed={selected}
-      className={choiceButtonClassName(baseClass, selectionMode, selected)}
-      data-selected={selected ? "true" : "false"}
-      data-selection-mode={selectionMode}
-      onClick={onClick}
-      type="button"
-    >
-      <span className="choice-indicator" aria-hidden />
-      <span className="choice-copy">
-        <span className="choice-label">{choiceLabel(item, locale)}</span>
-        {description ? <span className="choice-description">{description}</span> : null}
-      </span>
+    <button className={className} onClick={onClick} type="button">
+      <span className="choice-label">{choiceLabel(item, locale)}</span>
+      {choiceDescription(item, locale) ? <span className="choice-description">{choiceDescription(item, locale)}</span> : null}
     </button>
   );
 }
@@ -524,13 +497,8 @@ function ChoiceButton({
 function EmptyState({ locale }: { locale: Locale }) {
   const t = UI_COPY[locale];
   return (
-    <div className="empty-state">
-      <div className="stage-map" aria-hidden>
-        {STAGES.map((stage) => (
-          <span key={stage} className={`stage-line ${stageClass(stage)}`} />
-        ))}
-      </div>
-      <MapPinned size={32} aria-hidden />
+    <div className="empty-state side-event-empty">
+      <MapPinned size={34} aria-hidden />
       <h2>{t.emptyTitle}</h2>
       <p>{t.emptyVenue}</p>
     </div>
@@ -543,7 +511,7 @@ function ResultView({
   pdfLoading,
   onDownloadPdf,
 }: {
-  result: RecommendationResult;
+  result: SideEventRecommendationResult;
   locale: Locale;
   pdfLoading: boolean;
   onDownloadPdf: () => void;
@@ -567,21 +535,24 @@ function ResultView({
       <section className="timeline-section">
         <h3>{t.route}</h3>
         <div className="timeline">
-          {result.route.map((session, index) => (
-            <article className="timeline-item" key={session.id}>
-              <div className={`stage-dot ${stageClass(session.stage)}`} />
+          {result.route.map((event, index) => (
+            <article className="timeline-item side-event-timeline-item" key={event.id}>
+              <div className="event-thumb-wrap">
+                {event.images[0] ? <img className="event-thumb" src={event.images[0]} alt="" loading="lazy" /> : <span className="event-thumb-placeholder" />}
+              </div>
               <div>
                 <div className="session-meta">
-                  <span>{session.dayLabel}</span>
-                  <span>{session.startTime} - {session.endTime}</span>
-                  <span>{session.stage}</span>
+                  <span>{event.dayLabel}</span>
+                  <span>{event.startTime} - {event.endTime}</span>
+                  <span>{event.venueName}</span>
                 </div>
-                <h4>{session.title}</h4>
-                <p className="speaker-line">{t.speakers}: {speakerNames(session.speakers)}</p>
-                {session.moveFromPrevious ? (
-                  <p className="move-note">{t.moveNote(session.moveFromPrevious.fromStage, session.moveFromPrevious.minutes)}</p>
+                <h4>{event.title}</h4>
+                <p className="speaker-line">{t.organizers}: {organizerNames(event.organizers)}</p>
+                <TicketBadges event={event} locale={locale} />
+                {event.moveFromPrevious ? (
+                  <p className="move-note">{t.moveNote(event.moveFromPrevious.fromVenue, event.moveFromPrevious.minutes)}</p>
                 ) : null}
-                <AgendaLink session={session} locale={locale} />
+                <EventLink event={event} locale={locale} />
               </div>
               <span className="rank">{index + 1}</span>
             </article>
@@ -591,9 +562,9 @@ function ResultView({
 
       <section>
         <h3>{t.topPicks}</h3>
-        <div className="card-list">
-          {result.recommendations.slice(0, 6).map((session) => (
-            <SessionCard key={session.id} session={session} locale={locale} />
+        <div className="card-list side-event-card-list">
+          {result.recommendations.slice(0, 6).map((event) => (
+            <EventCard key={event.id} event={event} locale={locale} />
           ))}
         </div>
       </section>
@@ -601,9 +572,9 @@ function ResultView({
       {result.alternatives.length > 0 ? (
         <section>
           <h3>{t.alternatives}</h3>
-          <div className="card-list">
-            {result.alternatives.slice(0, 5).map((session) => (
-              <SessionCard key={session.id} session={session} locale={locale} conflictWith={session.conflictWith} />
+          <div className="card-list side-event-card-list">
+            {result.alternatives.slice(0, 5).map((event) => (
+              <EventCard key={event.id} event={event} locale={locale} conflictWith={event.conflictWith} />
             ))}
           </div>
         </section>
@@ -612,55 +583,69 @@ function ResultView({
   );
 }
 
-function SessionCard({
-  session,
+function EventCard({
+  event,
   locale,
   conflictWith,
 }: {
-  session: RecommendationResult["recommendations"][number];
+  event: SideEventRecommendationResult["recommendations"][number];
   locale: Locale;
   conflictWith?: string;
 }) {
   const t = UI_COPY[locale];
   return (
-    <article className="session-card">
+    <article className="session-card side-event-card">
+      {event.images[0] ? <img className="event-card-image" src={event.images[0]} alt="" loading="lazy" /> : null}
       <div className="session-card-head">
-        <span className={`stage-badge ${stageClass(session.stage)}`}>{session.stage}</span>
-        <span className="score">{t.score} {Math.round(session.score)}</span>
+        <span className="stage-badge side-event-badge">{event.language}</span>
+        <span className="score">{t.score} {Math.round(event.score)}</span>
       </div>
       <div className="session-meta">
-        <span>{session.dayLabel}</span>
-        <span>{session.startTime} - {session.endTime}</span>
-        <span>{session.language}</span>
+        <span>{event.dayLabel}</span>
+        <span>{event.startTime} - {event.endTime}</span>
+        <span>{event.venueName}</span>
       </div>
-      <h4>{session.title}</h4>
-      <p className="speaker-line">{t.speakers}: {speakerNames(session.speakers)}</p>
+      <h4>{event.title}</h4>
+      <p className="speaker-line">{t.organizers}: {organizerNames(event.organizers)}</p>
+      <TicketBadges event={event} locale={locale} />
       {conflictWith ? <p className="conflict">{t.conflict(conflictWith)}</p> : null}
-      <AgendaLink session={session} locale={locale} />
+      <EventLink event={event} locale={locale} />
     </article>
   );
 }
 
-function AgendaLink({ session, locale }: { session: Pick<RecommendationResult["recommendations"][number], "isPlaceholder" | "title">; locale: Locale }) {
+function TicketBadges({
+  event,
+  locale,
+}: {
+  event: Pick<SideEventRecommendationResult["recommendations"][number], "registration" | "isOfficial">;
+  locale: Locale;
+}) {
   const t = UI_COPY[locale];
   return (
-    <a className="session-link" href={agendaSessionUrl(session)} target="_blank" rel="noopener noreferrer">
+    <div className="ticket-badges">
+      {event.registration.free ? (
+        <span><Ticket size={12} aria-hidden />{t.free}</span>
+      ) : null}
+      {event.registration.approvalRequired ? (
+        <span><Users size={12} aria-hidden />{t.approval}</span>
+      ) : null}
+      {event.isOfficial ? <span>{t.official}</span> : null}
+    </div>
+  );
+}
+
+function EventLink({ event, locale }: { event: Pick<SideEventRecommendationResult["recommendations"][number], "url">; locale: Locale }) {
+  const t = UI_COPY[locale];
+  return (
+    <a className="session-link" href={event.url} target="_blank" rel="noopener noreferrer">
       <ExternalLink size={14} aria-hidden />
-      {t.sessionLink}
+      {t.eventLink}
     </a>
   );
 }
 
-function agendaSessionUrl(session: Pick<RecommendationResult["recommendations"][number], "isPlaceholder" | "title">): string {
-  const title = session.title.trim();
-  if (session.isPlaceholder || /^(COMING SOON|TBA|詳細未公開)$/i.test(title)) {
-    return WEBX_AGENDA_URL;
-  }
-
-  return `${WEBX_AGENDA_URL}#:~:text=${encodeURIComponent(title.slice(0, 120))}`;
-}
-
-function formatAgendaUpdatedAt(value: string, locale: Locale): string {
+function formatUpdatedAt(value: string, locale: Locale): string {
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) {
     return value;
@@ -674,6 +659,18 @@ function formatAgendaUpdatedAt(value: string, locale: Locale): string {
     hour: "2-digit",
     minute: "2-digit",
     hour12: false,
+  }).format(date);
+}
+
+function formatDay(value: string, locale: Locale): string {
+  const date = new Date(`${value}T00:00:00+09:00`);
+  if (Number.isNaN(date.getTime())) {
+    return value;
+  }
+  return new Intl.DateTimeFormat(locale === "en" ? "en-US" : "ja-JP", {
+    timeZone: "Asia/Tokyo",
+    month: "short",
+    day: "numeric",
   }).format(date);
 }
 
@@ -691,24 +688,10 @@ function choiceDescription(item: LocalizedChoice, locale: Locale): string | unde
   return item.description ?? item.descriptionEn;
 }
 
-function speakerNames(speakers: readonly string[]): string {
-  const names = speakers
-    .map((speaker) => speaker.split(" / ")[0]?.trim())
-    .filter((speaker): speaker is string => Boolean(speaker));
-
-  return names.length > 0 ? names.slice(0, 4).join(" / ") : "COMING SOON";
+function organizerNames(organizers: readonly string[]): string {
+  return organizers.length > 0 ? organizers.slice(0, 4).join(" / ") : "TBA";
 }
 
 function toggle<T extends string>(values: T[], value: T): T[] {
   return values.includes(value) ? values.filter((item) => item !== value) : [...values, value];
-}
-
-function choiceButtonClassName(baseClass: "chip" | "option", selectionMode: SelectionMode, selected: boolean): string {
-  return [baseClass, `selection-${selectionMode}`, selected ? "selected" : ""]
-    .filter(Boolean)
-    .join(" ");
-}
-
-function stageClass(stage: string): string {
-  return stage.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }

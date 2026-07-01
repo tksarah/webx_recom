@@ -10,7 +10,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
-    "agenda:refresh": "tsx scripts/refresh-agenda.ts"
+    "agenda:refresh": "tsx scripts/refresh-agenda.ts",
+    "side-events:refresh": "tsx scripts/refresh-side-events.ts"
   },
   "dependencies": {
     "@google/genai": "^1.30.0",

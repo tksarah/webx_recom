@@ -1,3 +1,4 @@
+終了
 # WebX 2026 Session Recommender
 
 WebX 2026 の公式 Agenda をもとに、参加目的に合わせたおすすめセッションと会場内ルートを提示する Next.js アプリです。
